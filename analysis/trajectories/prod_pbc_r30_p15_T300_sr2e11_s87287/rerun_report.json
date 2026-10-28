@@ -1,0 +1,11 @@
+{
+  "case": "prod_pbc_r30_p15_T300_sr2e11_s87287",
+  "exit_code": 0,
+  "runtime_seconds": 489.4263608455658,
+  "source_input": "C:\\Users\\Ncut\\Desktop\\LAMMPS3\\study_nanoporous_cu\\results\\prod_pbc_r30_p15_T300_sr2e11_s87287\\in.generated.lammps",
+  "changes": [
+    "reset timestep after equilibration",
+    "save atomic trajectories",
+    "isolated outputs"
+  ]
+}

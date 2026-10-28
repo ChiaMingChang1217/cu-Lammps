@@ -1,0 +1,16 @@
+{
+  "production_cases": 512,
+  "descriptor_comparison": "matches preserved results within 1e-12",
+  "trajectory_frames": {
+    "prod_pbc_r30_p15_T300_sr2e11_s87287": 31,
+    "prod_pbc_r30_p15_T300_sr2p5e10_s87287": 31,
+    "prod_pbc_r90_p15_T300_sr2e11_s87287": 31,
+    "prod_pbc_r90_p15_T300_sr2p5e10_s87287": 31
+  },
+  "validation_environment": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "matplotlib": "3.9.2",
+    "scikit-learn": "1.5.1"
+  }
+}

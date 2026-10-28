@@ -1,0 +1,2172 @@
+clear
+units metal
+dimension 3
+boundary p p p
+atom_style atomic
+
+lattice fcc 3.615
+region box block 0 86.76000000 0 86.76000000 0 86.76000000 units box
+create_box 1 box
+create_atoms 1 box
+mass 1 63.546
+
+region pore0001_01 sphere 32.00546495 23.77215361 60.70301559 3.00000000 units box
+delete_atoms region pore0001_01 compress yes
+region pore0002_01 sphere 42.31254186 56.24572350 4.22653091 3.00000000 units box
+delete_atoms region pore0002_01 compress yes
+region pore0003_01 sphere 55.14378245 26.52304171 57.05151878 3.00000000 units box
+delete_atoms region pore0003_01 compress yes
+region pore0004_01 sphere 84.86885099 82.97139957 17.59369022 3.00000000 units box
+delete_atoms region pore0004_01 compress yes
+region pore0004_02 sphere -1.89114901 82.97139957 17.59369022 3.00000000 units box
+delete_atoms region pore0004_02 compress yes
+region pore0005_01 sphere 77.76681285 62.81265064 17.92837076 3.00000000 units box
+delete_atoms region pore0005_01 compress yes
+region pore0006_01 sphere 15.54004168 18.04344358 17.08241098 3.00000000 units box
+delete_atoms region pore0006_01 compress yes
+region pore0007_01 sphere 2.69544200 80.99257575 21.88441615 3.00000000 units box
+delete_atoms region pore0007_01 compress yes
+region pore0007_02 sphere 89.45544200 80.99257575 21.88441615 3.00000000 units box
+delete_atoms region pore0007_02 compress yes
+region pore0008_01 sphere 5.31339398 28.42350647 85.51053322 3.00000000 units box
+delete_atoms region pore0008_01 compress yes
+region pore0008_02 sphere 5.31339398 28.42350647 -1.24946678 3.00000000 units box
+delete_atoms region pore0008_02 compress yes
+region pore0009_01 sphere 69.03990241 43.72319090 62.03067945 3.00000000 units box
+delete_atoms region pore0009_01 compress yes
+region pore0010_01 sphere 63.90799358 22.11755130 28.26419858 3.00000000 units box
+delete_atoms region pore0010_01 compress yes
+region pore0011_01 sphere 77.12530939 10.32461021 65.35653743 3.00000000 units box
+delete_atoms region pore0011_01 compress yes
+region pore0012_01 sphere 57.44587835 75.41547341 67.38290586 3.00000000 units box
+delete_atoms region pore0012_01 compress yes
+region pore0013_01 sphere 63.82221144 32.56364752 79.79285333 3.00000000 units box
+delete_atoms region pore0013_01 compress yes
+region pore0014_01 sphere 76.27445277 79.38729353 16.46721280 3.00000000 units box
+delete_atoms region pore0014_01 compress yes
+region pore0015_01 sphere 2.72323620 61.03450622 70.32287751 3.00000000 units box
+delete_atoms region pore0015_01 compress yes
+region pore0015_02 sphere 89.48323620 61.03450622 70.32287751 3.00000000 units box
+delete_atoms region pore0015_02 compress yes
+region pore0016_01 sphere 34.21439590 18.95231140 34.47049696 3.00000000 units box
+delete_atoms region pore0016_01 compress yes
+region pore0017_01 sphere 36.09155000 39.46783406 18.90812553 3.00000000 units box
+delete_atoms region pore0017_01 compress yes
+region pore0018_01 sphere 71.47811951 34.56487015 35.00233994 3.00000000 units box
+delete_atoms region pore0018_01 compress yes
+region pore0019_01 sphere 25.29039136 61.91611138 36.70468467 3.00000000 units box
+delete_atoms region pore0019_01 compress yes
+region pore0020_01 sphere 0.40127567 68.15518982 15.57675326 3.00000000 units box
+delete_atoms region pore0020_01 compress yes
+region pore0020_02 sphere 87.16127567 68.15518982 15.57675326 3.00000000 units box
+delete_atoms region pore0020_02 compress yes
+region pore0021_01 sphere 81.90858864 37.70567831 21.94487574 3.00000000 units box
+delete_atoms region pore0021_01 compress yes
+region pore0022_01 sphere 62.52488139 32.45141667 21.17931980 3.00000000 units box
+delete_atoms region pore0022_01 compress yes
+region pore0023_01 sphere 83.84228895 70.30917350 44.10541649 3.00000000 units box
+delete_atoms region pore0023_01 compress yes
+region pore0023_02 sphere -2.91771105 70.30917350 44.10541649 3.00000000 units box
+delete_atoms region pore0023_02 compress yes
+region pore0024_01 sphere 84.93289971 5.48057989 78.43692794 3.00000000 units box
+delete_atoms region pore0024_01 compress yes
+region pore0024_02 sphere -1.82710029 5.48057989 78.43692794 3.00000000 units box
+delete_atoms region pore0024_02 compress yes
+region pore0025_01 sphere 5.46765427 60.74664311 53.39364866 3.00000000 units box
+delete_atoms region pore0025_01 compress yes
+region pore0026_01 sphere 35.41682594 76.25663815 16.04149031 3.00000000 units box
+delete_atoms region pore0026_01 compress yes
+region pore0027_01 sphere 56.51111350 2.59629580 26.47933292 3.00000000 units box
+delete_atoms region pore0027_01 compress yes
+region pore0027_02 sphere 56.51111350 89.35629580 26.47933292 3.00000000 units box
+delete_atoms region pore0027_02 compress yes
+region pore0028_01 sphere 83.52751281 74.11305871 50.25473235 3.00000000 units box
+delete_atoms region pore0028_01 compress yes
+region pore0029_01 sphere 15.42885916 30.31891209 30.84899132 3.00000000 units box
+delete_atoms region pore0029_01 compress yes
+region pore0030_01 sphere 46.20373790 21.07489625 65.63146301 3.00000000 units box
+delete_atoms region pore0030_01 compress yes
+region pore0031_01 sphere 77.21293323 19.86240319 65.63686466 3.00000000 units box
+delete_atoms region pore0031_01 compress yes
+region pore0032_01 sphere 43.25219965 35.63563271 39.80502229 3.00000000 units box
+delete_atoms region pore0032_01 compress yes
+region pore0033_01 sphere 26.57195125 67.13038026 9.81863433 3.00000000 units box
+delete_atoms region pore0033_01 compress yes
+region pore0034_01 sphere 65.37649189 10.73366224 29.65689759 3.00000000 units box
+delete_atoms region pore0034_01 compress yes
+region pore0035_01 sphere 55.64625662 79.92226834 8.47352018 3.00000000 units box
+delete_atoms region pore0035_01 compress yes
+region pore0036_01 sphere 22.42829768 40.28071749 40.28089014 3.00000000 units box
+delete_atoms region pore0036_01 compress yes
+region pore0037_01 sphere 18.92814768 14.75768465 6.29668029 3.00000000 units box
+delete_atoms region pore0037_01 compress yes
+region pore0038_01 sphere 63.12514599 70.12220221 77.76660629 3.00000000 units box
+delete_atoms region pore0038_01 compress yes
+region pore0039_01 sphere 3.23282083 22.80743989 41.48843058 3.00000000 units box
+delete_atoms region pore0039_01 compress yes
+region pore0040_01 sphere 55.23559513 15.38929141 42.62270535 3.00000000 units box
+delete_atoms region pore0040_01 compress yes
+region pore0041_01 sphere 46.07992382 12.51469327 2.00305975 3.00000000 units box
+delete_atoms region pore0041_01 compress yes
+region pore0041_02 sphere 46.07992382 12.51469327 88.76305975 3.00000000 units box
+delete_atoms region pore0041_02 compress yes
+region pore0042_01 sphere 9.41472967 79.66477770 49.01251055 3.00000000 units box
+delete_atoms region pore0042_01 compress yes
+region pore0043_01 sphere 46.97014428 35.53130176 10.51323851 3.00000000 units box
+delete_atoms region pore0043_01 compress yes
+region pore0044_01 sphere 1.48461097 38.62751690 1.03867231 3.00000000 units box
+delete_atoms region pore0044_01 compress yes
+region pore0044_02 sphere 1.48461097 38.62751690 87.79867231 3.00000000 units box
+delete_atoms region pore0044_02 compress yes
+region pore0044_03 sphere 88.24461097 38.62751690 1.03867231 3.00000000 units box
+delete_atoms region pore0044_03 compress yes
+region pore0044_04 sphere 88.24461097 38.62751690 87.79867231 3.00000000 units box
+delete_atoms region pore0044_04 compress yes
+region pore0045_01 sphere 86.58018314 11.38675883 36.24713242 3.00000000 units box
+delete_atoms region pore0045_01 compress yes
+region pore0045_02 sphere -0.17981686 11.38675883 36.24713242 3.00000000 units box
+delete_atoms region pore0045_02 compress yes
+region pore0046_01 sphere 8.53506174 44.84013674 75.65772585 3.00000000 units box
+delete_atoms region pore0046_01 compress yes
+region pore0047_01 sphere 16.53136423 1.40772760 32.45944583 3.00000000 units box
+delete_atoms region pore0047_01 compress yes
+region pore0047_02 sphere 16.53136423 88.16772760 32.45944583 3.00000000 units box
+delete_atoms region pore0047_02 compress yes
+region pore0048_01 sphere 34.70913924 68.51925781 2.21112148 3.00000000 units box
+delete_atoms region pore0048_01 compress yes
+region pore0048_02 sphere 34.70913924 68.51925781 88.97112148 3.00000000 units box
+delete_atoms region pore0048_02 compress yes
+region pore0049_01 sphere 75.11513145 2.43999587 72.01169699 3.00000000 units box
+delete_atoms region pore0049_01 compress yes
+region pore0049_02 sphere 75.11513145 89.19999587 72.01169699 3.00000000 units box
+delete_atoms region pore0049_02 compress yes
+region pore0050_01 sphere 8.21332796 38.45179482 21.06410404 3.00000000 units box
+delete_atoms region pore0050_01 compress yes
+region pore0051_01 sphere 29.99723433 52.86047418 84.79298740 3.00000000 units box
+delete_atoms region pore0051_01 compress yes
+region pore0051_02 sphere 29.99723433 52.86047418 -1.96701260 3.00000000 units box
+delete_atoms region pore0051_02 compress yes
+region pore0052_01 sphere 39.19357040 28.78029752 72.34276813 3.00000000 units box
+delete_atoms region pore0052_01 compress yes
+region pore0053_01 sphere 39.79432981 32.73127062 34.68903281 3.00000000 units box
+delete_atoms region pore0053_01 compress yes
+region pore0054_01 sphere 9.65350301 11.98465894 73.84662308 3.00000000 units box
+delete_atoms region pore0054_01 compress yes
+region pore0055_01 sphere 56.98288737 33.05737351 45.02065299 3.00000000 units box
+delete_atoms region pore0055_01 compress yes
+region pore0056_01 sphere 62.04950590 24.77667471 6.98904757 3.00000000 units box
+delete_atoms region pore0056_01 compress yes
+region pore0057_01 sphere 24.06599873 82.26864567 35.68818998 3.00000000 units box
+delete_atoms region pore0057_01 compress yes
+region pore0058_01 sphere 63.40637152 14.45509672 38.63617074 3.00000000 units box
+delete_atoms region pore0058_01 compress yes
+region pore0059_01 sphere 6.06646755 73.86365711 76.72996339 3.00000000 units box
+delete_atoms region pore0059_01 compress yes
+region pore0060_01 sphere 18.48482149 55.04126544 86.06658409 3.00000000 units box
+delete_atoms region pore0060_01 compress yes
+region pore0060_02 sphere 18.48482149 55.04126544 -0.69341591 3.00000000 units box
+delete_atoms region pore0060_02 compress yes
+region pore0061_01 sphere 28.16967007 75.60026686 40.96592629 3.00000000 units box
+delete_atoms region pore0061_01 compress yes
+region pore0062_01 sphere 74.42227449 42.24976071 47.42381443 3.00000000 units box
+delete_atoms region pore0062_01 compress yes
+region pore0063_01 sphere 65.89713889 15.44713430 71.42922119 3.00000000 units box
+delete_atoms region pore0063_01 compress yes
+region pore0064_01 sphere 9.67510967 80.14731517 26.55361698 3.00000000 units box
+delete_atoms region pore0064_01 compress yes
+region pore0065_01 sphere 38.69136144 17.68323584 83.43084506 3.00000000 units box
+delete_atoms region pore0065_01 compress yes
+region pore0066_01 sphere 63.71526893 39.73468189 75.70681088 3.00000000 units box
+delete_atoms region pore0066_01 compress yes
+region pore0067_01 sphere 24.26487528 81.06815938 46.55816330 3.00000000 units box
+delete_atoms region pore0067_01 compress yes
+region pore0068_01 sphere 34.61198168 16.49214517 40.64813637 3.00000000 units box
+delete_atoms region pore0068_01 compress yes
+region pore0069_01 sphere 52.12342249 34.01053168 26.86950106 3.00000000 units box
+delete_atoms region pore0069_01 compress yes
+region pore0070_01 sphere 5.57249483 75.58728168 64.57509536 3.00000000 units box
+delete_atoms region pore0070_01 compress yes
+region pore0071_01 sphere 52.35394793 24.15941451 67.03923940 3.00000000 units box
+delete_atoms region pore0071_01 compress yes
+region pore0072_01 sphere 12.21476484 75.17836346 76.63997283 3.00000000 units box
+delete_atoms region pore0072_01 compress yes
+region pore0073_01 sphere 0.29278829 54.09569268 75.51356648 3.00000000 units box
+delete_atoms region pore0073_01 compress yes
+region pore0073_02 sphere 87.05278829 54.09569268 75.51356648 3.00000000 units box
+delete_atoms region pore0073_02 compress yes
+region pore0074_01 sphere 84.47361624 65.16938564 80.82353297 3.00000000 units box
+delete_atoms region pore0074_01 compress yes
+region pore0074_02 sphere -2.28638376 65.16938564 80.82353297 3.00000000 units box
+delete_atoms region pore0074_02 compress yes
+region pore0075_01 sphere 31.01891448 6.25801674 58.11237526 3.00000000 units box
+delete_atoms region pore0075_01 compress yes
+region pore0076_01 sphere 33.63845736 32.60674740 5.66355836 3.00000000 units box
+delete_atoms region pore0076_01 compress yes
+region pore0077_01 sphere 39.79201775 35.35318687 46.14440953 3.00000000 units box
+delete_atoms region pore0077_01 compress yes
+region pore0078_01 sphere 10.05200817 48.86705757 52.07926271 3.00000000 units box
+delete_atoms region pore0078_01 compress yes
+region pore0079_01 sphere 59.48147614 4.94953855 72.71722751 3.00000000 units box
+delete_atoms region pore0079_01 compress yes
+region pore0080_01 sphere 10.61592088 2.67471536 70.79357060 3.00000000 units box
+delete_atoms region pore0080_01 compress yes
+region pore0080_02 sphere 10.61592088 89.43471536 70.79357060 3.00000000 units box
+delete_atoms region pore0080_02 compress yes
+region pore0081_01 sphere 80.37775777 80.72815730 74.70257208 3.00000000 units box
+delete_atoms region pore0081_01 compress yes
+region pore0082_01 sphere 36.92361704 50.23359865 82.64704385 3.00000000 units box
+delete_atoms region pore0082_01 compress yes
+region pore0083_01 sphere 30.88446493 79.43708131 32.97593111 3.00000000 units box
+delete_atoms region pore0083_01 compress yes
+region pore0084_01 sphere 1.11439589 7.18021440 20.23887465 3.00000000 units box
+delete_atoms region pore0084_01 compress yes
+region pore0084_02 sphere 87.87439589 7.18021440 20.23887465 3.00000000 units box
+delete_atoms region pore0084_02 compress yes
+region pore0085_01 sphere 47.49829816 18.90185818 46.23974810 3.00000000 units box
+delete_atoms region pore0085_01 compress yes
+region pore0086_01 sphere 80.48760712 12.15783332 76.96742379 3.00000000 units box
+delete_atoms region pore0086_01 compress yes
+region pore0087_01 sphere 75.29523336 30.31474010 71.36083202 3.00000000 units box
+delete_atoms region pore0087_01 compress yes
+region pore0088_01 sphere 41.64389975 4.01387842 36.63361346 3.00000000 units box
+delete_atoms region pore0088_01 compress yes
+region pore0089_01 sphere 77.80016431 26.27564095 30.60721899 3.00000000 units box
+delete_atoms region pore0089_01 compress yes
+region pore0090_01 sphere 1.78500834 35.59230195 25.09803973 3.00000000 units box
+delete_atoms region pore0090_01 compress yes
+region pore0090_02 sphere 88.54500834 35.59230195 25.09803973 3.00000000 units box
+delete_atoms region pore0090_02 compress yes
+region pore0091_01 sphere 59.33704880 13.25157494 21.10747288 3.00000000 units box
+delete_atoms region pore0091_01 compress yes
+region pore0092_01 sphere 19.90745752 52.79423283 10.16491161 3.00000000 units box
+delete_atoms region pore0092_01 compress yes
+region pore0093_01 sphere 5.38679845 11.85390004 85.71799085 3.00000000 units box
+delete_atoms region pore0093_01 compress yes
+region pore0093_02 sphere 5.38679845 11.85390004 -1.04200915 3.00000000 units box
+delete_atoms region pore0093_02 compress yes
+region pore0094_01 sphere 69.73916996 57.33088046 74.33942521 3.00000000 units box
+delete_atoms region pore0094_01 compress yes
+region pore0095_01 sphere 4.64782876 42.09490420 48.54448589 3.00000000 units box
+delete_atoms region pore0095_01 compress yes
+region pore0096_01 sphere 42.50300226 57.28984879 16.05739994 3.00000000 units box
+delete_atoms region pore0096_01 compress yes
+region pore0097_01 sphere 55.79236550 2.58667942 8.43472160 3.00000000 units box
+delete_atoms region pore0097_01 compress yes
+region pore0097_02 sphere 55.79236550 89.34667942 8.43472160 3.00000000 units box
+delete_atoms region pore0097_02 compress yes
+region pore0098_01 sphere 68.23392365 18.07374865 49.00295539 3.00000000 units box
+delete_atoms region pore0098_01 compress yes
+region pore0099_01 sphere 81.31995987 25.84900179 84.15574778 3.00000000 units box
+delete_atoms region pore0099_01 compress yes
+region pore0099_02 sphere 81.31995987 25.84900179 -2.60425222 3.00000000 units box
+delete_atoms region pore0099_02 compress yes
+region pore0100_01 sphere 50.62089420 77.05458739 40.56529383 3.00000000 units box
+delete_atoms region pore0100_01 compress yes
+region pore0101_01 sphere 58.99560444 19.44771252 56.68692980 3.00000000 units box
+delete_atoms region pore0101_01 compress yes
+region pore0102_01 sphere 55.55893259 7.56183133 12.44591787 3.00000000 units box
+delete_atoms region pore0102_01 compress yes
+region pore0103_01 sphere 27.29626356 29.58661914 80.29208392 3.00000000 units box
+delete_atoms region pore0103_01 compress yes
+region pore0104_01 sphere 56.20116169 20.73949395 48.12338751 3.00000000 units box
+delete_atoms region pore0104_01 compress yes
+region pore0105_01 sphere 56.61173497 13.73797763 52.59918961 3.00000000 units box
+delete_atoms region pore0105_01 compress yes
+region pore0106_01 sphere 86.38893575 27.15041088 72.49408245 3.00000000 units box
+delete_atoms region pore0106_01 compress yes
+region pore0106_02 sphere -0.37106425 27.15041088 72.49408245 3.00000000 units box
+delete_atoms region pore0106_02 compress yes
+region pore0107_01 sphere 56.98837051 85.66826535 76.60438281 3.00000000 units box
+delete_atoms region pore0107_01 compress yes
+region pore0107_02 sphere 56.98837051 -1.09173465 76.60438281 3.00000000 units box
+delete_atoms region pore0107_02 compress yes
+region pore0108_01 sphere 45.33913067 20.01221865 39.70516327 3.00000000 units box
+delete_atoms region pore0108_01 compress yes
+region pore0109_01 sphere 44.20833090 25.80302069 21.00904298 3.00000000 units box
+delete_atoms region pore0109_01 compress yes
+region pore0110_01 sphere 49.99104171 59.48309532 22.43787620 3.00000000 units box
+delete_atoms region pore0110_01 compress yes
+region pore0111_01 sphere 4.12388958 17.89125507 83.23654196 3.00000000 units box
+delete_atoms region pore0111_01 compress yes
+region pore0112_01 sphere 4.09577285 68.72921571 4.09934426 3.00000000 units box
+delete_atoms region pore0112_01 compress yes
+region pore0113_01 sphere 0.06308745 77.43899721 45.41345566 3.00000000 units box
+delete_atoms region pore0113_01 compress yes
+region pore0113_02 sphere 86.82308745 77.43899721 45.41345566 3.00000000 units box
+delete_atoms region pore0113_02 compress yes
+region pore0114_01 sphere 48.12638815 75.93544805 54.41386908 3.00000000 units box
+delete_atoms region pore0114_01 compress yes
+region pore0115_01 sphere 23.83582824 25.98073432 63.05339276 3.00000000 units box
+delete_atoms region pore0115_01 compress yes
+region pore0116_01 sphere 80.72363149 13.98525910 45.10073220 3.00000000 units box
+delete_atoms region pore0116_01 compress yes
+region pore0117_01 sphere 44.40645597 79.69899858 64.48524503 3.00000000 units box
+delete_atoms region pore0117_01 compress yes
+region pore0118_01 sphere 54.38633856 49.26556216 60.89560975 3.00000000 units box
+delete_atoms region pore0118_01 compress yes
+region pore0119_01 sphere 30.74235489 40.41290619 51.50932287 3.00000000 units box
+delete_atoms region pore0119_01 compress yes
+region pore0120_01 sphere 12.68975924 68.27269814 65.72643427 3.00000000 units box
+delete_atoms region pore0120_01 compress yes
+region pore0121_01 sphere 31.88250810 44.84376481 80.55571654 3.00000000 units box
+delete_atoms region pore0121_01 compress yes
+region pore0122_01 sphere 75.93333068 19.84304816 13.26220232 3.00000000 units box
+delete_atoms region pore0122_01 compress yes
+region pore0123_01 sphere 35.71486061 27.59036594 79.86518665 3.00000000 units box
+delete_atoms region pore0123_01 compress yes
+region pore0124_01 sphere 74.66563710 42.78314095 1.22523701 3.00000000 units box
+delete_atoms region pore0124_01 compress yes
+region pore0124_02 sphere 74.66563710 42.78314095 87.98523701 3.00000000 units box
+delete_atoms region pore0124_02 compress yes
+region pore0125_01 sphere 23.89921901 59.36440804 13.75559086 3.00000000 units box
+delete_atoms region pore0125_01 compress yes
+region pore0126_01 sphere 48.25206157 26.93013360 6.14722113 3.00000000 units box
+delete_atoms region pore0126_01 compress yes
+region pore0127_01 sphere 36.75479521 29.57515896 55.68270808 3.00000000 units box
+delete_atoms region pore0127_01 compress yes
+region pore0128_01 sphere 46.37515218 78.48650631 82.29115060 3.00000000 units box
+delete_atoms region pore0128_01 compress yes
+region pore0129_01 sphere 74.27807945 38.72672680 74.45397065 3.00000000 units box
+delete_atoms region pore0129_01 compress yes
+region pore0130_01 sphere 72.53650241 56.42356544 55.76682432 3.00000000 units box
+delete_atoms region pore0130_01 compress yes
+region pore0131_01 sphere 1.01070556 55.80745160 22.98425000 3.00000000 units box
+delete_atoms region pore0131_01 compress yes
+region pore0131_02 sphere 87.77070556 55.80745160 22.98425000 3.00000000 units box
+delete_atoms region pore0131_02 compress yes
+region pore0132_01 sphere 54.48485282 13.73350982 82.05608780 3.00000000 units box
+delete_atoms region pore0132_01 compress yes
+region pore0133_01 sphere 71.36154854 38.64659400 11.09213355 3.00000000 units box
+delete_atoms region pore0133_01 compress yes
+region pore0134_01 sphere 46.68252654 43.95564729 31.52373275 3.00000000 units box
+delete_atoms region pore0134_01 compress yes
+region pore0135_01 sphere 35.14932433 21.23807098 27.85134053 3.00000000 units box
+delete_atoms region pore0135_01 compress yes
+region pore0136_01 sphere 63.20066915 3.31479363 7.40622477 3.00000000 units box
+delete_atoms region pore0136_01 compress yes
+region pore0137_01 sphere 76.57837799 15.98226748 27.29457823 3.00000000 units box
+delete_atoms region pore0137_01 compress yes
+region pore0138_01 sphere 81.99340999 70.15263731 33.15795390 3.00000000 units box
+delete_atoms region pore0138_01 compress yes
+region pore0139_01 sphere 53.01973992 85.88634931 56.38897916 3.00000000 units box
+delete_atoms region pore0139_01 compress yes
+region pore0139_02 sphere 53.01973992 -0.87365069 56.38897916 3.00000000 units box
+delete_atoms region pore0139_02 compress yes
+region pore0140_01 sphere 26.34458621 23.52781905 5.12937876 3.00000000 units box
+delete_atoms region pore0140_01 compress yes
+region pore0141_01 sphere 63.55077687 76.27625892 19.55242663 3.00000000 units box
+delete_atoms region pore0141_01 compress yes
+region pore0142_01 sphere 15.89073531 25.54407720 13.94365722 3.00000000 units box
+delete_atoms region pore0142_01 compress yes
+region pore0143_01 sphere 52.59511050 25.85175497 77.59449801 3.00000000 units box
+delete_atoms region pore0143_01 compress yes
+region pore0144_01 sphere 39.82565828 47.70171559 11.81364500 3.00000000 units box
+delete_atoms region pore0144_01 compress yes
+region pore0145_01 sphere 38.63040527 85.69987652 71.12861709 3.00000000 units box
+delete_atoms region pore0145_01 compress yes
+region pore0145_02 sphere 38.63040527 -1.06012348 71.12861709 3.00000000 units box
+delete_atoms region pore0145_02 compress yes
+region pore0146_01 sphere 41.49395031 52.49527373 79.09258592 3.00000000 units box
+delete_atoms region pore0146_01 compress yes
+region pore0147_01 sphere 4.68823538 9.32260925 65.28645932 3.00000000 units box
+delete_atoms region pore0147_01 compress yes
+region pore0148_01 sphere 6.32121770 62.83754706 79.10236578 3.00000000 units box
+delete_atoms region pore0148_01 compress yes
+region pore0149_01 sphere 35.13874631 74.28769791 74.10175030 3.00000000 units box
+delete_atoms region pore0149_01 compress yes
+region pore0150_01 sphere 62.16205449 21.58133644 17.04484483 3.00000000 units box
+delete_atoms region pore0150_01 compress yes
+region pore0151_01 sphere 42.27250385 14.57729317 73.69014033 3.00000000 units box
+delete_atoms region pore0151_01 compress yes
+region pore0152_01 sphere 41.80117697 80.39177159 8.95913880 3.00000000 units box
+delete_atoms region pore0152_01 compress yes
+region pore0153_01 sphere 22.82370012 85.40357361 16.88595038 3.00000000 units box
+delete_atoms region pore0153_01 compress yes
+region pore0153_02 sphere 22.82370012 -1.35642639 16.88595038 3.00000000 units box
+delete_atoms region pore0153_02 compress yes
+region pore0154_01 sphere 84.63087366 77.33954824 81.92790112 3.00000000 units box
+delete_atoms region pore0154_01 compress yes
+region pore0154_02 sphere -2.12912634 77.33954824 81.92790112 3.00000000 units box
+delete_atoms region pore0154_02 compress yes
+region pore0155_01 sphere 32.88194994 6.53219301 78.67208534 3.00000000 units box
+delete_atoms region pore0155_01 compress yes
+region pore0156_01 sphere 1.62830398 63.41970558 34.24376658 3.00000000 units box
+delete_atoms region pore0156_01 compress yes
+region pore0156_02 sphere 88.38830398 63.41970558 34.24376658 3.00000000 units box
+delete_atoms region pore0156_02 compress yes
+region pore0157_01 sphere 46.37841987 6.80222893 82.48850637 3.00000000 units box
+delete_atoms region pore0157_01 compress yes
+region pore0158_01 sphere 56.77133713 52.46608626 21.33227503 3.00000000 units box
+delete_atoms region pore0158_01 compress yes
+region pore0159_01 sphere 46.96078124 18.21189884 55.71262074 3.00000000 units box
+delete_atoms region pore0159_01 compress yes
+region pore0160_01 sphere 8.25117956 35.07079042 69.53697343 3.00000000 units box
+delete_atoms region pore0160_01 compress yes
+region pore0161_01 sphere 22.64925782 5.40936356 77.40338702 3.00000000 units box
+delete_atoms region pore0161_01 compress yes
+region pore0162_01 sphere 78.51632770 80.74790196 55.44389642 3.00000000 units box
+delete_atoms region pore0162_01 compress yes
+region pore0163_01 sphere 45.13282542 49.13188514 51.64678438 3.00000000 units box
+delete_atoms region pore0163_01 compress yes
+region pore0164_01 sphere 18.28742673 0.31174649 62.90281558 3.00000000 units box
+delete_atoms region pore0164_01 compress yes
+region pore0164_02 sphere 18.28742673 87.07174649 62.90281558 3.00000000 units box
+delete_atoms region pore0164_02 compress yes
+region pore0165_01 sphere 63.91855998 85.42402696 52.35604842 3.00000000 units box
+delete_atoms region pore0165_01 compress yes
+region pore0165_02 sphere 63.91855998 -1.33597304 52.35604842 3.00000000 units box
+delete_atoms region pore0165_02 compress yes
+region pore0166_01 sphere 22.27488592 18.85310460 34.03442990 3.00000000 units box
+delete_atoms region pore0166_01 compress yes
+region pore0167_01 sphere 59.52171714 20.29242886 70.33393410 3.00000000 units box
+delete_atoms region pore0167_01 compress yes
+region pore0168_01 sphere 75.67278516 44.45228224 30.10805441 3.00000000 units box
+delete_atoms region pore0168_01 compress yes
+region pore0169_01 sphere 75.23646590 31.05592435 11.67986480 3.00000000 units box
+delete_atoms region pore0169_01 compress yes
+region pore0170_01 sphere 10.27127635 59.35297149 68.14789251 3.00000000 units box
+delete_atoms region pore0170_01 compress yes
+region pore0171_01 sphere 5.05505250 13.21418276 20.59750409 3.00000000 units box
+delete_atoms region pore0171_01 compress yes
+region pore0172_01 sphere 65.64975087 12.52952031 78.55563966 3.00000000 units box
+delete_atoms region pore0172_01 compress yes
+region pore0173_01 sphere 63.81611900 33.90500857 10.66340578 3.00000000 units box
+delete_atoms region pore0173_01 compress yes
+region pore0174_01 sphere 31.17181557 16.92589367 58.67697460 3.00000000 units box
+delete_atoms region pore0174_01 compress yes
+region pore0175_01 sphere 42.68467394 36.68144799 62.82726215 3.00000000 units box
+delete_atoms region pore0175_01 compress yes
+region pore0176_01 sphere 66.33903155 22.68284450 35.15276743 3.00000000 units box
+delete_atoms region pore0176_01 compress yes
+region pore0177_01 sphere 50.29484974 33.05357115 77.82909757 3.00000000 units box
+delete_atoms region pore0177_01 compress yes
+region pore0178_01 sphere 68.04496631 40.06471066 35.84382852 3.00000000 units box
+delete_atoms region pore0178_01 compress yes
+region pore0179_01 sphere 2.16670167 85.81076992 81.13757840 3.00000000 units box
+delete_atoms region pore0179_01 compress yes
+region pore0179_02 sphere 2.16670167 -0.94923008 81.13757840 3.00000000 units box
+delete_atoms region pore0179_02 compress yes
+region pore0179_03 sphere 88.92670167 85.81076992 81.13757840 3.00000000 units box
+delete_atoms region pore0179_03 compress yes
+region pore0179_04 sphere 88.92670167 -0.94923008 81.13757840 3.00000000 units box
+delete_atoms region pore0179_04 compress yes
+region pore0180_01 sphere 7.62449929 66.36679626 30.42286741 3.00000000 units box
+delete_atoms region pore0180_01 compress yes
+region pore0181_01 sphere 24.44777029 47.97413690 33.56443980 3.00000000 units box
+delete_atoms region pore0181_01 compress yes
+region pore0182_01 sphere 25.32597589 64.80009087 57.03212146 3.00000000 units box
+delete_atoms region pore0182_01 compress yes
+region pore0183_01 sphere 26.84384378 47.65219193 46.86587840 3.00000000 units box
+delete_atoms region pore0183_01 compress yes
+region pore0184_01 sphere 40.28351318 55.20763464 37.82963827 3.00000000 units box
+delete_atoms region pore0184_01 compress yes
+region pore0185_01 sphere 20.46277413 11.38808819 82.28557937 3.00000000 units box
+delete_atoms region pore0185_01 compress yes
+region pore0186_01 sphere 52.16223559 2.84305779 2.76084568 3.00000000 units box
+delete_atoms region pore0186_01 compress yes
+region pore0186_02 sphere 52.16223559 2.84305779 89.52084568 3.00000000 units box
+delete_atoms region pore0186_02 compress yes
+region pore0186_03 sphere 52.16223559 89.60305779 2.76084568 3.00000000 units box
+delete_atoms region pore0186_03 compress yes
+region pore0186_04 sphere 52.16223559 89.60305779 89.52084568 3.00000000 units box
+delete_atoms region pore0186_04 compress yes
+region pore0187_01 sphere 71.30729178 85.33819275 44.23636418 3.00000000 units box
+delete_atoms region pore0187_01 compress yes
+region pore0187_02 sphere 71.30729178 -1.42180725 44.23636418 3.00000000 units box
+delete_atoms region pore0187_02 compress yes
+region pore0188_01 sphere 60.18618855 36.43250220 61.03744045 3.00000000 units box
+delete_atoms region pore0188_01 compress yes
+region pore0189_01 sphere 54.75287471 79.95262161 45.56619756 3.00000000 units box
+delete_atoms region pore0189_01 compress yes
+region pore0190_01 sphere 68.97356938 66.87440427 73.77604907 3.00000000 units box
+delete_atoms region pore0190_01 compress yes
+region pore0191_01 sphere 29.11321579 54.06604435 30.59518079 3.00000000 units box
+delete_atoms region pore0191_01 compress yes
+region pore0192_01 sphere 19.17825767 17.26366790 61.20684447 3.00000000 units box
+delete_atoms region pore0192_01 compress yes
+region pore0193_01 sphere 58.70642375 62.67812863 56.05060509 3.00000000 units box
+delete_atoms region pore0193_01 compress yes
+region pore0194_01 sphere 80.17565982 60.57255227 0.14411047 3.00000000 units box
+delete_atoms region pore0194_01 compress yes
+region pore0194_02 sphere 80.17565982 60.57255227 86.90411047 3.00000000 units box
+delete_atoms region pore0194_02 compress yes
+region pore0195_01 sphere 53.53847215 81.95959737 51.48129968 3.00000000 units box
+delete_atoms region pore0195_01 compress yes
+region pore0196_01 sphere 62.24814791 73.81433620 32.37371807 3.00000000 units box
+delete_atoms region pore0196_01 compress yes
+region pore0197_01 sphere 14.29628781 59.20546872 78.95157390 3.00000000 units box
+delete_atoms region pore0197_01 compress yes
+region pore0198_01 sphere 83.09231680 8.26586851 83.84884451 3.00000000 units box
+delete_atoms region pore0198_01 compress yes
+region pore0198_02 sphere 83.09231680 8.26586851 -2.91115549 3.00000000 units box
+delete_atoms region pore0198_02 compress yes
+region pore0199_01 sphere 54.60420348 61.64960430 38.66942070 3.00000000 units box
+delete_atoms region pore0199_01 compress yes
+region pore0200_01 sphere 56.58036122 27.38832295 13.51910424 3.00000000 units box
+delete_atoms region pore0200_01 compress yes
+region pore0201_01 sphere 84.89663939 56.00268807 48.24928435 3.00000000 units box
+delete_atoms region pore0201_01 compress yes
+region pore0201_02 sphere -1.86336061 56.00268807 48.24928435 3.00000000 units box
+delete_atoms region pore0201_02 compress yes
+region pore0202_01 sphere 65.65729616 47.02853327 50.31132017 3.00000000 units box
+delete_atoms region pore0202_01 compress yes
+region pore0203_01 sphere 49.88891633 85.93804822 72.63088711 3.00000000 units box
+delete_atoms region pore0203_01 compress yes
+region pore0203_02 sphere 49.88891633 -0.82195178 72.63088711 3.00000000 units box
+delete_atoms region pore0203_02 compress yes
+region pore0204_01 sphere 78.08996078 37.29753165 10.32226027 3.00000000 units box
+delete_atoms region pore0204_01 compress yes
+region pore0205_01 sphere 76.50295671 85.54768522 2.59538680 3.00000000 units box
+delete_atoms region pore0205_01 compress yes
+region pore0205_02 sphere 76.50295671 85.54768522 89.35538680 3.00000000 units box
+delete_atoms region pore0205_02 compress yes
+region pore0205_03 sphere 76.50295671 -1.21231478 2.59538680 3.00000000 units box
+delete_atoms region pore0205_03 compress yes
+region pore0205_04 sphere 76.50295671 -1.21231478 89.35538680 3.00000000 units box
+delete_atoms region pore0205_04 compress yes
+region pore0206_01 sphere 43.31062453 67.60415510 32.86407180 3.00000000 units box
+delete_atoms region pore0206_01 compress yes
+region pore0207_01 sphere 85.70541033 28.02935853 54.62658789 3.00000000 units box
+delete_atoms region pore0207_01 compress yes
+region pore0207_02 sphere -1.05458967 28.02935853 54.62658789 3.00000000 units box
+delete_atoms region pore0207_02 compress yes
+region pore0208_01 sphere 62.00107730 72.98445342 4.67719630 3.00000000 units box
+delete_atoms region pore0208_01 compress yes
+region pore0209_01 sphere 69.56800373 20.12016769 58.21469469 3.00000000 units box
+delete_atoms region pore0209_01 compress yes
+region pore0210_01 sphere 68.35460260 17.43547701 21.09299195 3.00000000 units box
+delete_atoms region pore0210_01 compress yes
+region pore0211_01 sphere 55.65242389 56.98601613 33.65810484 3.00000000 units box
+delete_atoms region pore0211_01 compress yes
+region pore0212_01 sphere 44.76405363 0.71414410 4.08382474 3.00000000 units box
+delete_atoms region pore0212_01 compress yes
+region pore0212_02 sphere 44.76405363 87.47414410 4.08382474 3.00000000 units box
+delete_atoms region pore0212_02 compress yes
+region pore0213_01 sphere 39.20935160 62.58397914 36.49066816 3.00000000 units box
+delete_atoms region pore0213_01 compress yes
+region pore0214_01 sphere 17.77425436 47.73789897 3.49326440 3.00000000 units box
+delete_atoms region pore0214_01 compress yes
+region pore0215_01 sphere 12.67357429 68.29261311 82.83316151 3.00000000 units box
+delete_atoms region pore0215_01 compress yes
+region pore0216_01 sphere 6.87102909 82.84106949 63.72202337 3.00000000 units box
+delete_atoms region pore0216_01 compress yes
+region pore0217_01 sphere 73.86469853 45.49155661 71.30725984 3.00000000 units box
+delete_atoms region pore0217_01 compress yes
+region pore0218_01 sphere 85.93670216 35.20626005 8.18877435 3.00000000 units box
+delete_atoms region pore0218_01 compress yes
+region pore0218_02 sphere -0.82329784 35.20626005 8.18877435 3.00000000 units box
+delete_atoms region pore0218_02 compress yes
+region pore0219_01 sphere 60.96986151 78.40907854 25.84127217 3.00000000 units box
+delete_atoms region pore0219_01 compress yes
+region pore0220_01 sphere 83.33093192 47.26624855 63.04199542 3.00000000 units box
+delete_atoms region pore0220_01 compress yes
+region pore0221_01 sphere 63.92469928 48.38213263 56.40280455 3.00000000 units box
+delete_atoms region pore0221_01 compress yes
+region pore0222_01 sphere 59.64513599 65.16453162 81.00473468 3.00000000 units box
+delete_atoms region pore0222_01 compress yes
+region pore0223_01 sphere 50.35963840 35.59976336 47.91284808 3.00000000 units box
+delete_atoms region pore0223_01 compress yes
+region pore0224_01 sphere 49.34530494 70.51806100 42.51672021 3.00000000 units box
+delete_atoms region pore0224_01 compress yes
+region pore0225_01 sphere 47.34306823 71.24643463 71.99835541 3.00000000 units box
+delete_atoms region pore0225_01 compress yes
+region pore0226_01 sphere 85.60860044 54.38436689 67.69568901 3.00000000 units box
+delete_atoms region pore0226_01 compress yes
+region pore0226_02 sphere -1.15139956 54.38436689 67.69568901 3.00000000 units box
+delete_atoms region pore0226_02 compress yes
+region pore0227_01 sphere 16.88709016 84.25527850 15.41865237 3.00000000 units box
+delete_atoms region pore0227_01 compress yes
+region pore0227_02 sphere 16.88709016 -2.50472150 15.41865237 3.00000000 units box
+delete_atoms region pore0227_02 compress yes
+region pore0228_01 sphere 18.51861679 50.82403608 79.37838710 3.00000000 units box
+delete_atoms region pore0228_01 compress yes
+region pore0229_01 sphere 45.64610117 34.54784601 28.92117289 3.00000000 units box
+delete_atoms region pore0229_01 compress yes
+region pore0230_01 sphere 79.80896196 16.42388428 8.35914302 3.00000000 units box
+delete_atoms region pore0230_01 compress yes
+region pore0231_01 sphere 28.06664528 46.35740384 22.16779034 3.00000000 units box
+delete_atoms region pore0231_01 compress yes
+region pore0232_01 sphere 83.98982839 38.63320295 62.82929358 3.00000000 units box
+delete_atoms region pore0232_01 compress yes
+region pore0232_02 sphere -2.77017161 38.63320295 62.82929358 3.00000000 units box
+delete_atoms region pore0232_02 compress yes
+region pore0233_01 sphere 8.94136324 22.85046320 13.22434306 3.00000000 units box
+delete_atoms region pore0233_01 compress yes
+region pore0234_01 sphere 11.50218178 66.97362769 44.12826010 3.00000000 units box
+delete_atoms region pore0234_01 compress yes
+region pore0235_01 sphere 43.26349755 65.27659880 44.92989206 3.00000000 units box
+delete_atoms region pore0235_01 compress yes
+region pore0236_01 sphere 32.61908081 44.37623833 69.73001968 3.00000000 units box
+delete_atoms region pore0236_01 compress yes
+region pore0237_01 sphere 46.12918013 70.37379922 60.36101473 3.00000000 units box
+delete_atoms region pore0237_01 compress yes
+region pore0238_01 sphere 64.34996768 45.75517617 24.49359439 3.00000000 units box
+delete_atoms region pore0238_01 compress yes
+region pore0239_01 sphere 74.55832176 26.64145163 36.76310462 3.00000000 units box
+delete_atoms region pore0239_01 compress yes
+region pore0240_01 sphere 70.62537717 76.96948194 19.48279524 3.00000000 units box
+delete_atoms region pore0240_01 compress yes
+region pore0241_01 sphere 13.62694364 81.37588541 57.99792324 3.00000000 units box
+delete_atoms region pore0241_01 compress yes
+region pore0242_01 sphere 7.93731917 15.29705804 58.18347995 3.00000000 units box
+delete_atoms region pore0242_01 compress yes
+region pore0243_01 sphere 48.52660656 29.77779464 49.45887381 3.00000000 units box
+delete_atoms region pore0243_01 compress yes
+region pore0244_01 sphere 16.63264370 80.85240418 71.65168513 3.00000000 units box
+delete_atoms region pore0244_01 compress yes
+region pore0245_01 sphere 20.81511872 42.20490161 4.27544439 3.00000000 units box
+delete_atoms region pore0245_01 compress yes
+region pore0246_01 sphere 86.26187403 17.57163058 64.85870177 3.00000000 units box
+delete_atoms region pore0246_01 compress yes
+region pore0246_02 sphere -0.49812597 17.57163058 64.85870177 3.00000000 units box
+delete_atoms region pore0246_02 compress yes
+region pore0247_01 sphere 10.18043486 35.01871641 40.38550586 3.00000000 units box
+delete_atoms region pore0247_01 compress yes
+region pore0248_01 sphere 60.64266481 52.80983454 43.18595542 3.00000000 units box
+delete_atoms region pore0248_01 compress yes
+region pore0249_01 sphere 20.19418546 43.67185140 59.48087798 3.00000000 units box
+delete_atoms region pore0249_01 compress yes
+region pore0250_01 sphere 45.82152801 77.14251136 1.65273845 3.00000000 units box
+delete_atoms region pore0250_01 compress yes
+region pore0250_02 sphere 45.82152801 77.14251136 88.41273845 3.00000000 units box
+delete_atoms region pore0250_02 compress yes
+region pore0251_01 sphere 16.96703233 12.73049005 13.54716843 3.00000000 units box
+delete_atoms region pore0251_01 compress yes
+region pore0252_01 sphere 10.34079818 60.45004160 5.62144022 3.00000000 units box
+delete_atoms region pore0252_01 compress yes
+region pore0253_01 sphere 73.06261789 18.73437492 37.85112640 3.00000000 units box
+delete_atoms region pore0253_01 compress yes
+region pore0254_01 sphere 19.34551873 56.91783596 41.30842149 3.00000000 units box
+delete_atoms region pore0254_01 compress yes
+region pore0255_01 sphere 47.68630563 10.58035439 69.19652207 3.00000000 units box
+delete_atoms region pore0255_01 compress yes
+region pore0256_01 sphere 14.15039636 21.17005136 53.09393227 3.00000000 units box
+delete_atoms region pore0256_01 compress yes
+region pore0257_01 sphere 29.48873821 2.25029172 50.44839197 3.00000000 units box
+delete_atoms region pore0257_01 compress yes
+region pore0257_02 sphere 29.48873821 89.01029172 50.44839197 3.00000000 units box
+delete_atoms region pore0257_02 compress yes
+region pore0258_01 sphere 66.72556626 31.70263637 72.44543406 3.00000000 units box
+delete_atoms region pore0258_01 compress yes
+region pore0259_01 sphere 47.93738280 41.07316339 17.79639110 3.00000000 units box
+delete_atoms region pore0259_01 compress yes
+region pore0260_01 sphere 70.09589793 56.27824084 40.17966244 3.00000000 units box
+delete_atoms region pore0260_01 compress yes
+region pore0261_01 sphere 10.67143104 5.17683686 58.75060073 3.00000000 units box
+delete_atoms region pore0261_01 compress yes
+region pore0262_01 sphere 1.02856612 69.74707241 74.42206714 3.00000000 units box
+delete_atoms region pore0262_01 compress yes
+region pore0262_02 sphere 87.78856612 69.74707241 74.42206714 3.00000000 units box
+delete_atoms region pore0262_02 compress yes
+region pore0263_01 sphere 45.04466611 32.45226360 16.52534407 3.00000000 units box
+delete_atoms region pore0263_01 compress yes
+region pore0264_01 sphere 66.47029674 2.61132548 62.81265395 3.00000000 units box
+delete_atoms region pore0264_01 compress yes
+region pore0264_02 sphere 66.47029674 89.37132548 62.81265395 3.00000000 units box
+delete_atoms region pore0264_02 compress yes
+region pore0265_01 sphere 72.06422807 58.57001168 65.95652331 3.00000000 units box
+delete_atoms region pore0265_01 compress yes
+region pore0266_01 sphere 62.01638834 58.02789787 48.85443860 3.00000000 units box
+delete_atoms region pore0266_01 compress yes
+region pore0267_01 sphere 20.25901684 63.03701689 81.33043333 3.00000000 units box
+delete_atoms region pore0267_01 compress yes
+region pore0268_01 sphere 78.47297041 73.75135022 79.50467698 3.00000000 units box
+delete_atoms region pore0268_01 compress yes
+region pore0269_01 sphere 85.08324341 61.64737475 63.38312042 3.00000000 units box
+delete_atoms region pore0269_01 compress yes
+region pore0269_02 sphere -1.67675659 61.64737475 63.38312042 3.00000000 units box
+delete_atoms region pore0269_02 compress yes
+region pore0270_01 sphere 8.32633147 21.64743835 2.42935368 3.00000000 units box
+delete_atoms region pore0270_01 compress yes
+region pore0270_02 sphere 8.32633147 21.64743835 89.18935368 3.00000000 units box
+delete_atoms region pore0270_02 compress yes
+region pore0271_01 sphere 20.48135237 59.85966645 20.01549928 3.00000000 units box
+delete_atoms region pore0271_01 compress yes
+region pore0272_01 sphere 27.98539678 4.58835831 19.76830321 3.00000000 units box
+delete_atoms region pore0272_01 compress yes
+region pore0273_01 sphere 36.54790502 83.47439817 28.48654151 3.00000000 units box
+delete_atoms region pore0273_01 compress yes
+region pore0274_01 sphere 14.18739180 10.24108781 8.23045386 3.00000000 units box
+delete_atoms region pore0274_01 compress yes
+region pore0275_01 sphere 25.77138464 15.49838434 67.43515863 3.00000000 units box
+delete_atoms region pore0275_01 compress yes
+region pore0276_01 sphere 48.33917008 5.40805413 37.51185793 3.00000000 units box
+delete_atoms region pore0276_01 compress yes
+region pore0277_01 sphere 67.95209960 64.49424581 16.87362903 3.00000000 units box
+delete_atoms region pore0277_01 compress yes
+region pore0278_01 sphere 56.95946294 51.49001669 71.66052362 3.00000000 units box
+delete_atoms region pore0278_01 compress yes
+region pore0279_01 sphere 30.55403160 10.28163106 35.57104542 3.00000000 units box
+delete_atoms region pore0279_01 compress yes
+region pore0280_01 sphere 7.34215682 25.98565109 73.02301631 3.00000000 units box
+delete_atoms region pore0280_01 compress yes
+region pore0281_01 sphere 47.07073804 85.31395128 58.45231673 3.00000000 units box
+delete_atoms region pore0281_01 compress yes
+region pore0281_02 sphere 47.07073804 -1.44604872 58.45231673 3.00000000 units box
+delete_atoms region pore0281_02 compress yes
+region pore0282_01 sphere 51.02225045 37.65565760 61.03707052 3.00000000 units box
+delete_atoms region pore0282_01 compress yes
+region pore0283_01 sphere 3.77764447 72.03025591 21.64495224 3.00000000 units box
+delete_atoms region pore0283_01 compress yes
+region pore0284_01 sphere 38.98843245 16.96373440 18.20647340 3.00000000 units box
+delete_atoms region pore0284_01 compress yes
+region pore0285_01 sphere 10.12286379 45.21962655 1.69404931 3.00000000 units box
+delete_atoms region pore0285_01 compress yes
+region pore0285_02 sphere 10.12286379 45.21962655 88.45404931 3.00000000 units box
+delete_atoms region pore0285_02 compress yes
+region pore0286_01 sphere 12.90904639 47.19469276 33.79457219 3.00000000 units box
+delete_atoms region pore0286_01 compress yes
+region pore0287_01 sphere 31.73694524 59.61830999 35.56588030 3.00000000 units box
+delete_atoms region pore0287_01 compress yes
+region pore0288_01 sphere 80.97577284 16.01659443 19.21343991 3.00000000 units box
+delete_atoms region pore0288_01 compress yes
+region pore0289_01 sphere 81.87733753 38.05781561 54.75985082 3.00000000 units box
+delete_atoms region pore0289_01 compress yes
+region pore0290_01 sphere 9.39691381 76.18406965 20.36808226 3.00000000 units box
+delete_atoms region pore0290_01 compress yes
+region pore0291_01 sphere 76.92954462 27.07311306 50.10427042 3.00000000 units box
+delete_atoms region pore0291_01 compress yes
+region pore0292_01 sphere 10.98042677 13.03640628 38.00581113 3.00000000 units box
+delete_atoms region pore0292_01 compress yes
+region pore0293_01 sphere 50.48299660 73.98123168 14.58167596 3.00000000 units box
+delete_atoms region pore0293_01 compress yes
+region pore0294_01 sphere 28.89320520 59.63145403 7.33749476 3.00000000 units box
+delete_atoms region pore0294_01 compress yes
+region pore0295_01 sphere 75.63334977 27.38621716 43.52239173 3.00000000 units box
+delete_atoms region pore0295_01 compress yes
+region pore0296_01 sphere 77.90868902 51.61480718 34.81982143 3.00000000 units box
+delete_atoms region pore0296_01 compress yes
+region pore0297_01 sphere 61.77220364 22.56132538 83.26745202 3.00000000 units box
+delete_atoms region pore0297_01 compress yes
+region pore0298_01 sphere 45.39639393 4.38751958 13.37930017 3.00000000 units box
+delete_atoms region pore0298_01 compress yes
+region pore0299_01 sphere 0.72740913 58.83696284 0.76340030 3.00000000 units box
+delete_atoms region pore0299_01 compress yes
+region pore0299_02 sphere 0.72740913 58.83696284 87.52340030 3.00000000 units box
+delete_atoms region pore0299_02 compress yes
+region pore0299_03 sphere 87.48740913 58.83696284 0.76340030 3.00000000 units box
+delete_atoms region pore0299_03 compress yes
+region pore0299_04 sphere 87.48740913 58.83696284 87.52340030 3.00000000 units box
+delete_atoms region pore0299_04 compress yes
+region pore0300_01 sphere 1.82733039 22.67980599 21.97911851 3.00000000 units box
+delete_atoms region pore0300_01 compress yes
+region pore0300_02 sphere 88.58733039 22.67980599 21.97911851 3.00000000 units box
+delete_atoms region pore0300_02 compress yes
+region pore0301_01 sphere 24.44382816 35.60528893 30.70103182 3.00000000 units box
+delete_atoms region pore0301_01 compress yes
+region pore0302_01 sphere 44.78427043 12.05525784 33.87734841 3.00000000 units box
+delete_atoms region pore0302_01 compress yes
+region pore0303_01 sphere 26.88978360 72.48482522 74.42993380 3.00000000 units box
+delete_atoms region pore0303_01 compress yes
+region pore0304_01 sphere 33.33081702 65.15000117 53.34671942 3.00000000 units box
+delete_atoms region pore0304_01 compress yes
+region pore0305_01 sphere 5.96713375 20.10902151 53.99202472 3.00000000 units box
+delete_atoms region pore0305_01 compress yes
+region pore0306_01 sphere 44.04173280 66.58187169 68.62144852 3.00000000 units box
+delete_atoms region pore0306_01 compress yes
+region pore0307_01 sphere 58.74512352 35.73480648 86.40241110 3.00000000 units box
+delete_atoms region pore0307_01 compress yes
+region pore0307_02 sphere 58.74512352 35.73480648 -0.35758890 3.00000000 units box
+delete_atoms region pore0307_02 compress yes
+region pore0308_01 sphere 22.00852517 24.39709599 14.53406930 3.00000000 units box
+delete_atoms region pore0308_01 compress yes
+region pore0309_01 sphere 56.62955230 62.25076116 0.81005541 3.00000000 units box
+delete_atoms region pore0309_01 compress yes
+region pore0309_02 sphere 56.62955230 62.25076116 87.57005541 3.00000000 units box
+delete_atoms region pore0309_02 compress yes
+region pore0310_01 sphere 65.18030801 34.57216220 55.53627959 3.00000000 units box
+delete_atoms region pore0310_01 compress yes
+region pore0311_01 sphere 20.99974570 6.68330641 8.79997381 3.00000000 units box
+delete_atoms region pore0311_01 compress yes
+region pore0312_01 sphere 22.13400521 32.63371574 47.47027380 3.00000000 units box
+delete_atoms region pore0312_01 compress yes
+region pore0313_01 sphere 21.16441419 45.77737983 19.57785309 3.00000000 units box
+delete_atoms region pore0313_01 compress yes
+region pore0314_01 sphere 82.93280133 46.02114260 55.46112636 3.00000000 units box
+delete_atoms region pore0314_01 compress yes
+region pore0315_01 sphere 30.64080660 33.04247377 69.51387949 3.00000000 units box
+delete_atoms region pore0315_01 compress yes
+region pore0316_01 sphere 80.10372186 32.89866135 25.59005790 3.00000000 units box
+delete_atoms region pore0316_01 compress yes
+region pore0317_01 sphere 6.21667144 65.47619045 15.95162319 3.00000000 units box
+delete_atoms region pore0317_01 compress yes
+region pore0318_01 sphere 61.99303132 25.27858091 51.18233545 3.00000000 units box
+delete_atoms region pore0318_01 compress yes
+region pore0319_01 sphere 56.23128941 22.97352111 26.65194808 3.00000000 units box
+delete_atoms region pore0319_01 compress yes
+region pore0320_01 sphere 40.14457098 30.88792033 61.47599285 3.00000000 units box
+delete_atoms region pore0320_01 compress yes
+region pore0321_01 sphere 50.65977582 53.27215620 24.48994841 3.00000000 units box
+delete_atoms region pore0321_01 compress yes
+region pore0322_01 sphere 25.13913690 83.98476747 72.13703487 3.00000000 units box
+delete_atoms region pore0322_01 compress yes
+region pore0322_02 sphere 25.13913690 -2.77523253 72.13703487 3.00000000 units box
+delete_atoms region pore0322_02 compress yes
+region pore0323_01 sphere 74.87592526 20.82455399 75.98898525 3.00000000 units box
+delete_atoms region pore0323_01 compress yes
+region pore0324_01 sphere 38.50134985 44.07994803 85.90018728 3.00000000 units box
+delete_atoms region pore0324_01 compress yes
+region pore0324_02 sphere 38.50134985 44.07994803 -0.85981272 3.00000000 units box
+delete_atoms region pore0324_02 compress yes
+region pore0325_01 sphere 21.49343472 75.64425983 12.31713279 3.00000000 units box
+delete_atoms region pore0325_01 compress yes
+region pore0326_01 sphere 10.01030119 25.09996442 66.13799171 3.00000000 units box
+delete_atoms region pore0326_01 compress yes
+region pore0327_01 sphere 21.57739081 21.57339147 40.90525061 3.00000000 units box
+delete_atoms region pore0327_01 compress yes
+region pore0328_01 sphere 22.86315563 41.94453346 32.78499227 3.00000000 units box
+delete_atoms region pore0328_01 compress yes
+region pore0329_01 sphere 31.51413936 53.03216669 43.93353110 3.00000000 units box
+delete_atoms region pore0329_01 compress yes
+region pore0330_01 sphere 24.18952020 25.67386496 24.67175501 3.00000000 units box
+delete_atoms region pore0330_01 compress yes
+region pore0331_01 sphere 13.78999599 7.92763689 16.97427351 3.00000000 units box
+delete_atoms region pore0331_01 compress yes
+region pore0332_01 sphere 15.75139317 59.82049893 46.30880196 3.00000000 units box
+delete_atoms region pore0332_01 compress yes
+region pore0333_01 sphere 30.11564039 58.65364974 80.66856842 3.00000000 units box
+delete_atoms region pore0333_01 compress yes
+region pore0334_01 sphere 42.28900253 61.00980610 84.48507859 3.00000000 units box
+delete_atoms region pore0334_01 compress yes
+region pore0334_02 sphere 42.28900253 61.00980610 -2.27492141 3.00000000 units box
+delete_atoms region pore0334_02 compress yes
+region pore0335_01 sphere 39.09217939 69.70672794 70.96237151 3.00000000 units box
+delete_atoms region pore0335_01 compress yes
+region pore0336_01 sphere 36.43551450 5.21853474 65.34177854 3.00000000 units box
+delete_atoms region pore0336_01 compress yes
+region pore0337_01 sphere 11.86107186 75.55582344 6.93791359 3.00000000 units box
+delete_atoms region pore0337_01 compress yes
+region pore0338_01 sphere 39.74956909 71.09119239 12.50621554 3.00000000 units box
+delete_atoms region pore0338_01 compress yes
+region pore0339_01 sphere 12.26688223 14.14906473 81.91532689 3.00000000 units box
+delete_atoms region pore0339_01 compress yes
+region pore0340_01 sphere 59.16845066 52.17547307 78.46077810 3.00000000 units box
+delete_atoms region pore0340_01 compress yes
+region pore0341_01 sphere 64.64826408 70.84925876 67.11972199 3.00000000 units box
+delete_atoms region pore0341_01 compress yes
+region pore0342_01 sphere 32.64173557 53.83393016 53.30461639 3.00000000 units box
+delete_atoms region pore0342_01 compress yes
+region pore0343_01 sphere 53.14243536 71.24877479 85.88670252 3.00000000 units box
+delete_atoms region pore0343_01 compress yes
+region pore0343_02 sphere 53.14243536 71.24877479 -0.87329748 3.00000000 units box
+delete_atoms region pore0343_02 compress yes
+region pore0344_01 sphere 32.87409170 63.11529077 61.54611771 3.00000000 units box
+delete_atoms region pore0344_01 compress yes
+region pore0345_01 sphere 44.23614667 51.26910697 72.49534664 3.00000000 units box
+delete_atoms region pore0345_01 compress yes
+region pore0346_01 sphere 34.45857289 37.38586137 81.56523232 3.00000000 units box
+delete_atoms region pore0346_01 compress yes
+region pore0347_01 sphere 69.38449039 71.96295512 61.17074802 3.00000000 units box
+delete_atoms region pore0347_01 compress yes
+region pore0348_01 sphere 6.04551420 53.69715565 79.49934269 3.00000000 units box
+delete_atoms region pore0348_01 compress yes
+region pore0349_01 sphere 23.37165416 54.22865367 22.86061452 3.00000000 units box
+delete_atoms region pore0349_01 compress yes
+region pore0350_01 sphere 62.43516844 41.13047761 50.56827439 3.00000000 units box
+delete_atoms region pore0350_01 compress yes
+region pore0351_01 sphere 23.32848184 60.22847025 73.97448848 3.00000000 units box
+delete_atoms region pore0351_01 compress yes
+region pore0352_01 sphere 75.47742795 51.89776418 42.93438857 3.00000000 units box
+delete_atoms region pore0352_01 compress yes
+region pore0353_01 sphere 14.99573498 29.47048327 6.42365510 3.00000000 units box
+delete_atoms region pore0353_01 compress yes
+region pore0354_01 sphere 37.38091904 69.32759503 58.36758414 3.00000000 units box
+delete_atoms region pore0354_01 compress yes
+region pore0355_01 sphere 20.47838921 22.29284342 83.84010380 3.00000000 units box
+delete_atoms region pore0355_01 compress yes
+region pore0355_02 sphere 20.47838921 22.29284342 -2.91989620 3.00000000 units box
+delete_atoms region pore0355_02 compress yes
+region pore0356_01 sphere 81.75342040 68.59380878 70.53150900 3.00000000 units box
+delete_atoms region pore0356_01 compress yes
+region pore0357_01 sphere 1.64485681 48.75740813 86.03971076 3.00000000 units box
+delete_atoms region pore0357_01 compress yes
+region pore0357_02 sphere 1.64485681 48.75740813 -0.72028924 3.00000000 units box
+delete_atoms region pore0357_02 compress yes
+region pore0357_03 sphere 88.40485681 48.75740813 86.03971076 3.00000000 units box
+delete_atoms region pore0357_03 compress yes
+region pore0357_04 sphere 88.40485681 48.75740813 -0.72028924 3.00000000 units box
+delete_atoms region pore0357_04 compress yes
+region pore0358_01 sphere 68.62853636 3.32867926 47.46142657 3.00000000 units box
+delete_atoms region pore0358_01 compress yes
+region pore0359_01 sphere 35.44725267 66.60867646 21.39773203 3.00000000 units box
+delete_atoms region pore0359_01 compress yes
+region pore0360_01 sphere 78.09161264 62.89117400 50.88491952 3.00000000 units box
+delete_atoms region pore0360_01 compress yes
+region pore0361_01 sphere 28.26721365 73.85688231 34.73802300 3.00000000 units box
+delete_atoms region pore0361_01 compress yes
+region pore0362_01 sphere 15.13525927 42.90522355 44.80434461 3.00000000 units box
+delete_atoms region pore0362_01 compress yes
+region pore0363_01 sphere 57.85907089 18.80963373 6.08506066 3.00000000 units box
+delete_atoms region pore0363_01 compress yes
+region pore0364_01 sphere 14.19221367 35.04613112 60.41121128 3.00000000 units box
+delete_atoms region pore0364_01 compress yes
+region pore0365_01 sphere 15.40913693 5.77501224 65.60064255 3.00000000 units box
+delete_atoms region pore0365_01 compress yes
+region pore0366_01 sphere 24.77730544 44.72697859 71.09391322 3.00000000 units box
+delete_atoms region pore0366_01 compress yes
+region pore0367_01 sphere 50.61864980 52.92430217 34.72984994 3.00000000 units box
+delete_atoms region pore0367_01 compress yes
+region pore0368_01 sphere 20.93925699 63.80276722 68.81253465 3.00000000 units box
+delete_atoms region pore0368_01 compress yes
+region pore0369_01 sphere 2.31196456 23.35175197 79.55453038 3.00000000 units box
+delete_atoms region pore0369_01 compress yes
+region pore0369_02 sphere 89.07196456 23.35175197 79.55453038 3.00000000 units box
+delete_atoms region pore0369_02 compress yes
+region pore0370_01 sphere 46.18586896 29.19500082 60.96403929 3.00000000 units box
+delete_atoms region pore0370_01 compress yes
+region pore0371_01 sphere 18.56441010 20.56727913 10.55968473 3.00000000 units box
+delete_atoms region pore0371_01 compress yes
+region pore0372_01 sphere 6.00874415 78.44677430 57.33378211 3.00000000 units box
+delete_atoms region pore0372_01 compress yes
+region pore0373_01 sphere 28.76667244 39.44753636 20.95193163 3.00000000 units box
+delete_atoms region pore0373_01 compress yes
+region pore0374_01 sphere 10.90749644 15.82312694 9.66206923 3.00000000 units box
+delete_atoms region pore0374_01 compress yes
+region pore0375_01 sphere 62.44064363 18.57686172 64.93735908 3.00000000 units box
+delete_atoms region pore0375_01 compress yes
+region pore0376_01 sphere 5.36642650 31.71582968 4.90896693 3.00000000 units box
+delete_atoms region pore0376_01 compress yes
+region pore0377_01 sphere 45.10254991 54.49512629 64.65257327 3.00000000 units box
+delete_atoms region pore0377_01 compress yes
+region pore0378_01 sphere 76.28270927 68.24767381 84.13606500 3.00000000 units box
+delete_atoms region pore0378_01 compress yes
+region pore0378_02 sphere 76.28270927 68.24767381 -2.62393500 3.00000000 units box
+delete_atoms region pore0378_02 compress yes
+region pore0379_01 sphere 84.54521897 38.60268230 69.74934266 3.00000000 units box
+delete_atoms region pore0379_01 compress yes
+region pore0379_02 sphere -2.21478103 38.60268230 69.74934266 3.00000000 units box
+delete_atoms region pore0379_02 compress yes
+region pore0380_01 sphere 58.15912532 22.62527488 62.80371493 3.00000000 units box
+delete_atoms region pore0380_01 compress yes
+region pore0381_01 sphere 28.25081316 20.17664599 81.36290227 3.00000000 units box
+delete_atoms region pore0381_01 compress yes
+region pore0382_01 sphere 34.08478313 49.40200364 28.59234862 3.00000000 units box
+delete_atoms region pore0382_01 compress yes
+region pore0383_01 sphere 2.68927786 16.00588192 26.10810610 3.00000000 units box
+delete_atoms region pore0383_01 compress yes
+region pore0383_02 sphere 89.44927786 16.00588192 26.10810610 3.00000000 units box
+delete_atoms region pore0383_02 compress yes
+region pore0384_01 sphere 19.61426840 81.88112335 53.11812433 3.00000000 units box
+delete_atoms region pore0384_01 compress yes
+region pore0385_01 sphere 2.35662776 35.24659384 77.64297242 3.00000000 units box
+delete_atoms region pore0385_01 compress yes
+region pore0385_02 sphere 89.11662776 35.24659384 77.64297242 3.00000000 units box
+delete_atoms region pore0385_02 compress yes
+region pore0386_01 sphere 60.35604093 13.85344135 13.94852583 3.00000000 units box
+delete_atoms region pore0386_01 compress yes
+region pore0387_01 sphere 42.76335160 55.37654102 44.37095510 3.00000000 units box
+delete_atoms region pore0387_01 compress yes
+region pore0388_01 sphere 42.04158469 74.06562438 44.83916868 3.00000000 units box
+delete_atoms region pore0388_01 compress yes
+region pore0389_01 sphere 27.73131689 56.13543591 48.88710900 3.00000000 units box
+delete_atoms region pore0389_01 compress yes
+region pore0390_01 sphere 22.38843846 7.12562858 47.22693713 3.00000000 units box
+delete_atoms region pore0390_01 compress yes
+region pore0391_01 sphere 27.91538854 46.47874419 7.53161192 3.00000000 units box
+delete_atoms region pore0391_01 compress yes
+region pore0392_01 sphere 46.17581708 67.37765553 18.21343775 3.00000000 units box
+delete_atoms region pore0392_01 compress yes
+region pore0393_01 sphere 81.45212164 85.80952654 83.89931285 3.00000000 units box
+delete_atoms region pore0393_01 compress yes
+region pore0393_02 sphere 81.45212164 85.80952654 -2.86068715 3.00000000 units box
+delete_atoms region pore0393_02 compress yes
+region pore0393_03 sphere 81.45212164 -0.95047346 83.89931285 3.00000000 units box
+delete_atoms region pore0393_03 compress yes
+region pore0393_04 sphere 81.45212164 -0.95047346 -2.86068715 3.00000000 units box
+delete_atoms region pore0393_04 compress yes
+region pore0394_01 sphere 15.85245363 25.61785908 74.43329551 3.00000000 units box
+delete_atoms region pore0394_01 compress yes
+region pore0395_01 sphere 41.79961832 37.32105201 7.30298661 3.00000000 units box
+delete_atoms region pore0395_01 compress yes
+region pore0396_01 sphere 54.81997783 26.25067503 38.06045282 3.00000000 units box
+delete_atoms region pore0396_01 compress yes
+region pore0397_01 sphere 32.36726671 11.41207163 12.10615465 3.00000000 units box
+delete_atoms region pore0397_01 compress yes
+region pore0398_01 sphere 36.32967760 57.98570449 42.21069107 3.00000000 units box
+delete_atoms region pore0398_01 compress yes
+region pore0399_01 sphere 72.76912734 33.19807888 41.23676693 3.00000000 units box
+delete_atoms region pore0399_01 compress yes
+region pore0400_01 sphere 26.88461667 5.34144979 82.93155067 3.00000000 units box
+delete_atoms region pore0400_01 compress yes
+region pore0401_01 sphere 69.95690136 84.32913679 23.95484165 3.00000000 units box
+delete_atoms region pore0401_01 compress yes
+region pore0401_02 sphere 69.95690136 -2.43086321 23.95484165 3.00000000 units box
+delete_atoms region pore0401_02 compress yes
+region pore0402_01 sphere 22.32791449 39.53328418 19.19482914 3.00000000 units box
+delete_atoms region pore0402_01 compress yes
+region pore0403_01 sphere 74.62205185 60.70604305 12.71710197 3.00000000 units box
+delete_atoms region pore0403_01 compress yes
+region pore0404_01 sphere 37.17701914 73.19537721 6.07930701 3.00000000 units box
+delete_atoms region pore0404_01 compress yes
+region pore0405_01 sphere 10.82444326 31.05753685 49.65727065 3.00000000 units box
+delete_atoms region pore0405_01 compress yes
+region pore0406_01 sphere 41.50937528 7.68279563 24.41800041 3.00000000 units box
+delete_atoms region pore0406_01 compress yes
+region pore0407_01 sphere 35.50671762 43.03417269 8.31108055 3.00000000 units box
+delete_atoms region pore0407_01 compress yes
+region pore0408_01 sphere 55.96869216 16.46895540 30.63206964 3.00000000 units box
+delete_atoms region pore0408_01 compress yes
+region pore0409_01 sphere 13.97270473 11.15736387 57.56124156 3.00000000 units box
+delete_atoms region pore0409_01 compress yes
+region pore0410_01 sphere 29.54179867 72.55764876 51.67461411 3.00000000 units box
+delete_atoms region pore0410_01 compress yes
+region pore0411_01 sphere 2.47099200 70.22056094 30.87167275 3.00000000 units box
+delete_atoms region pore0411_01 compress yes
+region pore0411_02 sphere 89.23099200 70.22056094 30.87167275 3.00000000 units box
+delete_atoms region pore0411_02 compress yes
+region pore0412_01 sphere 6.89929038 9.69169177 43.24808400 3.00000000 units box
+delete_atoms region pore0412_01 compress yes
+region pore0413_01 sphere 61.31461040 14.19627656 48.19801431 3.00000000 units box
+delete_atoms region pore0413_01 compress yes
+region pore0414_01 sphere 71.57316048 44.21256161 18.80264582 3.00000000 units box
+delete_atoms region pore0414_01 compress yes
+region pore0415_01 sphere 28.69727468 30.51839437 45.54141209 3.00000000 units box
+delete_atoms region pore0415_01 compress yes
+region pore0416_01 sphere 47.46276232 46.38253979 38.28996513 3.00000000 units box
+delete_atoms region pore0416_01 compress yes
+region pore0417_01 sphere 8.01022604 31.93072359 27.26228838 3.00000000 units box
+delete_atoms region pore0417_01 compress yes
+region pore0418_01 sphere 58.26106927 48.53276059 10.80085499 3.00000000 units box
+delete_atoms region pore0418_01 compress yes
+region pore0419_01 sphere 54.46317588 84.95423477 21.72585857 3.00000000 units box
+delete_atoms region pore0419_01 compress yes
+region pore0419_02 sphere 54.46317588 -1.80576523 21.72585857 3.00000000 units box
+delete_atoms region pore0419_02 compress yes
+region pore0420_01 sphere 55.34618465 44.33249457 49.16086367 3.00000000 units box
+delete_atoms region pore0420_01 compress yes
+region pore0421_01 sphere 52.01073242 4.86133888 54.12171648 3.00000000 units box
+delete_atoms region pore0421_01 compress yes
+region pore0422_01 sphere 72.61941499 74.42623869 4.04439612 3.00000000 units box
+delete_atoms region pore0422_01 compress yes
+region pore0423_01 sphere 72.13922915 83.74807776 35.80266087 3.00000000 units box
+delete_atoms region pore0423_01 compress yes
+region pore0424_01 sphere 53.42640696 36.79069224 82.15408151 3.00000000 units box
+delete_atoms region pore0424_01 compress yes
+region pore0425_01 sphere 59.53060814 69.49016358 60.66194732 3.00000000 units box
+delete_atoms region pore0425_01 compress yes
+region pore0426_01 sphere 52.90490477 64.61350414 30.00468638 3.00000000 units box
+delete_atoms region pore0426_01 compress yes
+region pore0427_01 sphere 51.22508302 75.28347777 5.15851571 3.00000000 units box
+delete_atoms region pore0427_01 compress yes
+region pore0428_01 sphere 18.21608223 37.80399093 26.25945563 3.00000000 units box
+delete_atoms region pore0428_01 compress yes
+region pore0429_01 sphere 6.72326145 53.01357784 17.24094222 3.00000000 units box
+delete_atoms region pore0429_01 compress yes
+region pore0430_01 sphere 60.00658141 76.77698257 42.01840947 3.00000000 units box
+delete_atoms region pore0430_01 compress yes
+region pore0431_01 sphere 29.52128902 13.49366191 51.04811639 3.00000000 units box
+delete_atoms region pore0431_01 compress yes
+region pore0432_01 sphere 6.57820108 48.70894106 70.61312522 3.00000000 units box
+delete_atoms region pore0432_01 compress yes
+region pore0433_01 sphere 59.67143479 41.42860773 12.89161693 3.00000000 units box
+delete_atoms region pore0433_01 compress yes
+region pore0434_01 sphere 74.67176911 7.70013004 75.59828182 3.00000000 units box
+delete_atoms region pore0434_01 compress yes
+region pore0435_01 sphere 67.30913602 23.30214709 77.24777674 3.00000000 units box
+delete_atoms region pore0435_01 compress yes
+region pore0436_01 sphere 0.00433768 34.28092509 38.27590920 3.00000000 units box
+delete_atoms region pore0436_01 compress yes
+region pore0436_02 sphere 86.76433768 34.28092509 38.27590920 3.00000000 units box
+delete_atoms region pore0436_02 compress yes
+region pore0437_01 sphere 48.87594088 43.45436639 81.48763349 3.00000000 units box
+delete_atoms region pore0437_01 compress yes
+region pore0438_01 sphere 36.93372585 16.44463029 53.42522781 3.00000000 units box
+delete_atoms region pore0438_01 compress yes
+region pore0439_01 sphere 27.17764315 76.54893738 86.03145063 3.00000000 units box
+delete_atoms region pore0439_01 compress yes
+region pore0439_02 sphere 27.17764315 76.54893738 -0.72854937 3.00000000 units box
+delete_atoms region pore0439_02 compress yes
+region pore0440_01 sphere 43.73557451 67.04714401 84.71291107 3.00000000 units box
+delete_atoms region pore0440_01 compress yes
+region pore0440_02 sphere 43.73557451 67.04714401 -2.04708893 3.00000000 units box
+delete_atoms region pore0440_02 compress yes
+region pore0441_01 sphere 55.51097073 17.88739884 15.77424453 3.00000000 units box
+delete_atoms region pore0441_01 compress yes
+region pore0442_01 sphere 73.47270270 70.01839233 21.69543294 3.00000000 units box
+delete_atoms region pore0442_01 compress yes
+region pore0443_01 sphere 65.49731285 83.92277463 8.50472982 3.00000000 units box
+delete_atoms region pore0443_01 compress yes
+region pore0443_02 sphere 65.49731285 -2.83722537 8.50472982 3.00000000 units box
+delete_atoms region pore0443_02 compress yes
+region pore0444_01 sphere 10.77175610 43.67660739 14.09527335 3.00000000 units box
+delete_atoms region pore0444_01 compress yes
+region pore0445_01 sphere 50.40338705 44.37472885 71.00918328 3.00000000 units box
+delete_atoms region pore0445_01 compress yes
+region pore0446_01 sphere 67.60416828 36.06774552 44.22845814 3.00000000 units box
+delete_atoms region pore0446_01 compress yes
+region pore0447_01 sphere 63.29299458 50.84902945 28.48540249 3.00000000 units box
+delete_atoms region pore0447_01 compress yes
+region pore0448_01 sphere 82.02957617 55.85222792 17.72754708 3.00000000 units box
+delete_atoms region pore0448_01 compress yes
+region pore0449_01 sphere 11.61154094 55.60309448 34.54652885 3.00000000 units box
+delete_atoms region pore0449_01 compress yes
+region pore0450_01 sphere 62.21220793 63.08900464 12.15891710 3.00000000 units box
+delete_atoms region pore0450_01 compress yes
+region pore0451_01 sphere 82.89176044 6.29569352 5.45755203 3.00000000 units box
+delete_atoms region pore0451_01 compress yes
+region pore0452_01 sphere 18.64619985 68.24941364 77.42217590 3.00000000 units box
+delete_atoms region pore0452_01 compress yes
+region pore0453_01 sphere 38.23564325 46.43394332 37.28015462 3.00000000 units box
+delete_atoms region pore0453_01 compress yes
+region pore0454_01 sphere 24.82402058 25.49235156 34.86130616 3.00000000 units box
+delete_atoms region pore0454_01 compress yes
+region pore0455_01 sphere 38.52776201 25.11577900 18.51401931 3.00000000 units box
+delete_atoms region pore0455_01 compress yes
+region pore0456_01 sphere 47.69347644 12.83896258 40.34481580 3.00000000 units box
+delete_atoms region pore0456_01 compress yes
+region pore0457_01 sphere 4.13680149 25.67408367 30.03198535 3.00000000 units box
+delete_atoms region pore0457_01 compress yes
+region pore0458_01 sphere 74.32542497 29.14221011 2.68808516 3.00000000 units box
+delete_atoms region pore0458_01 compress yes
+region pore0458_02 sphere 74.32542497 29.14221011 89.44808516 3.00000000 units box
+delete_atoms region pore0458_02 compress yes
+region pore0459_01 sphere 0.20438836 22.96998245 4.24327255 3.00000000 units box
+delete_atoms region pore0459_01 compress yes
+region pore0459_02 sphere 86.96438836 22.96998245 4.24327255 3.00000000 units box
+delete_atoms region pore0459_02 compress yes
+region pore0460_01 sphere 39.46097106 43.31643773 43.69037468 3.00000000 units box
+delete_atoms region pore0460_01 compress yes
+region pore0461_01 sphere 79.81496195 53.30458142 79.96288495 3.00000000 units box
+delete_atoms region pore0461_01 compress yes
+region pore0462_01 sphere 5.20980465 43.81143093 24.10456249 3.00000000 units box
+delete_atoms region pore0462_01 compress yes
+region pore0463_01 sphere 52.69043283 83.04645983 81.98084762 3.00000000 units box
+delete_atoms region pore0463_01 compress yes
+region pore0464_01 sphere 85.57494775 49.88346140 31.76329464 3.00000000 units box
+delete_atoms region pore0464_01 compress yes
+region pore0464_02 sphere -1.18505225 49.88346140 31.76329464 3.00000000 units box
+delete_atoms region pore0464_02 compress yes
+region pore0465_01 sphere 44.29428368 81.19900655 73.79704734 3.00000000 units box
+delete_atoms region pore0465_01 compress yes
+region pore0466_01 sphere 63.71893141 4.92926720 14.08478100 3.00000000 units box
+delete_atoms region pore0466_01 compress yes
+region pore0467_01 sphere 19.68799530 32.26838821 0.70389761 3.00000000 units box
+delete_atoms region pore0467_01 compress yes
+region pore0467_02 sphere 19.68799530 32.26838821 87.46389761 3.00000000 units box
+delete_atoms region pore0467_02 compress yes
+region pore0468_01 sphere 24.22804795 41.33779134 46.39078560 3.00000000 units box
+delete_atoms region pore0468_01 compress yes
+region pore0469_01 sphere 9.39049783 22.28295688 79.79378682 3.00000000 units box
+delete_atoms region pore0469_01 compress yes
+region pore0470_01 sphere 28.87109001 83.33126166 19.91954178 3.00000000 units box
+delete_atoms region pore0470_01 compress yes
+region pore0471_01 sphere 4.53944880 16.36228237 71.23276157 3.00000000 units box
+delete_atoms region pore0471_01 compress yes
+region pore0472_01 sphere 46.66824316 48.54519422 7.41356557 3.00000000 units box
+delete_atoms region pore0472_01 compress yes
+region pore0473_01 sphere 76.70753745 59.17460508 44.96221760 3.00000000 units box
+delete_atoms region pore0473_01 compress yes
+region pore0474_01 sphere 78.04469038 37.94639113 84.13070465 3.00000000 units box
+delete_atoms region pore0474_01 compress yes
+region pore0474_02 sphere 78.04469038 37.94639113 -2.62929535 3.00000000 units box
+delete_atoms region pore0474_02 compress yes
+region pore0475_01 sphere 47.27457666 2.18473482 49.62112708 3.00000000 units box
+delete_atoms region pore0475_01 compress yes
+region pore0475_02 sphere 47.27457666 88.94473482 49.62112708 3.00000000 units box
+delete_atoms region pore0475_02 compress yes
+region pore0476_01 sphere 37.08594397 66.48449860 42.63325972 3.00000000 units box
+delete_atoms region pore0476_01 compress yes
+region pore0477_01 sphere 34.41264671 0.54640476 44.17186664 3.00000000 units box
+delete_atoms region pore0477_01 compress yes
+region pore0477_02 sphere 34.41264671 87.30640476 44.17186664 3.00000000 units box
+delete_atoms region pore0477_02 compress yes
+region pore0478_01 sphere 53.02589066 14.80634697 66.30020274 3.00000000 units box
+delete_atoms region pore0478_01 compress yes
+region pore0479_01 sphere 31.10670147 29.94045901 21.00289947 3.00000000 units box
+delete_atoms region pore0479_01 compress yes
+region pore0480_01 sphere 21.15289338 10.06305709 63.67379431 3.00000000 units box
+delete_atoms region pore0480_01 compress yes
+region pore0481_01 sphere 57.13611613 57.81987984 75.94095439 3.00000000 units box
+delete_atoms region pore0481_01 compress yes
+region pore0482_01 sphere 73.51504431 8.13594742 34.36233805 3.00000000 units box
+delete_atoms region pore0482_01 compress yes
+region pore0483_01 sphere 69.38033990 5.57059395 5.55389164 3.00000000 units box
+delete_atoms region pore0483_01 compress yes
+region pore0484_01 sphere 9.11411446 38.59552872 55.07561554 3.00000000 units box
+delete_atoms region pore0484_01 compress yes
+region pore0485_01 sphere 73.57236247 53.31446906 9.69301007 3.00000000 units box
+delete_atoms region pore0485_01 compress yes
+region pore0486_01 sphere 77.51903815 29.37302970 20.99926275 3.00000000 units box
+delete_atoms region pore0486_01 compress yes
+region pore0487_01 sphere 80.54783295 77.02475002 10.30018815 3.00000000 units box
+delete_atoms region pore0487_01 compress yes
+region pore0488_01 sphere 79.72998157 46.20400701 45.92173380 3.00000000 units box
+delete_atoms region pore0488_01 compress yes
+region pore0489_01 sphere 16.01305081 71.76332206 21.56828462 3.00000000 units box
+delete_atoms region pore0489_01 compress yes
+region pore0490_01 sphere 13.84664696 70.66668531 53.03206804 3.00000000 units box
+delete_atoms region pore0490_01 compress yes
+region pore0491_01 sphere 18.45463241 29.51598298 58.90841336 3.00000000 units box
+delete_atoms region pore0491_01 compress yes
+region pore0492_01 sphere 20.94306290 11.66595356 53.01891097 3.00000000 units box
+delete_atoms region pore0492_01 compress yes
+region pore0493_01 sphere 35.55199839 37.98142395 38.92147164 3.00000000 units box
+delete_atoms region pore0493_01 compress yes
+region pore0494_01 sphere 67.05933505 81.11927995 57.96520545 3.00000000 units box
+delete_atoms region pore0494_01 compress yes
+region pore0495_01 sphere 20.11771604 50.56685796 39.89644968 3.00000000 units box
+delete_atoms region pore0495_01 compress yes
+region pore0496_01 sphere 26.59238784 83.40931354 59.46871914 3.00000000 units box
+delete_atoms region pore0496_01 compress yes
+region pore0497_01 sphere 30.91205729 61.97297550 68.50333790 3.00000000 units box
+delete_atoms region pore0497_01 compress yes
+region pore0498_01 sphere 16.70851275 73.14049298 2.36040693 3.00000000 units box
+delete_atoms region pore0498_01 compress yes
+region pore0498_02 sphere 16.70851275 73.14049298 89.12040693 3.00000000 units box
+delete_atoms region pore0498_02 compress yes
+region pore0499_01 sphere 28.46392192 32.33588297 59.23386649 3.00000000 units box
+delete_atoms region pore0499_01 compress yes
+region pore0500_01 sphere 72.91104718 56.38519049 1.15727401 3.00000000 units box
+delete_atoms region pore0500_01 compress yes
+region pore0500_02 sphere 72.91104718 56.38519049 87.91727401 3.00000000 units box
+delete_atoms region pore0500_02 compress yes
+region pore0501_01 sphere 61.24048644 85.33642801 25.85814588 3.00000000 units box
+delete_atoms region pore0501_01 compress yes
+region pore0501_02 sphere 61.24048644 -1.42357199 25.85814588 3.00000000 units box
+delete_atoms region pore0501_02 compress yes
+region pore0502_01 sphere 72.83143643 15.64513124 44.66865640 3.00000000 units box
+delete_atoms region pore0502_01 compress yes
+region pore0503_01 sphere 3.59557469 50.72551430 61.31287976 3.00000000 units box
+delete_atoms region pore0503_01 compress yes
+region pore0504_01 sphere 35.92125036 23.43729471 73.24158408 3.00000000 units box
+delete_atoms region pore0504_01 compress yes
+region pore0505_01 sphere 37.59119720 28.55640517 10.20000060 3.00000000 units box
+delete_atoms region pore0505_01 compress yes
+region pore0506_01 sphere 83.16366626 74.76925699 2.99398004 3.00000000 units box
+delete_atoms region pore0506_01 compress yes
+region pore0506_02 sphere 83.16366626 74.76925699 89.75398004 3.00000000 units box
+delete_atoms region pore0506_02 compress yes
+region pore0507_01 sphere 69.76359362 80.44151200 48.97016662 3.00000000 units box
+delete_atoms region pore0507_01 compress yes
+region pore0508_01 sphere 0.62916952 8.44810503 46.40195938 3.00000000 units box
+delete_atoms region pore0508_01 compress yes
+region pore0508_02 sphere 87.38916952 8.44810503 46.40195938 3.00000000 units box
+delete_atoms region pore0508_02 compress yes
+region pore0509_01 sphere 38.17533418 6.81686267 50.26732947 3.00000000 units box
+delete_atoms region pore0509_01 compress yes
+region pore0510_01 sphere 68.64794988 77.04102394 80.46142111 3.00000000 units box
+delete_atoms region pore0510_01 compress yes
+region pore0511_01 sphere 7.01831833 50.95522261 9.40358354 3.00000000 units box
+delete_atoms region pore0511_01 compress yes
+region pore0512_01 sphere 37.77105431 63.57381668 48.06981499 3.00000000 units box
+delete_atoms region pore0512_01 compress yes
+region pore0513_01 sphere 68.73667105 48.39115570 44.55982529 3.00000000 units box
+delete_atoms region pore0513_01 compress yes
+region pore0514_01 sphere 12.30261206 63.68622377 22.78099721 3.00000000 units box
+delete_atoms region pore0514_01 compress yes
+region pore0515_01 sphere 36.75926978 35.09135078 72.11810641 3.00000000 units box
+delete_atoms region pore0515_01 compress yes
+region pore0516_01 sphere 63.53354753 28.36968172 32.77171028 3.00000000 units box
+delete_atoms region pore0516_01 compress yes
+region pore0517_01 sphere 66.22277003 54.22951091 63.99756347 3.00000000 units box
+delete_atoms region pore0517_01 compress yes
+region pore0518_01 sphere 54.51927036 56.28741431 61.41028650 3.00000000 units box
+delete_atoms region pore0518_01 compress yes
+region pore0519_01 sphere 16.18886810 44.92490947 66.51479520 3.00000000 units box
+delete_atoms region pore0519_01 compress yes
+region pore0520_01 sphere 32.51927700 41.08934234 3.19951308 3.00000000 units box
+delete_atoms region pore0520_01 compress yes
+region pore0521_01 sphere 0.81355790 4.35535090 70.55346889 3.00000000 units box
+delete_atoms region pore0521_01 compress yes
+region pore0521_02 sphere 87.57355790 4.35535090 70.55346889 3.00000000 units box
+delete_atoms region pore0521_02 compress yes
+region pore0522_01 sphere 13.20528453 6.59626504 38.40453051 3.00000000 units box
+delete_atoms region pore0522_01 compress yes
+region pore0523_01 sphere 44.24555786 74.04240885 30.34512482 3.00000000 units box
+delete_atoms region pore0523_01 compress yes
+region pore0524_01 sphere 48.00610779 54.68660124 83.52862351 3.00000000 units box
+delete_atoms region pore0524_01 compress yes
+region pore0525_01 sphere 78.07960571 34.31148500 59.51939170 3.00000000 units box
+delete_atoms region pore0525_01 compress yes
+region pore0526_01 sphere 30.09537049 16.02880596 72.78086475 3.00000000 units box
+delete_atoms region pore0526_01 compress yes
+region pore0527_01 sphere 56.52277140 33.02933986 51.39884661 3.00000000 units box
+delete_atoms region pore0527_01 compress yes
+region pore0528_01 sphere 50.05485475 5.05440274 65.00858755 3.00000000 units box
+delete_atoms region pore0528_01 compress yes
+region pore0529_01 sphere 34.13953689 2.22913856 11.99796076 3.00000000 units box
+delete_atoms region pore0529_01 compress yes
+region pore0529_02 sphere 34.13953689 88.98913856 11.99796076 3.00000000 units box
+delete_atoms region pore0529_02 compress yes
+region pore0530_01 sphere 30.09304889 39.91651586 29.42669943 3.00000000 units box
+delete_atoms region pore0530_01 compress yes
+region pore0531_01 sphere 3.13252775 33.70695370 31.20433591 3.00000000 units box
+delete_atoms region pore0531_01 compress yes
+region pore0532_01 sphere 74.80505270 50.66742615 63.09652885 3.00000000 units box
+delete_atoms region pore0532_01 compress yes
+region pore0533_01 sphere 78.55466784 12.94723200 85.91635527 3.00000000 units box
+delete_atoms region pore0533_01 compress yes
+region pore0533_02 sphere 78.55466784 12.94723200 -0.84364473 3.00000000 units box
+delete_atoms region pore0533_02 compress yes
+region pore0534_01 sphere 76.42369476 56.27290480 27.33261412 3.00000000 units box
+delete_atoms region pore0534_01 compress yes
+region pore0535_01 sphere 17.38970082 38.32438237 8.24645890 3.00000000 units box
+delete_atoms region pore0535_01 compress yes
+region pore0536_01 sphere 64.89574093 85.39681468 76.16171576 3.00000000 units box
+delete_atoms region pore0536_01 compress yes
+region pore0536_02 sphere 64.89574093 -1.36318532 76.16171576 3.00000000 units box
+delete_atoms region pore0536_02 compress yes
+region pore0537_01 sphere 5.78416786 26.33315805 47.31735184 3.00000000 units box
+delete_atoms region pore0537_01 compress yes
+region pore0538_01 sphere 21.39600240 20.31341666 53.77360230 3.00000000 units box
+delete_atoms region pore0538_01 compress yes
+region pore0539_01 sphere 18.30715288 13.01307960 31.68889208 3.00000000 units box
+delete_atoms region pore0539_01 compress yes
+region pore0540_01 sphere 7.14827357 83.08049748 10.12260626 3.00000000 units box
+delete_atoms region pore0540_01 compress yes
+region pore0541_01 sphere 69.21707061 69.71203535 0.07084299 3.00000000 units box
+delete_atoms region pore0541_01 compress yes
+region pore0541_02 sphere 69.21707061 69.71203535 86.83084299 3.00000000 units box
+delete_atoms region pore0541_02 compress yes
+region pore0542_01 sphere 7.82134939 0.69347828 49.73668409 3.00000000 units box
+delete_atoms region pore0542_01 compress yes
+region pore0542_02 sphere 7.82134939 87.45347828 49.73668409 3.00000000 units box
+delete_atoms region pore0542_02 compress yes
+region pore0543_01 sphere 45.70230579 15.77751969 79.17186753 3.00000000 units box
+delete_atoms region pore0543_01 compress yes
+region pore0544_01 sphere 12.79940034 72.36496429 32.50780505 3.00000000 units box
+delete_atoms region pore0544_01 compress yes
+region pore0545_01 sphere 31.81589678 10.94031521 43.99432363 3.00000000 units box
+delete_atoms region pore0545_01 compress yes
+region pore0546_01 sphere 27.73637864 27.45878326 9.95262436 3.00000000 units box
+delete_atoms region pore0546_01 compress yes
+region pore0547_01 sphere 70.40284990 57.59254592 33.55397832 3.00000000 units box
+delete_atoms region pore0547_01 compress yes
+region pore0548_01 sphere 26.56155498 50.98016263 58.20421014 3.00000000 units box
+delete_atoms region pore0548_01 compress yes
+region pore0549_01 sphere 70.52052775 72.74945724 27.67357487 3.00000000 units box
+delete_atoms region pore0549_01 compress yes
+region pore0550_01 sphere 2.98608431 24.69114681 60.94251806 3.00000000 units box
+delete_atoms region pore0550_01 compress yes
+region pore0550_02 sphere 89.74608431 24.69114681 60.94251806 3.00000000 units box
+delete_atoms region pore0550_02 compress yes
+region pore0551_01 sphere 61.17826225 66.73780499 49.53380543 3.00000000 units box
+delete_atoms region pore0551_01 compress yes
+region pore0552_01 sphere 38.40824439 43.78809110 79.42690628 3.00000000 units box
+delete_atoms region pore0552_01 compress yes
+region pore0553_01 sphere 23.01510836 71.65161968 41.35825894 3.00000000 units box
+delete_atoms region pore0553_01 compress yes
+region pore0554_01 sphere 86.73260374 84.34440052 34.69854553 3.00000000 units box
+delete_atoms region pore0554_01 compress yes
+region pore0554_02 sphere 86.73260374 -2.41559948 34.69854553 3.00000000 units box
+delete_atoms region pore0554_02 compress yes
+region pore0554_03 sphere -0.02739626 84.34440052 34.69854553 3.00000000 units box
+delete_atoms region pore0554_03 compress yes
+region pore0554_04 sphere -0.02739626 -2.41559948 34.69854553 3.00000000 units box
+delete_atoms region pore0554_04 compress yes
+region pore0555_01 sphere 84.27520253 0.71920114 58.99656192 3.00000000 units box
+delete_atoms region pore0555_01 compress yes
+region pore0555_02 sphere 84.27520253 87.47920114 58.99656192 3.00000000 units box
+delete_atoms region pore0555_02 compress yes
+region pore0555_03 sphere -2.48479747 0.71920114 58.99656192 3.00000000 units box
+delete_atoms region pore0555_03 compress yes
+region pore0555_04 sphere -2.48479747 87.47920114 58.99656192 3.00000000 units box
+delete_atoms region pore0555_04 compress yes
+region pore0556_01 sphere 59.74975023 45.47805904 33.29807224 3.00000000 units box
+delete_atoms region pore0556_01 compress yes
+region pore0557_01 sphere 9.66551315 76.91605275 37.73756377 3.00000000 units box
+delete_atoms region pore0557_01 compress yes
+region pore0558_01 sphere 36.06108165 4.21310486 18.37751753 3.00000000 units box
+delete_atoms region pore0558_01 compress yes
+region pore0559_01 sphere 42.81429983 28.26214890 28.21833881 3.00000000 units box
+delete_atoms region pore0559_01 compress yes
+region pore0560_01 sphere 69.32845077 51.39467722 16.31599331 3.00000000 units box
+delete_atoms region pore0560_01 compress yes
+region pore0561_01 sphere 29.25410965 81.67131511 50.19814554 3.00000000 units box
+delete_atoms region pore0561_01 compress yes
+region pore0562_01 sphere 63.26257790 61.11006172 5.04157691 3.00000000 units box
+delete_atoms region pore0562_01 compress yes
+region pore0563_01 sphere 74.69455847 19.33016982 83.43667979 3.00000000 units box
+delete_atoms region pore0563_01 compress yes
+region pore0564_01 sphere 25.15702078 76.23369895 56.28597718 3.00000000 units box
+delete_atoms region pore0564_01 compress yes
+region pore0565_01 sphere 35.65358945 76.46809972 60.91075218 3.00000000 units box
+delete_atoms region pore0565_01 compress yes
+region pore0566_01 sphere 81.44414775 33.28959643 81.60695322 3.00000000 units box
+delete_atoms region pore0566_01 compress yes
+region pore0567_01 sphere 45.41258734 76.70701031 21.89518356 3.00000000 units box
+delete_atoms region pore0567_01 compress yes
+region pore0568_01 sphere 51.81314704 19.35367921 81.83659499 3.00000000 units box
+delete_atoms region pore0568_01 compress yes
+region pore0569_01 sphere 6.42027915 4.47872685 25.34114028 3.00000000 units box
+delete_atoms region pore0569_01 compress yes
+region pore0570_01 sphere 70.97600096 64.82844494 43.24907458 3.00000000 units box
+delete_atoms region pore0570_01 compress yes
+region pore0571_01 sphere 36.44533292 35.39063922 65.24191119 3.00000000 units box
+delete_atoms region pore0571_01 compress yes
+region pore0572_01 sphere 15.65590108 42.45037011 77.95058933 3.00000000 units box
+delete_atoms region pore0572_01 compress yes
+region pore0573_01 sphere 26.08786259 59.52516354 60.74760876 3.00000000 units box
+delete_atoms region pore0573_01 compress yes
+region pore0574_01 sphere 3.95635053 8.04282945 76.42889121 3.00000000 units box
+delete_atoms region pore0574_01 compress yes
+region pore0575_01 sphere 43.18581185 28.16101864 77.10940051 3.00000000 units box
+delete_atoms region pore0575_01 compress yes
+region pore0576_01 sphere 46.64981531 45.82715514 14.01034780 3.00000000 units box
+delete_atoms region pore0576_01 compress yes
+region pore0577_01 sphere 33.31460266 70.68084099 13.25905825 3.00000000 units box
+delete_atoms region pore0577_01 compress yes
+region pore0578_01 sphere 12.06892981 2.12875438 26.66556364 3.00000000 units box
+delete_atoms region pore0578_01 compress yes
+region pore0578_02 sphere 12.06892981 88.88875438 26.66556364 3.00000000 units box
+delete_atoms region pore0578_02 compress yes
+region pore0579_01 sphere 30.16415412 63.63811023 24.00817297 3.00000000 units box
+delete_atoms region pore0579_01 compress yes
+region pore0580_01 sphere 74.47559329 0.49608429 17.79097363 3.00000000 units box
+delete_atoms region pore0580_01 compress yes
+region pore0580_02 sphere 74.47559329 87.25608429 17.79097363 3.00000000 units box
+delete_atoms region pore0580_02 compress yes
+region pore0581_01 sphere 0.18348785 45.06965298 20.00041428 3.00000000 units box
+delete_atoms region pore0581_01 compress yes
+region pore0581_02 sphere 86.94348785 45.06965298 20.00041428 3.00000000 units box
+delete_atoms region pore0581_02 compress yes
+region pore0582_01 sphere 13.20017644 79.46784578 81.10728683 3.00000000 units box
+delete_atoms region pore0582_01 compress yes
+region pore0583_01 sphere 82.07300362 76.50006592 40.80149431 3.00000000 units box
+delete_atoms region pore0583_01 compress yes
+region pore0584_01 sphere 83.02167055 63.19530364 74.27023681 3.00000000 units box
+delete_atoms region pore0584_01 compress yes
+region pore0585_01 sphere 50.14965655 8.34995055 7.34588221 3.00000000 units box
+delete_atoms region pore0585_01 compress yes
+region pore0586_01 sphere 70.28629525 5.79079048 15.49869354 3.00000000 units box
+delete_atoms region pore0586_01 compress yes
+region pore0587_01 sphere 67.85796984 9.31778958 40.38315667 3.00000000 units box
+delete_atoms region pore0587_01 compress yes
+region pore0588_01 sphere 82.34707263 27.21175763 78.14897635 3.00000000 units box
+delete_atoms region pore0588_01 compress yes
+region pore0589_01 sphere 22.91744729 14.59751086 22.95243888 3.00000000 units box
+delete_atoms region pore0589_01 compress yes
+region pore0590_01 sphere 61.91560058 66.89163220 37.64310734 3.00000000 units box
+delete_atoms region pore0590_01 compress yes
+region pore0591_01 sphere 72.14800225 51.21055507 27.14365130 3.00000000 units box
+delete_atoms region pore0591_01 compress yes
+region pore0592_01 sphere 34.31670882 73.58873613 38.98791594 3.00000000 units box
+delete_atoms region pore0592_01 compress yes
+region pore0593_01 sphere 75.02458739 72.08171113 40.71652208 3.00000000 units box
+delete_atoms region pore0593_01 compress yes
+region pore0594_01 sphere 58.19377387 7.03133201 64.39764888 3.00000000 units box
+delete_atoms region pore0594_01 compress yes
+region pore0595_01 sphere 70.30306052 75.58319370 70.06457384 3.00000000 units box
+delete_atoms region pore0595_01 compress yes
+region pore0596_01 sphere 78.23172736 35.73643128 48.82304585 3.00000000 units box
+delete_atoms region pore0596_01 compress yes
+region pore0597_01 sphere 16.20177495 51.92557475 51.74249817 3.00000000 units box
+delete_atoms region pore0597_01 compress yes
+region pore0598_01 sphere 32.46832449 33.06933880 15.60306149 3.00000000 units box
+delete_atoms region pore0598_01 compress yes
+region pore0599_01 sphere 4.29255506 48.37335548 28.37920552 3.00000000 units box
+delete_atoms region pore0599_01 compress yes
+region pore0600_01 sphere 11.63074409 42.03228664 39.60777417 3.00000000 units box
+delete_atoms region pore0600_01 compress yes
+region pore0601_01 sphere 34.12834521 36.10567351 26.19817215 3.00000000 units box
+delete_atoms region pore0601_01 compress yes
+region pore0602_01 sphere 50.78001768 33.43189711 66.07651197 3.00000000 units box
+delete_atoms region pore0602_01 compress yes
+region pore0603_01 sphere 23.23507695 1.42390009 31.72881997 3.00000000 units box
+delete_atoms region pore0603_01 compress yes
+region pore0603_02 sphere 23.23507695 88.18390009 31.72881997 3.00000000 units box
+delete_atoms region pore0603_02 compress yes
+region pore0604_01 sphere 76.66750138 3.72978198 62.20084780 3.00000000 units box
+delete_atoms region pore0604_01 compress yes
+region pore0605_01 sphere 37.86206217 59.32772379 76.44495679 3.00000000 units box
+delete_atoms region pore0605_01 compress yes
+region pore0606_01 sphere 10.79294750 0.37520160 14.15527149 3.00000000 units box
+delete_atoms region pore0606_01 compress yes
+region pore0606_02 sphere 10.79294750 87.13520160 14.15527149 3.00000000 units box
+delete_atoms region pore0606_02 compress yes
+region pore0607_01 sphere 2.55646730 77.02628075 28.84648864 3.00000000 units box
+delete_atoms region pore0607_01 compress yes
+region pore0607_02 sphere 89.31646730 77.02628075 28.84648864 3.00000000 units box
+delete_atoms region pore0607_02 compress yes
+region pore0608_01 sphere 50.45996286 53.52171483 72.05162677 3.00000000 units box
+delete_atoms region pore0608_01 compress yes
+region pore0609_01 sphere 19.51529803 73.53357999 55.06782233 3.00000000 units box
+delete_atoms region pore0609_01 compress yes
+region pore0610_01 sphere 84.49425654 45.36257279 26.48788440 3.00000000 units box
+delete_atoms region pore0610_01 compress yes
+region pore0610_02 sphere -2.26574346 45.36257279 26.48788440 3.00000000 units box
+delete_atoms region pore0610_02 compress yes
+region pore0611_01 sphere 35.77187430 15.01362577 76.48842837 3.00000000 units box
+delete_atoms region pore0611_01 compress yes
+region pore0612_01 sphere 61.93978989 69.89267309 24.56241531 3.00000000 units box
+delete_atoms region pore0612_01 compress yes
+region pore0613_01 sphere 67.05242511 23.80297663 45.24394290 3.00000000 units box
+delete_atoms region pore0613_01 compress yes
+region pore0614_01 sphere 69.27561626 55.99847966 80.58378151 3.00000000 units box
+delete_atoms region pore0614_01 compress yes
+region pore0615_01 sphere 67.20357508 51.45446937 71.71333529 3.00000000 units box
+delete_atoms region pore0615_01 compress yes
+region pore0616_01 sphere 76.28534358 68.25050174 73.75918407 3.00000000 units box
+delete_atoms region pore0616_01 compress yes
+region pore0617_01 sphere 29.41042937 86.36658855 79.71093881 3.00000000 units box
+delete_atoms region pore0617_01 compress yes
+region pore0617_02 sphere 29.41042937 -0.39341145 79.71093881 3.00000000 units box
+delete_atoms region pore0617_02 compress yes
+region pore0618_01 sphere 24.19830260 64.56109348 86.75295098 3.00000000 units box
+delete_atoms region pore0618_01 compress yes
+region pore0618_02 sphere 24.19830260 64.56109348 -0.00704902 3.00000000 units box
+delete_atoms region pore0618_02 compress yes
+region pore0619_01 sphere 27.07015284 70.95672577 26.38571345 3.00000000 units box
+delete_atoms region pore0619_01 compress yes
+region pore0620_01 sphere 10.72277469 5.70907552 46.73793749 3.00000000 units box
+delete_atoms region pore0620_01 compress yes
+region pore0621_01 sphere 14.92109524 68.59307270 59.80602723 3.00000000 units box
+delete_atoms region pore0621_01 compress yes
+region pore0622_01 sphere 71.25995524 16.78268298 7.22566989 3.00000000 units box
+delete_atoms region pore0622_01 compress yes
+region pore0623_01 sphere 19.32834059 43.98944422 83.13537310 3.00000000 units box
+delete_atoms region pore0623_01 compress yes
+region pore0624_01 sphere 72.28248138 10.89524081 1.47534704 3.00000000 units box
+delete_atoms region pore0624_01 compress yes
+region pore0624_02 sphere 72.28248138 10.89524081 88.23534704 3.00000000 units box
+delete_atoms region pore0624_02 compress yes
+region pore0625_01 sphere 34.19222383 45.24945697 59.10098001 3.00000000 units box
+delete_atoms region pore0625_01 compress yes
+region pore0626_01 sphere 17.00920968 17.21692521 76.85745763 3.00000000 units box
+delete_atoms region pore0626_01 compress yes
+region pore0627_01 sphere 35.63302800 64.41499621 84.00440350 3.00000000 units box
+delete_atoms region pore0627_01 compress yes
+region pore0627_02 sphere 35.63302800 64.41499621 -2.75559650 3.00000000 units box
+delete_atoms region pore0627_02 compress yes
+region pore0628_01 sphere 11.47042559 76.32465553 66.51618575 3.00000000 units box
+delete_atoms region pore0628_01 compress yes
+region pore0629_01 sphere 69.94253047 83.77495018 69.64275407 3.00000000 units box
+delete_atoms region pore0629_01 compress yes
+region pore0629_02 sphere 69.94253047 -2.98504982 69.64275407 3.00000000 units box
+delete_atoms region pore0629_02 compress yes
+region pore0630_01 sphere 40.19953662 30.83667250 22.81160117 3.00000000 units box
+delete_atoms region pore0630_01 compress yes
+region pore0631_01 sphere 64.37394645 11.44455100 66.93376675 3.00000000 units box
+delete_atoms region pore0631_01 compress yes
+region pore0632_01 sphere 81.85725317 71.97017584 24.27586696 3.00000000 units box
+delete_atoms region pore0632_01 compress yes
+region pore0633_01 sphere 57.96159498 79.45395656 2.21209702 3.00000000 units box
+delete_atoms region pore0633_01 compress yes
+region pore0633_02 sphere 57.96159498 79.45395656 88.97209702 3.00000000 units box
+delete_atoms region pore0633_02 compress yes
+region pore0634_01 sphere 67.49699809 10.96349818 54.04805765 3.00000000 units box
+delete_atoms region pore0634_01 compress yes
+region pore0635_01 sphere 63.12735740 58.15697563 79.40314791 3.00000000 units box
+delete_atoms region pore0635_01 compress yes
+region pore0636_01 sphere 28.53658043 9.88617580 23.85521595 3.00000000 units box
+delete_atoms region pore0636_01 compress yes
+region pore0637_01 sphere 44.97679029 49.05507590 85.92016291 3.00000000 units box
+delete_atoms region pore0637_01 compress yes
+region pore0637_02 sphere 44.97679029 49.05507590 -0.83983709 3.00000000 units box
+delete_atoms region pore0637_02 compress yes
+region pore0638_01 sphere 65.89353027 72.92492810 43.63647506 3.00000000 units box
+delete_atoms region pore0638_01 compress yes
+region pore0639_01 sphere 52.05608149 61.56519070 76.98701486 3.00000000 units box
+delete_atoms region pore0639_01 compress yes
+region pore0640_01 sphere 35.89484646 20.94593864 48.32514082 3.00000000 units box
+delete_atoms region pore0640_01 compress yes
+region pore0641_01 sphere 6.15941732 71.13892802 44.89367177 3.00000000 units box
+delete_atoms region pore0641_01 compress yes
+region pore0642_01 sphere 50.47889080 63.45087611 1.65660042 3.00000000 units box
+delete_atoms region pore0642_01 compress yes
+region pore0642_02 sphere 50.47889080 63.45087611 88.41660042 3.00000000 units box
+delete_atoms region pore0642_02 compress yes
+region pore0643_01 sphere 2.12852991 66.70343461 64.12754167 3.00000000 units box
+delete_atoms region pore0643_01 compress yes
+region pore0643_02 sphere 88.88852991 66.70343461 64.12754167 3.00000000 units box
+delete_atoms region pore0643_02 compress yes
+region pore0644_01 sphere 40.92875539 43.58871396 72.34024024 3.00000000 units box
+delete_atoms region pore0644_01 compress yes
+region pore0645_01 sphere 17.99117907 34.50620947 38.67649445 3.00000000 units box
+delete_atoms region pore0645_01 compress yes
+region pore0646_01 sphere 14.58490808 50.04784122 84.88958890 3.00000000 units box
+delete_atoms region pore0646_01 compress yes
+region pore0646_02 sphere 14.58490808 50.04784122 -1.87041110 3.00000000 units box
+delete_atoms region pore0646_02 compress yes
+region pore0647_01 sphere 34.05868386 1.30852275 34.72449294 3.00000000 units box
+delete_atoms region pore0647_01 compress yes
+region pore0647_02 sphere 34.05868386 88.06852275 34.72449294 3.00000000 units box
+delete_atoms region pore0647_02 compress yes
+region pore0648_01 sphere 25.66249394 60.55051580 44.28538706 3.00000000 units box
+delete_atoms region pore0648_01 compress yes
+region pore0649_01 sphere 81.15165590 80.34987827 46.23471720 3.00000000 units box
+delete_atoms region pore0649_01 compress yes
+region pore0650_01 sphere 65.18068142 46.40396142 85.05928078 3.00000000 units box
+delete_atoms region pore0650_01 compress yes
+region pore0650_02 sphere 65.18068142 46.40396142 -1.70071922 3.00000000 units box
+delete_atoms region pore0650_02 compress yes
+region pore0651_01 sphere 6.81118440 2.25360425 18.88987538 3.00000000 units box
+delete_atoms region pore0651_01 compress yes
+region pore0651_02 sphere 6.81118440 89.01360425 18.88987538 3.00000000 units box
+delete_atoms region pore0651_02 compress yes
+region pore0652_01 sphere 33.40640371 83.84527068 58.84654539 3.00000000 units box
+delete_atoms region pore0652_01 compress yes
+region pore0652_02 sphere 33.40640371 -2.91472932 58.84654539 3.00000000 units box
+delete_atoms region pore0652_02 compress yes
+region pore0653_01 sphere 38.69811016 81.19476694 80.51892522 3.00000000 units box
+delete_atoms region pore0653_01 compress yes
+region pore0654_01 sphere 64.61753009 85.76897311 34.62497657 3.00000000 units box
+delete_atoms region pore0654_01 compress yes
+region pore0654_02 sphere 64.61753009 -0.99102689 34.62497657 3.00000000 units box
+delete_atoms region pore0654_02 compress yes
+region pore0655_01 sphere 1.12967396 26.60190786 11.72785734 3.00000000 units box
+delete_atoms region pore0655_01 compress yes
+region pore0655_02 sphere 87.88967396 26.60190786 11.72785734 3.00000000 units box
+delete_atoms region pore0655_02 compress yes
+region pore0656_01 sphere 2.64549970 62.59597129 24.56920667 3.00000000 units box
+delete_atoms region pore0656_01 compress yes
+region pore0656_02 sphere 89.40549970 62.59597129 24.56920667 3.00000000 units box
+delete_atoms region pore0656_02 compress yes
+region pore0657_01 sphere 42.06736472 39.93969217 26.24788972 3.00000000 units box
+delete_atoms region pore0657_01 compress yes
+region pore0658_01 sphere 62.25649235 36.26581763 36.72485456 3.00000000 units box
+delete_atoms region pore0658_01 compress yes
+region pore0659_01 sphere 3.38289915 1.96618002 10.97341335 3.00000000 units box
+delete_atoms region pore0659_01 compress yes
+region pore0659_02 sphere 3.38289915 88.72618002 10.97341335 3.00000000 units box
+delete_atoms region pore0659_02 compress yes
+region pore0660_01 sphere 80.39807992 84.29652971 33.12173479 3.00000000 units box
+delete_atoms region pore0660_01 compress yes
+region pore0660_02 sphere 80.39807992 -2.46347029 33.12173479 3.00000000 units box
+delete_atoms region pore0660_02 compress yes
+region pore0661_01 sphere 81.85649671 26.19673981 37.44557893 3.00000000 units box
+delete_atoms region pore0661_01 compress yes
+region pore0662_01 sphere 45.49215039 29.94073969 68.89650127 3.00000000 units box
+delete_atoms region pore0662_01 compress yes
+region pore0663_01 sphere 45.09562176 13.44212875 61.17798505 3.00000000 units box
+delete_atoms region pore0663_01 compress yes
+region pore0664_01 sphere 56.49248756 42.81110127 5.14256827 3.00000000 units box
+delete_atoms region pore0664_01 compress yes
+region pore0665_01 sphere 55.83229680 34.63314717 21.57965781 3.00000000 units box
+delete_atoms region pore0665_01 compress yes
+region pore0666_01 sphere 43.60480915 57.81809494 51.85329006 3.00000000 units box
+delete_atoms region pore0666_01 compress yes
+region pore0667_01 sphere 35.10278375 24.48741377 4.17400184 3.00000000 units box
+delete_atoms region pore0667_01 compress yes
+region pore0668_01 sphere 86.68804248 2.38321166 50.69908400 3.00000000 units box
+delete_atoms region pore0668_01 compress yes
+region pore0668_02 sphere 86.68804248 89.14321166 50.69908400 3.00000000 units box
+delete_atoms region pore0668_02 compress yes
+region pore0668_03 sphere -0.07195752 2.38321166 50.69908400 3.00000000 units box
+delete_atoms region pore0668_03 compress yes
+region pore0668_04 sphere -0.07195752 89.14321166 50.69908400 3.00000000 units box
+delete_atoms region pore0668_04 compress yes
+region pore0669_01 sphere 20.04508759 65.27388514 41.24451182 3.00000000 units box
+delete_atoms region pore0669_01 compress yes
+region pore0670_01 sphere 41.69411175 43.90515439 53.60560031 3.00000000 units box
+delete_atoms region pore0670_01 compress yes
+region pore0671_01 sphere 43.44934121 19.91056447 6.47345331 3.00000000 units box
+delete_atoms region pore0671_01 compress yes
+region pore0672_01 sphere 38.13883982 84.94347291 6.19987534 3.00000000 units box
+delete_atoms region pore0672_01 compress yes
+region pore0672_02 sphere 38.13883982 -1.81652709 6.19987534 3.00000000 units box
+delete_atoms region pore0672_02 compress yes
+region pore0673_01 sphere 24.53718863 33.52912158 75.39354812 3.00000000 units box
+delete_atoms region pore0673_01 compress yes
+region pore0674_01 sphere 37.39123371 14.85210233 46.79362332 3.00000000 units box
+delete_atoms region pore0674_01 compress yes
+region pore0675_01 sphere 43.61550651 4.84082693 44.06487115 3.00000000 units box
+delete_atoms region pore0675_01 compress yes
+region pore0676_01 sphere 32.16338785 30.00127742 37.87934458 3.00000000 units box
+delete_atoms region pore0676_01 compress yes
+region pore0677_01 sphere 8.32309348 41.12323548 30.14630277 3.00000000 units box
+delete_atoms region pore0677_01 compress yes
+region pore0678_01 sphere 53.91490253 64.44517123 49.78964304 3.00000000 units box
+delete_atoms region pore0678_01 compress yes
+region pore0679_01 sphere 17.00077183 75.75877745 62.87385394 3.00000000 units box
+delete_atoms region pore0679_01 compress yes
+region pore0680_01 sphere 52.40234037 70.94605648 26.00457952 3.00000000 units box
+delete_atoms region pore0680_01 compress yes
+region pore0681_01 sphere 27.20026412 59.98880335 30.17809200 3.00000000 units box
+delete_atoms region pore0681_01 compress yes
+region pore0682_01 sphere 56.50438270 55.66440589 9.02325845 3.00000000 units box
+delete_atoms region pore0682_01 compress yes
+region pore0683_01 sphere 84.93684754 9.23454463 13.07191363 3.00000000 units box
+delete_atoms region pore0683_01 compress yes
+region pore0683_02 sphere -1.82315246 9.23454463 13.07191363 3.00000000 units box
+delete_atoms region pore0683_02 compress yes
+region pore0684_01 sphere 85.11129995 67.76902595 51.83898206 3.00000000 units box
+delete_atoms region pore0684_01 compress yes
+region pore0684_02 sphere -1.64870005 67.76902595 51.83898206 3.00000000 units box
+delete_atoms region pore0684_02 compress yes
+region pore0685_01 sphere 29.23546548 52.43290575 37.52044856 3.00000000 units box
+delete_atoms region pore0685_01 compress yes
+region pore0686_01 sphere 84.94239408 86.51146731 28.87192018 3.00000000 units box
+delete_atoms region pore0686_01 compress yes
+region pore0686_02 sphere 84.94239408 -0.24853269 28.87192018 3.00000000 units box
+delete_atoms region pore0686_02 compress yes
+region pore0686_03 sphere -1.81760592 86.51146731 28.87192018 3.00000000 units box
+delete_atoms region pore0686_03 compress yes
+region pore0686_04 sphere -1.81760592 -0.24853269 28.87192018 3.00000000 units box
+delete_atoms region pore0686_04 compress yes
+region pore0687_01 sphere 69.81397423 40.19328771 52.06901751 3.00000000 units box
+delete_atoms region pore0687_01 compress yes
+region pore0688_01 sphere 71.29860275 39.74691432 28.24360645 3.00000000 units box
+delete_atoms region pore0688_01 compress yes
+region pore0689_01 sphere 71.18804654 74.43601458 48.07057160 3.00000000 units box
+delete_atoms region pore0689_01 compress yes
+region pore0690_01 sphere 1.74779220 60.65175917 7.26585639 3.00000000 units box
+delete_atoms region pore0690_01 compress yes
+region pore0690_02 sphere 88.50779220 60.65175917 7.26585639 3.00000000 units box
+delete_atoms region pore0690_02 compress yes
+region pore0691_01 sphere 54.23949323 78.85520102 59.73100385 3.00000000 units box
+delete_atoms region pore0691_01 compress yes
+region pore0692_01 sphere 47.57419194 0.31879924 19.50323670 3.00000000 units box
+delete_atoms region pore0692_01 compress yes
+region pore0692_02 sphere 47.57419194 87.07879924 19.50323670 3.00000000 units box
+delete_atoms region pore0692_02 compress yes
+region pore0693_01 sphere 42.54376975 49.47116306 31.20326327 3.00000000 units box
+delete_atoms region pore0693_01 compress yes
+region pore0694_01 sphere 81.64585901 71.09562149 57.98904437 3.00000000 units box
+delete_atoms region pore0694_01 compress yes
+region pore0695_01 sphere 16.58966503 51.95325269 63.85025830 3.00000000 units box
+delete_atoms region pore0695_01 compress yes
+region pore0696_01 sphere 83.01254817 60.58370708 31.02000033 3.00000000 units box
+delete_atoms region pore0696_01 compress yes
+region pore0697_01 sphere 48.02160148 62.23859353 82.18787542 3.00000000 units box
+delete_atoms region pore0697_01 compress yes
+region pore0698_01 sphere 69.32759720 55.50096560 47.05664854 3.00000000 units box
+delete_atoms region pore0698_01 compress yes
+region pore0699_01 sphere 20.38251341 18.58223143 67.32629578 3.00000000 units box
+delete_atoms region pore0699_01 compress yes
+region pore0700_01 sphere 16.84169365 69.13468067 14.16225198 3.00000000 units box
+delete_atoms region pore0700_01 compress yes
+region pore0701_01 sphere 35.90326821 15.80650986 2.34484556 3.00000000 units box
+delete_atoms region pore0701_01 compress yes
+region pore0701_02 sphere 35.90326821 15.80650986 89.10484556 3.00000000 units box
+delete_atoms region pore0701_02 compress yes
+region pore0702_01 sphere 26.00268513 68.16574949 69.08713474 3.00000000 units box
+delete_atoms region pore0702_01 compress yes
+region pore0703_01 sphere 39.11458491 81.21895583 15.33004135 3.00000000 units box
+delete_atoms region pore0703_01 compress yes
+region pore0704_01 sphere 8.82790894 15.94954706 27.58030559 3.00000000 units box
+delete_atoms region pore0704_01 compress yes
+region pore0705_01 sphere 79.52465029 20.91595066 1.59736553 3.00000000 units box
+delete_atoms region pore0705_01 compress yes
+region pore0705_02 sphere 79.52465029 20.91595066 88.35736553 3.00000000 units box
+delete_atoms region pore0705_02 compress yes
+region pore0706_01 sphere 19.97077830 2.75719213 82.84664658 3.00000000 units box
+delete_atoms region pore0706_01 compress yes
+region pore0706_02 sphere 19.97077830 89.51719213 82.84664658 3.00000000 units box
+delete_atoms region pore0706_02 compress yes
+region pore0707_01 sphere 71.89676289 34.16298528 84.99151403 3.00000000 units box
+delete_atoms region pore0707_01 compress yes
+region pore0707_02 sphere 71.89676289 34.16298528 -1.76848597 3.00000000 units box
+delete_atoms region pore0707_02 compress yes
+region pore0708_01 sphere 70.49903985 13.62763896 34.24273027 3.00000000 units box
+delete_atoms region pore0708_01 compress yes
+region pore0709_01 sphere 75.55125594 57.30089475 82.34539454 3.00000000 units box
+delete_atoms region pore0709_01 compress yes
+region pore0710_01 sphere 51.81274523 47.63856093 0.38432979 3.00000000 units box
+delete_atoms region pore0710_01 compress yes
+region pore0710_02 sphere 51.81274523 47.63856093 87.14432979 3.00000000 units box
+delete_atoms region pore0710_02 compress yes
+region pore0711_01 sphere 50.76238925 55.21434602 48.51064794 3.00000000 units box
+delete_atoms region pore0711_01 compress yes
+region pore0712_01 sphere 52.58534813 60.72623816 7.25358031 3.00000000 units box
+delete_atoms region pore0712_01 compress yes
+region pore0713_01 sphere 86.69626238 44.31859367 76.86418890 3.00000000 units box
+delete_atoms region pore0713_01 compress yes
+region pore0713_02 sphere -0.06373762 44.31859367 76.86418890 3.00000000 units box
+delete_atoms region pore0713_02 compress yes
+region pore0714_01 sphere 78.39115115 36.49586604 67.49159183 3.00000000 units box
+delete_atoms region pore0714_01 compress yes
+region pore0715_01 sphere 10.83032935 4.69558907 8.28432938 3.00000000 units box
+delete_atoms region pore0715_01 compress yes
+region pore0716_01 sphere 14.54890700 8.54363880 23.65666897 3.00000000 units box
+delete_atoms region pore0716_01 compress yes
+region pore0717_01 sphere 77.66964381 73.39844526 29.10701893 3.00000000 units box
+delete_atoms region pore0717_01 compress yes
+region pore0718_01 sphere 39.82282644 24.05638064 67.16985642 3.00000000 units box
+delete_atoms region pore0718_01 compress yes
+region pore0719_01 sphere 4.00910651 42.14450951 42.07693849 3.00000000 units box
+delete_atoms region pore0719_01 compress yes
+region pore0720_01 sphere 6.97549756 65.44170741 49.36559636 3.00000000 units box
+delete_atoms region pore0720_01 compress yes
+region pore0721_01 sphere 38.29043861 73.62234329 86.47011694 3.00000000 units box
+delete_atoms region pore0721_01 compress yes
+region pore0721_02 sphere 38.29043861 73.62234329 -0.28988306 3.00000000 units box
+delete_atoms region pore0721_02 compress yes
+region pore0722_01 sphere 77.38926615 56.44339939 38.84532674 3.00000000 units box
+delete_atoms region pore0722_01 compress yes
+region pore0723_01 sphere 42.03426254 57.73331959 29.56237722 3.00000000 units box
+delete_atoms region pore0723_01 compress yes
+region pore0724_01 sphere 0.19214046 43.81055177 7.06324433 3.00000000 units box
+delete_atoms region pore0724_01 compress yes
+region pore0724_02 sphere 86.95214046 43.81055177 7.06324433 3.00000000 units box
+delete_atoms region pore0724_02 compress yes
+region pore0725_01 sphere 29.91648367 53.01748046 22.60082706 3.00000000 units box
+delete_atoms region pore0725_01 compress yes
+region pore0726_01 sphere 28.58143944 71.79799019 17.94763712 3.00000000 units box
+delete_atoms region pore0726_01 compress yes
+region pore0727_01 sphere 10.07143611 39.05560221 86.46964465 3.00000000 units box
+delete_atoms region pore0727_01 compress yes
+region pore0727_02 sphere 10.07143611 39.05560221 -0.29035535 3.00000000 units box
+delete_atoms region pore0727_02 compress yes
+region pore0728_01 sphere 32.40319407 26.24244308 68.65274243 3.00000000 units box
+delete_atoms region pore0728_01 compress yes
+region pore0729_01 sphere 72.14021742 78.88075676 26.58012907 3.00000000 units box
+delete_atoms region pore0729_01 compress yes
+region pore0730_01 sphere 71.58896349 25.12934828 83.67385971 3.00000000 units box
+delete_atoms region pore0730_01 compress yes
+region pore0731_01 sphere 26.29846396 79.44952686 6.16985358 3.00000000 units box
+delete_atoms region pore0731_01 compress yes
+region pore0732_01 sphere 39.31516175 78.04508103 36.27775473 3.00000000 units box
+delete_atoms region pore0732_01 compress yes
+region pore0733_01 sphere 63.20209223 83.33955397 2.23873598 3.00000000 units box
+delete_atoms region pore0733_01 compress yes
+region pore0733_02 sphere 63.20209223 83.33955397 88.99873598 3.00000000 units box
+delete_atoms region pore0733_02 compress yes
+region pore0734_01 sphere 82.59268693 32.31021839 43.81902147 3.00000000 units box
+delete_atoms region pore0734_01 compress yes
+region pore0735_01 sphere 6.65302587 63.95974070 59.25397026 3.00000000 units box
+delete_atoms region pore0735_01 compress yes
+region pore0736_01 sphere 31.54467284 0.63606490 4.03749306 3.00000000 units box
+delete_atoms region pore0736_01 compress yes
+region pore0736_02 sphere 31.54467284 87.39606490 4.03749306 3.00000000 units box
+delete_atoms region pore0736_02 compress yes
+region pore0737_01 sphere 25.07974574 68.16854376 46.87518634 3.00000000 units box
+delete_atoms region pore0737_01 compress yes
+region pore0738_01 sphere 36.45265194 57.33754080 13.31939313 3.00000000 units box
+delete_atoms region pore0738_01 compress yes
+region pore0739_01 sphere 44.76809227 18.18952217 24.41679035 3.00000000 units box
+delete_atoms region pore0739_01 compress yes
+region pore0740_01 sphere 14.58809054 33.39796005 71.09313345 3.00000000 units box
+delete_atoms region pore0740_01 compress yes
+region pore0741_01 sphere 44.07222567 39.79696925 47.65203375 3.00000000 units box
+delete_atoms region pore0741_01 compress yes
+region pore0742_01 sphere 60.19380218 49.66701199 1.37423226 3.00000000 units box
+delete_atoms region pore0742_01 compress yes
+region pore0742_02 sphere 60.19380218 49.66701199 88.13423226 3.00000000 units box
+delete_atoms region pore0742_02 compress yes
+region pore0743_01 sphere 53.22758824 75.35825193 78.66173509 3.00000000 units box
+delete_atoms region pore0743_01 compress yes
+region pore0744_01 sphere 81.39839253 33.89113916 34.40334293 3.00000000 units box
+delete_atoms region pore0744_01 compress yes
+region pore0745_01 sphere 64.62834420 62.00708279 73.62076674 3.00000000 units box
+delete_atoms region pore0745_01 compress yes
+region pore0746_01 sphere 36.03638225 74.87096484 26.70366785 3.00000000 units box
+delete_atoms region pore0746_01 compress yes
+region pore0747_01 sphere 7.63242386 85.66966411 2.42052469 3.00000000 units box
+delete_atoms region pore0747_01 compress yes
+region pore0747_02 sphere 7.63242386 85.66966411 89.18052469 3.00000000 units box
+delete_atoms region pore0747_02 compress yes
+region pore0747_03 sphere 7.63242386 -1.09033589 2.42052469 3.00000000 units box
+delete_atoms region pore0747_03 compress yes
+region pore0747_04 sphere 7.63242386 -1.09033589 89.18052469 3.00000000 units box
+delete_atoms region pore0747_04 compress yes
+region pore0748_01 sphere 16.06941290 80.18581641 2.02368324 3.00000000 units box
+delete_atoms region pore0748_01 compress yes
+region pore0748_02 sphere 16.06941290 80.18581641 88.78368324 3.00000000 units box
+delete_atoms region pore0748_02 compress yes
+region pore0749_01 sphere 70.15031583 78.25578858 40.56891789 3.00000000 units box
+delete_atoms region pore0749_01 compress yes
+region pore0750_01 sphere 76.21610268 51.49241136 54.77262905 3.00000000 units box
+delete_atoms region pore0750_01 compress yes
+region pore0751_01 sphere 46.23712789 68.25402241 52.08975987 3.00000000 units box
+delete_atoms region pore0751_01 compress yes
+region pore0752_01 sphere 38.57788597 68.87725319 36.73387788 3.00000000 units box
+delete_atoms region pore0752_01 compress yes
+region pore0753_01 sphere 60.48428729 84.86510476 41.94147178 3.00000000 units box
+delete_atoms region pore0753_01 compress yes
+region pore0753_02 sphere 60.48428729 -1.89489524 41.94147178 3.00000000 units box
+delete_atoms region pore0753_02 compress yes
+region pore0754_01 sphere 51.84047964 9.78403346 45.96168277 3.00000000 units box
+delete_atoms region pore0754_01 compress yes
+region pore0755_01 sphere 43.70345656 68.07809002 76.21305346 3.00000000 units box
+delete_atoms region pore0755_01 compress yes
+region pore0756_01 sphere 66.70795126 7.13543457 85.15593147 3.00000000 units box
+delete_atoms region pore0756_01 compress yes
+region pore0756_02 sphere 66.70795126 7.13543457 -1.60406853 3.00000000 units box
+delete_atoms region pore0756_02 compress yes
+region pore0757_01 sphere 82.96991535 17.91566277 39.03800711 3.00000000 units box
+delete_atoms region pore0757_01 compress yes
+region pore0758_01 sphere 58.13614447 1.90924823 14.70631831 3.00000000 units box
+delete_atoms region pore0758_01 compress yes
+region pore0758_02 sphere 58.13614447 88.66924823 14.70631831 3.00000000 units box
+delete_atoms region pore0758_02 compress yes
+region pore0759_01 sphere 8.98732306 84.42244097 40.17968386 3.00000000 units box
+delete_atoms region pore0759_01 compress yes
+region pore0759_02 sphere 8.98732306 -2.33755903 40.17968386 3.00000000 units box
+delete_atoms region pore0759_02 compress yes
+region pore0760_01 sphere 61.88484023 28.00722666 64.11677337 3.00000000 units box
+delete_atoms region pore0760_01 compress yes
+region pore0761_01 sphere 26.18780664 32.51973192 23.76025377 3.00000000 units box
+delete_atoms region pore0761_01 compress yes
+region pore0762_01 sphere 84.42795457 23.15901593 47.58112694 3.00000000 units box
+delete_atoms region pore0762_01 compress yes
+region pore0762_02 sphere -2.33204543 23.15901593 47.58112694 3.00000000 units box
+delete_atoms region pore0762_02 compress yes
+region pore0763_01 sphere 81.70314041 52.53788255 43.73564650 3.00000000 units box
+delete_atoms region pore0763_01 compress yes
+region pore0764_01 sphere 60.17001605 44.08690972 62.83225730 3.00000000 units box
+delete_atoms region pore0764_01 compress yes
+region pore0765_01 sphere 40.84299412 25.84167887 50.78767762 3.00000000 units box
+delete_atoms region pore0765_01 compress yes
+region pore0766_01 sphere 81.96740247 6.69584339 68.50117233 3.00000000 units box
+delete_atoms region pore0766_01 compress yes
+region pore0767_01 sphere 79.39470764 60.47141307 66.67428513 3.00000000 units box
+delete_atoms region pore0767_01 compress yes
+region pore0768_01 sphere 82.37767123 4.28694682 21.66288465 3.00000000 units box
+delete_atoms region pore0768_01 compress yes
+region pore0769_01 sphere 18.30224987 85.43312156 40.40504940 3.00000000 units box
+delete_atoms region pore0769_01 compress yes
+region pore0769_02 sphere 18.30224987 -1.32687844 40.40504940 3.00000000 units box
+delete_atoms region pore0769_02 compress yes
+region pore0770_01 sphere 64.83993391 29.61937300 15.08743126 3.00000000 units box
+delete_atoms region pore0770_01 compress yes
+region pore0771_01 sphere 8.25882582 3.45873745 34.25403800 3.00000000 units box
+delete_atoms region pore0771_01 compress yes
+region pore0772_01 sphere 36.41825991 44.67124922 48.95376970 3.00000000 units box
+delete_atoms region pore0772_01 compress yes
+region pore0773_01 sphere 47.35151976 22.94332451 11.97150393 3.00000000 units box
+delete_atoms region pore0773_01 compress yes
+region pore0774_01 sphere 66.19298962 33.41735482 64.54428067 3.00000000 units box
+delete_atoms region pore0774_01 compress yes
+region pore0775_01 sphere 78.56114938 66.59475083 24.86781720 3.00000000 units box
+delete_atoms region pore0775_01 compress yes
+region pore0776_01 sphere 83.58430940 65.68333799 10.24713361 3.00000000 units box
+delete_atoms region pore0776_01 compress yes
+region pore0777_01 sphere 66.80607104 6.70994591 70.45631936 3.00000000 units box
+delete_atoms region pore0777_01 compress yes
+region pore0778_01 sphere 29.92013905 6.54265132 29.11791665 3.00000000 units box
+delete_atoms region pore0778_01 compress yes
+region pore0779_01 sphere 40.96482557 63.21977198 25.33601144 3.00000000 units box
+delete_atoms region pore0779_01 compress yes
+region pore0780_01 sphere 80.83770791 51.38618555 8.23003473 3.00000000 units box
+delete_atoms region pore0780_01 compress yes
+region pore0781_01 sphere 58.01934164 68.45591290 15.71794168 3.00000000 units box
+delete_atoms region pore0781_01 compress yes
+region pore0782_01 sphere 62.56272446 59.74200063 17.93651653 3.00000000 units box
+delete_atoms region pore0782_01 compress yes
+region pore0783_01 sphere 51.14977477 52.03619682 11.73285529 3.00000000 units box
+delete_atoms region pore0783_01 compress yes
+region pore0784_01 sphere 29.26795435 52.11092297 68.08513247 3.00000000 units box
+delete_atoms region pore0784_01 compress yes
+region pore0785_01 sphere 18.64936917 83.41027459 26.96933137 3.00000000 units box
+delete_atoms region pore0785_01 compress yes
+region pore0786_01 sphere 27.05817413 0.36758655 8.58152204 3.00000000 units box
+delete_atoms region pore0786_01 compress yes
+region pore0786_02 sphere 27.05817413 87.12758655 8.58152204 3.00000000 units box
+delete_atoms region pore0786_02 compress yes
+region pore0787_01 sphere 22.96785858 75.24072666 68.56917729 3.00000000 units box
+delete_atoms region pore0787_01 compress yes
+region pore0788_01 sphere 28.60856731 41.13350265 59.69607327 3.00000000 units box
+delete_atoms region pore0788_01 compress yes
+region pore0789_01 sphere 26.00794516 40.17832742 11.62991251 3.00000000 units box
+delete_atoms region pore0789_01 compress yes
+region pore0790_01 sphere 23.17311173 84.63297290 85.72712147 3.00000000 units box
+delete_atoms region pore0790_01 compress yes
+region pore0790_02 sphere 23.17311173 84.63297290 -1.03287853 3.00000000 units box
+delete_atoms region pore0790_02 compress yes
+region pore0790_03 sphere 23.17311173 -2.12702710 85.72712147 3.00000000 units box
+delete_atoms region pore0790_03 compress yes
+region pore0790_04 sphere 23.17311173 -2.12702710 -1.03287853 3.00000000 units box
+delete_atoms region pore0790_04 compress yes
+region pore0791_01 sphere 51.33744850 2.81416943 14.49138973 3.00000000 units box
+delete_atoms region pore0791_01 compress yes
+region pore0791_02 sphere 51.33744850 89.57416943 14.49138973 3.00000000 units box
+delete_atoms region pore0791_02 compress yes
+region pore0792_01 sphere 79.25295377 26.51000771 14.11359334 3.00000000 units box
+delete_atoms region pore0792_01 compress yes
+region pore0793_01 sphere 2.65269017 7.87846373 52.68803847 3.00000000 units box
+delete_atoms region pore0793_01 compress yes
+region pore0793_02 sphere 89.41269017 7.87846373 52.68803847 3.00000000 units box
+delete_atoms region pore0793_02 compress yes
+region pore0794_01 sphere 6.43403357 58.87799262 31.07940150 3.00000000 units box
+delete_atoms region pore0794_01 compress yes
+region pore0795_01 sphere 73.19994893 16.14831174 61.30612437 3.00000000 units box
+delete_atoms region pore0795_01 compress yes
+region pore0796_01 sphere 54.82393471 37.45216589 73.25989499 3.00000000 units box
+delete_atoms region pore0796_01 compress yes
+region pore0797_01 sphere 66.41840061 65.62352816 82.86911589 3.00000000 units box
+delete_atoms region pore0797_01 compress yes
+region pore0798_01 sphere 55.85535110 48.12350902 26.26042679 3.00000000 units box
+delete_atoms region pore0798_01 compress yes
+region pore0799_01 sphere 42.58546140 83.29749323 51.98300475 3.00000000 units box
+delete_atoms region pore0799_01 compress yes
+region pore0800_01 sphere 39.46260126 33.55059740 13.67127769 3.00000000 units box
+delete_atoms region pore0800_01 compress yes
+region pore0801_01 sphere 59.50934894 76.09429733 49.53502371 3.00000000 units box
+delete_atoms region pore0801_01 compress yes
+region pore0802_01 sphere 41.83579833 64.29827296 60.47225071 3.00000000 units box
+delete_atoms region pore0802_01 compress yes
+region pore0803_01 sphere 56.82997510 65.32552636 21.90026445 3.00000000 units box
+delete_atoms region pore0803_01 compress yes
+region pore0804_01 sphere 70.20577735 70.39879911 8.94698415 3.00000000 units box
+delete_atoms region pore0804_01 compress yes
+region pore0805_01 sphere 86.56532734 55.47956897 12.54235467 3.00000000 units box
+delete_atoms region pore0805_01 compress yes
+region pore0805_02 sphere -0.19467266 55.47956897 12.54235467 3.00000000 units box
+delete_atoms region pore0805_02 compress yes
+region pore0806_01 sphere 45.87093347 31.23009292 81.94953337 3.00000000 units box
+delete_atoms region pore0806_01 compress yes
+region pore0807_01 sphere 35.95137052 57.92040659 84.17401185 3.00000000 units box
+delete_atoms region pore0807_01 compress yes
+region pore0807_02 sphere 35.95137052 57.92040659 -2.58598815 3.00000000 units box
+delete_atoms region pore0807_02 compress yes
+region pore0808_01 sphere 82.43780302 79.86647350 61.02930524 3.00000000 units box
+delete_atoms region pore0808_01 compress yes
+region pore0809_01 sphere 45.93055581 61.44684143 34.28067178 3.00000000 units box
+delete_atoms region pore0809_01 compress yes
+region pore0810_01 sphere 25.75160284 13.01218697 38.90389366 3.00000000 units box
+delete_atoms region pore0810_01 compress yes
+region pore0811_01 sphere 13.75733190 38.12008603 14.72853618 3.00000000 units box
+delete_atoms region pore0811_01 compress yes
+region pore0812_01 sphere 54.77889794 63.47740366 60.84050716 3.00000000 units box
+delete_atoms region pore0812_01 compress yes
+region pore0813_01 sphere 59.97057278 13.49633763 3.10435317 3.00000000 units box
+delete_atoms region pore0813_01 compress yes
+region pore0814_01 sphere 32.51880431 67.06210009 35.34443350 3.00000000 units box
+delete_atoms region pore0814_01 compress yes
+region pore0815_01 sphere 50.41539344 67.29996439 64.34338017 3.00000000 units box
+delete_atoms region pore0815_01 compress yes
+region pore0816_01 sphere 39.24548075 12.40075012 6.60484953 3.00000000 units box
+delete_atoms region pore0816_01 compress yes
+region pore0817_01 sphere 81.85964637 3.11997242 40.28386150 3.00000000 units box
+delete_atoms region pore0817_01 compress yes
+region pore0818_01 sphere 37.48334447 7.85880780 74.63426205 3.00000000 units box
+delete_atoms region pore0818_01 compress yes
+region pore0819_01 sphere 1.14390597 34.60923644 14.45229727 3.00000000 units box
+delete_atoms region pore0819_01 compress yes
+region pore0819_02 sphere 87.90390597 34.60923644 14.45229727 3.00000000 units box
+delete_atoms region pore0819_02 compress yes
+region pore0820_01 sphere 40.10670105 10.98083950 41.08870066 3.00000000 units box
+delete_atoms region pore0820_01 compress yes
+region pore0821_01 sphere 37.16251827 18.08652334 68.32870605 3.00000000 units box
+delete_atoms region pore0821_01 compress yes
+region pore0822_01 sphere 64.66157069 59.77829232 40.87945528 3.00000000 units box
+delete_atoms region pore0822_01 compress yes
+region pore0823_01 sphere 38.62328638 22.26488036 59.82256614 3.00000000 units box
+delete_atoms region pore0823_01 compress yes
+region pore0824_01 sphere 33.12978206 75.72445972 79.79182425 3.00000000 units box
+delete_atoms region pore0824_01 compress yes
+region pore0825_01 sphere 21.94177430 79.50960520 76.61168324 3.00000000 units box
+delete_atoms region pore0825_01 compress yes
+region pore0826_01 sphere 26.75238403 78.22601375 64.57777429 3.00000000 units box
+delete_atoms region pore0826_01 compress yes
+region pore0827_01 sphere 48.06928550 70.72852346 80.91111685 3.00000000 units box
+delete_atoms region pore0827_01 compress yes
+region pore0828_01 sphere 46.59472927 50.17773416 57.59977282 3.00000000 units box
+delete_atoms region pore0828_01 compress yes
+region pore0829_01 sphere 55.90045551 73.72860038 10.46725072 3.00000000 units box
+delete_atoms region pore0829_01 compress yes
+region pore0830_01 sphere 46.91126595 80.78339822 15.82058581 3.00000000 units box
+delete_atoms region pore0830_01 compress yes
+region pore0831_01 sphere 81.46773960 20.63502438 59.31042362 3.00000000 units box
+delete_atoms region pore0831_01 compress yes
+region pore0832_01 sphere 27.31782083 16.56857688 45.85239978 3.00000000 units box
+delete_atoms region pore0832_01 compress yes
+region pore0833_01 sphere 50.33280704 77.12825501 32.64832012 3.00000000 units box
+delete_atoms region pore0833_01 compress yes
+region pore0834_01 sphere 32.50997642 79.74867772 69.43204487 3.00000000 units box
+delete_atoms region pore0834_01 compress yes
+region pore0835_01 sphere 20.62929250 82.54663878 8.23917458 3.00000000 units box
+delete_atoms region pore0835_01 compress yes
+region pore0836_01 sphere 38.09983913 47.57333850 17.92497586 3.00000000 units box
+delete_atoms region pore0836_01 compress yes
+region pore0837_01 sphere 73.57633079 66.99652692 62.74227733 3.00000000 units box
+delete_atoms region pore0837_01 compress yes
+region pore0838_01 sphere 78.76595209 76.98225353 67.59104705 3.00000000 units box
+delete_atoms region pore0838_01 compress yes
+region pore0839_01 sphere 52.81387722 60.19507442 54.26969961 3.00000000 units box
+delete_atoms region pore0839_01 compress yes
+region pore0840_01 sphere 86.12417640 31.03470305 66.45087504 3.00000000 units box
+delete_atoms region pore0840_01 compress yes
+region pore0840_02 sphere -0.63582360 31.03470305 66.45087504 3.00000000 units box
+delete_atoms region pore0840_02 compress yes
+region pore0841_01 sphere 81.33047809 12.83732769 56.75176218 3.00000000 units box
+delete_atoms region pore0841_01 compress yes
+region pore0842_01 sphere 22.85051362 46.38323991 53.42491852 3.00000000 units box
+delete_atoms region pore0842_01 compress yes
+region pore0843_01 sphere 45.19951609 2.45281214 26.57570678 3.00000000 units box
+delete_atoms region pore0843_01 compress yes
+region pore0843_02 sphere 45.19951609 89.21281214 26.57570678 3.00000000 units box
+delete_atoms region pore0843_02 compress yes
+region pore0844_01 sphere 47.30277533 53.16522930 19.26173969 3.00000000 units box
+delete_atoms region pore0844_01 compress yes
+region pore0845_01 sphere 9.71887216 30.09989958 80.54574569 3.00000000 units box
+delete_atoms region pore0845_01 compress yes
+region pore0846_01 sphere 77.11351489 47.32243298 15.74666676 3.00000000 units box
+delete_atoms region pore0846_01 compress yes
+region pore0847_01 sphere 52.56605372 16.02619079 76.32655441 3.00000000 units box
+delete_atoms region pore0847_01 compress yes
+region pore0848_01 sphere 64.37353444 61.51512689 26.81284343 3.00000000 units box
+delete_atoms region pore0848_01 compress yes
+region pore0849_01 sphere 40.34384060 61.21927703 70.47728176 3.00000000 units box
+delete_atoms region pore0849_01 compress yes
+region pore0850_01 sphere 26.38839543 1.68722356 65.23937227 3.00000000 units box
+delete_atoms region pore0850_01 compress yes
+region pore0850_02 sphere 26.38839543 88.44722356 65.23937227 3.00000000 units box
+delete_atoms region pore0850_02 compress yes
+region pore0851_01 sphere 79.99642120 79.74673931 22.49701861 3.00000000 units box
+delete_atoms region pore0851_01 compress yes
+region pore0852_01 sphere 55.13205169 12.19956443 60.68256987 3.00000000 units box
+delete_atoms region pore0852_01 compress yes
+region pore0853_01 sphere 27.59731269 16.93612282 30.13235399 3.00000000 units box
+delete_atoms region pore0853_01 compress yes
+region pore0854_01 sphere 40.12157560 50.24528866 24.40854826 3.00000000 units box
+delete_atoms region pore0854_01 compress yes
+region pore0855_01 sphere 48.23824125 60.01046312 67.99195667 3.00000000 units box
+delete_atoms region pore0855_01 compress yes
+region pore0856_01 sphere 13.55918093 24.65259367 60.13932284 3.00000000 units box
+delete_atoms region pore0856_01 compress yes
+region pore0857_01 sphere 27.65412902 21.15858306 52.55157240 3.00000000 units box
+delete_atoms region pore0857_01 compress yes
+region pore0858_01 sphere 24.12598533 56.93238276 3.60411617 3.00000000 units box
+delete_atoms region pore0858_01 compress yes
+region pore0859_01 sphere 48.40332569 61.94283712 46.43962474 3.00000000 units box
+delete_atoms region pore0859_01 compress yes
+region pore0860_01 sphere 23.87310816 72.83051832 6.79569852 3.00000000 units box
+delete_atoms region pore0860_01 compress yes
+region pore0861_01 sphere 77.45498698 68.17500958 54.16184278 3.00000000 units box
+delete_atoms region pore0861_01 compress yes
+region pore0862_01 sphere 59.43754401 86.04503841 64.99553543 3.00000000 units box
+delete_atoms region pore0862_01 compress yes
+region pore0862_02 sphere 59.43754401 -0.71496159 64.99553543 3.00000000 units box
+delete_atoms region pore0862_02 compress yes
+region pore0863_01 sphere 55.97648759 44.67601742 17.08120764 3.00000000 units box
+delete_atoms region pore0863_01 compress yes
+region pore0864_01 sphere 83.34314373 65.65973633 37.51900087 3.00000000 units box
+delete_atoms region pore0864_01 compress yes
+region pore0865_01 sphere 67.09341467 75.22099056 13.39282719 3.00000000 units box
+delete_atoms region pore0865_01 compress yes
+region pore0866_01 sphere 81.80045736 67.19688771 1.32343844 3.00000000 units box
+delete_atoms region pore0866_01 compress yes
+region pore0866_02 sphere 81.80045736 67.19688771 88.08343844 3.00000000 units box
+delete_atoms region pore0866_02 compress yes
+region pore0867_01 sphere 59.77116440 4.11162266 32.42386408 3.00000000 units box
+delete_atoms region pore0867_01 compress yes
+
+pair_style eam
+pair_coeff 1 1 "C:/Users/Ncut/Desktop/LAMMPS3/potentials/Cu_u3.eam"
+neighbor 2.0 bin
+neigh_modify every 1 delay 0 check yes
+
+timestep 0.001
+thermo 20
+thermo_style custom step atoms temp pe press pxx lx ly lz
+
+minimize 1.0e-8 1.0e-10 1000 10000
+velocity all create 300.0 87287 mom yes rot no dist gaussian
+fix equil all npt temp 300.0 300.0 0.1 iso 0.0 0.0 1.0
+run 10000
+unfix equil
+reset_timestep 0
+
+run 0
+variable L0 equal $(lx)
+variable strain equal (lx-v_L0)/v_L0
+variable stress_x_gpa equal -pxx/10000.0
+variable natoms equal count(all)
+variable step_out equal step
+variable temp_out equal temp
+variable pe_out equal pe
+variable press_out equal press
+
+dump trajectory all custom 400 trajectory.lammpstrj id type x y z ix iy iz
+dump_modify trajectory sort id first yes
+fix pull_temp all npt temp 300.0 300.0 0.1 y 0.0 0.0 1.0 z 0.0 0.0 1.0
+fix pull all deform 1 x erate 0.025000000000 units box remap x
+fix csv all print 20 "${step_out},${strain},${stress_x_gpa},${temp_out},${pe_out},${press_out},${natoms}" file stress_strain.csv screen no title "step,strain,stress_gpa,temp_K,pe_eV,press_bar,natoms"
+
+run 12000
+unfix csv
+
+unfix pull
+unfix pull_temp

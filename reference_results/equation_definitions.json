@@ -1,0 +1,38 @@
+{
+  "eam": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>U</mi><mo>=</mo><mrow><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mrow><mi>F</mi><mrow><mo>(</mo><msub><mi>ρ</mi><mi>i</mi></msub><mo>)</mo></mrow></mrow><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><munder><mo>∑</mo><mrow><mi>j</mi><mo>≠</mo><mi>i</mi></mrow></munder><mrow><mi>ψ</mi><mrow><mo>(</mo><msub><mi>r</mi><mi>ij</mi></msub><mo>)</mo></mrow></mrow></mrow></mrow></math>",
+    "latex": "U=\\sum_{i=1}^{N}F(\\rho_i)+\\frac{1}{2}\\sum_{i=1}^{N}\\sum_{j\\ne i}\\psi(r_{ij})"
+  },
+  "density": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>ρ</mi><mi>i</mi></msub><mo>=</mo><mrow><munder><mo>∑</mo><mrow><mi>j</mi><mo>≠</mo><mi>i</mi></mrow></munder><mrow><mi>f</mi><mrow><mo>(</mo><msub><mi>r</mi><mi>ij</mi></msub><mo>)</mo></mrow></mrow></mrow></mrow></math>",
+    "latex": "\\rho_i=\\sum_{j\\ne i}f(r_{ij})"
+  },
+  "force": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi mathvariant=\"bold\">F</mi><mi>i</mi></msub><mo>=</mo><mrow><mo>−</mo><msub><mi>∇</mi><mi>i</mi></msub><mi>U</mi></mrow></mrow></math>",
+    "latex": "\\mathbf{F}_i=-\\nabla_i U"
+  },
+  "strain": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mrow><mrow><mi>ε</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow><mo>=</mo><mfrac><mrow><mrow><msub><mi>L</mi><mi>x</mi></msub><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow><mo>−</mo><msub><mi>L</mi><mi>x,0</mi></msub></mrow><msub><mi>L</mi><mi>x,0</mi></msub></mfrac></mrow><mrow><mo>,</mo><mspace width=\"1em\"></mspace></mrow><mrow><mrow><msub><mi>L</mi><mi>x</mi></msub><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>L</mi><mi>x,0</mi></msub><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mover accent=\"true\"><mi>ε</mi><mo>˙</mo></mover><mi>t</mi></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math>",
+    "latex": "\\varepsilon(t)=\\frac{L_x(t)-L_{x,0}}{L_{x,0}},\\qquad L_x(t)=L_{x,0}(1+\\dot{\\varepsilon}t)"
+  },
+  "virial": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>σ</mi><mi>xx</mi></msub><mo>=</mo><mo>−</mo><msub><mi>P</mi><mi>xx</mi></msub><mo>=</mo><mo>−</mo><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><msub><mi>m</mi><mi>i</mi></msub><msup><msub><mi>v</mi><mi>ix</mi></msub><mn>2</mn></msup><mo>+</mo><msub><mi>W</mi><mi>xx</mi></msub></mrow><mi>V</mi></mfrac></mrow></math>",
+    "latex": "\\sigma_{xx}=-P_{xx}=-\\frac{\\sum_{i=1}^{N}m_i v_{ix}^{2}+W_{xx}}{V}"
+  },
+  "peak": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>S</mi><mo>=</mo><mrow><munder><mi>max</mi><mrow><mn>.001</mn><mo>≤</mo><mi>ε</mi><mo>≤</mo><mn>.2995</mn></mrow></munder><mrow><msub><mi>σ</mi><mi>xx</mi></msub><mrow><mo>(</mo><mi>ε</mi><mo>)</mo></mrow></mrow></mrow></mrow></math>",
+    "latex": "S=\\max_{0.001\\leq\\varepsilon\\leq0.2995}\\sigma_{xx}(\\varepsilon)"
+  },
+  "integral": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>I</mi><mo>=</mo><mrow><msubsup><mo>∫</mo><mn>0.001</mn><mn>0.2995</mn></msubsup><mrow><msub><mi>σ</mi><mi>xx</mi></msub><mrow><mo>(</mo><mi>ε</mi><mo>)</mo></mrow></mrow><mi>d</mi><mi>ε</mi></mrow></mrow></math>",
+    "latex": "I=\\int_{0.001}^{0.2995}\\sigma_{xx}(\\varepsilon)\\,d\\varepsilon"
+  },
+  "retention": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>R</mi><mo>=</mo><mfrac><mrow><msub><mi>σ</mi><mi>xx</mi></msub><mrow><mo>(</mo><mn>0.2995</mn><mo>)</mo></mrow></mrow><mi>S</mi></mfrac></mrow></math>",
+    "latex": "R=\\frac{\\sigma_{xx}(0.2995)}{S}"
+  },
+  "quadratic": {
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mover accent=\"true\"><mi>y</mi><mo>^</mo></mover><mo>=</mo><mrow><msub><mi>b</mi><mn>0</mn></msub><mo>+</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>4</mn></munderover><msub><mi>b</mi><mi>i</mi></msub><msub><mi>x</mi><mi>i</mi></msub><mo>+</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>4</mn></munderover><msub><mi>b</mi><mi>ii</mi></msub><msup><msub><mi>x</mi><mi>i</mi></msub><mn>2</mn></msup><mo>+</mo><munder><mo>∑</mo><mrow><mi>i</mi><mo>&lt;</mo><mi>j</mi></mrow></munder><msub><mi>b</mi><mi>ij</mi></msub><msub><mi>x</mi><mi>i</mi></msub><msub><mi>x</mi><mi>j</mi></msub></mrow></mrow></math>",
+    "latex": "\\hat{y}=b_0+\\sum_{i=1}^{4}b_i x_i+\\sum_{i=1}^{4}b_{ii}x_i^2+\\sum_{i<j}b_{ij}x_i x_j"
+  }
+}

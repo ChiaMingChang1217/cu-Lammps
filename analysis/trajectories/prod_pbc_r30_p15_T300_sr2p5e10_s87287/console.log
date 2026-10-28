@@ -1,0 +1,2369 @@
+LAMMPS (30 Sep 2026)
+  using 1 OpenMP thread(s) per MPI task
+Loaded 0 plugins from C:\Users\Ncut\AppData\Local\LAMMPS 30Sep2026 with GUI\plugins
+  using 1 OpenMP thread(s) per MPI task
+Loaded 0 plugins from C:\Users\Ncut\AppData\Local\LAMMPS 30Sep2026 with GUI\plugins
+Lattice spacing in x,y,z = 3.615 3.615 3.615
+Created orthogonal box = (0 0 0) to (86.76 86.76 86.76)
+  1 by 1 by 1 MPI processor grid
+Created 55296 atoms
+  using lattice units in orthogonal box = (0 0 0) to (86.76 86.76 86.76)
+  create_atoms CPU = 0.002 seconds
+Deleted 9 atoms, new total = 55287
+Deleted 10 atoms, new total = 55277
+Deleted 9 atoms, new total = 55268
+Deleted 7 atoms, new total = 55261
+Deleted 2 atoms, new total = 55259
+Deleted 13 atoms, new total = 55246
+Deleted 9 atoms, new total = 55237
+Deleted 9 atoms, new total = 55228
+Deleted 0 atoms, new total = 55228
+Deleted 6 atoms, new total = 55222
+Deleted 4 atoms, new total = 55218
+Deleted 10 atoms, new total = 55208
+Deleted 8 atoms, new total = 55200
+Deleted 8 atoms, new total = 55192
+Deleted 8 atoms, new total = 55184
+Deleted 8 atoms, new total = 55176
+Deleted 9 atoms, new total = 55167
+Deleted 9 atoms, new total = 55158
+Deleted 0 atoms, new total = 55158
+Deleted 10 atoms, new total = 55148
+Deleted 10 atoms, new total = 55138
+Deleted 9 atoms, new total = 55129
+Deleted 10 atoms, new total = 55119
+Deleted 7 atoms, new total = 55112
+Deleted 2 atoms, new total = 55110
+Deleted 11 atoms, new total = 55099
+Deleted 8 atoms, new total = 55091
+Deleted 8 atoms, new total = 55083
+Deleted 0 atoms, new total = 55083
+Deleted 7 atoms, new total = 55076
+Deleted 3 atoms, new total = 55073
+Deleted 9 atoms, new total = 55064
+Deleted 9 atoms, new total = 55055
+Deleted 9 atoms, new total = 55046
+Deleted 0 atoms, new total = 55046
+Deleted 8 atoms, new total = 55038
+Deleted 9 atoms, new total = 55029
+Deleted 11 atoms, new total = 55018
+Deleted 9 atoms, new total = 55009
+Deleted 12 atoms, new total = 54997
+Deleted 9 atoms, new total = 54988
+Deleted 11 atoms, new total = 54977
+Deleted 10 atoms, new total = 54967
+Deleted 11 atoms, new total = 54956
+Deleted 10 atoms, new total = 54946
+Deleted 9 atoms, new total = 54937
+Deleted 11 atoms, new total = 54926
+Deleted 11 atoms, new total = 54915
+Deleted 10 atoms, new total = 54905
+Deleted 0 atoms, new total = 54905
+Deleted 13 atoms, new total = 54892
+Deleted 10 atoms, new total = 54882
+Deleted 8 atoms, new total = 54874
+Deleted 0 atoms, new total = 54874
+Deleted 0 atoms, new total = 54874
+Deleted 0 atoms, new total = 54874
+Deleted 4 atoms, new total = 54870
+Deleted 7 atoms, new total = 54863
+Deleted 10 atoms, new total = 54853
+Deleted 12 atoms, new total = 54841
+Deleted 0 atoms, new total = 54841
+Deleted 12 atoms, new total = 54829
+Deleted 0 atoms, new total = 54829
+Deleted 8 atoms, new total = 54821
+Deleted 0 atoms, new total = 54821
+Deleted 10 atoms, new total = 54811
+Deleted 7 atoms, new total = 54804
+Deleted 2 atoms, new total = 54802
+Deleted 11 atoms, new total = 54791
+Deleted 8 atoms, new total = 54783
+Deleted 8 atoms, new total = 54775
+Deleted 8 atoms, new total = 54767
+Deleted 10 atoms, new total = 54757
+Deleted 9 atoms, new total = 54748
+Deleted 11 atoms, new total = 54737
+Deleted 9 atoms, new total = 54728
+Deleted 4 atoms, new total = 54724
+Deleted 6 atoms, new total = 54718
+Deleted 8 atoms, new total = 54710
+Deleted 11 atoms, new total = 54699
+Deleted 9 atoms, new total = 54690
+Deleted 10 atoms, new total = 54680
+Deleted 9 atoms, new total = 54671
+Deleted 8 atoms, new total = 54663
+Deleted 10 atoms, new total = 54653
+Deleted 9 atoms, new total = 54644
+Deleted 8 atoms, new total = 54636
+Deleted 8 atoms, new total = 54628
+Deleted 10 atoms, new total = 54618
+Deleted 8 atoms, new total = 54610
+Deleted 9 atoms, new total = 54601
+Deleted 3 atoms, new total = 54598
+Deleted 8 atoms, new total = 54590
+Deleted 2 atoms, new total = 54588
+Deleted 9 atoms, new total = 54579
+Deleted 11 atoms, new total = 54568
+Deleted 10 atoms, new total = 54558
+Deleted 11 atoms, new total = 54547
+Deleted 10 atoms, new total = 54537
+Deleted 9 atoms, new total = 54528
+Deleted 0 atoms, new total = 54528
+Deleted 11 atoms, new total = 54517
+Deleted 11 atoms, new total = 54506
+Deleted 9 atoms, new total = 54497
+Deleted 10 atoms, new total = 54487
+Deleted 1 atoms, new total = 54486
+Deleted 10 atoms, new total = 54476
+Deleted 9 atoms, new total = 54467
+Deleted 10 atoms, new total = 54457
+Deleted 8 atoms, new total = 54449
+Deleted 10 atoms, new total = 54439
+Deleted 10 atoms, new total = 54429
+Deleted 0 atoms, new total = 54429
+Deleted 10 atoms, new total = 54419
+Deleted 11 atoms, new total = 54408
+Deleted 5 atoms, new total = 54403
+Deleted 3 atoms, new total = 54400
+Deleted 10 atoms, new total = 54390
+Deleted 9 atoms, new total = 54381
+Deleted 9 atoms, new total = 54372
+Deleted 8 atoms, new total = 54364
+Deleted 0 atoms, new total = 54364
+Deleted 8 atoms, new total = 54356
+Deleted 8 atoms, new total = 54348
+Deleted 1 atoms, new total = 54347
+Deleted 8 atoms, new total = 54339
+Deleted 8 atoms, new total = 54331
+Deleted 11 atoms, new total = 54320
+Deleted 8 atoms, new total = 54312
+Deleted 9 atoms, new total = 54303
+Deleted 10 atoms, new total = 54293
+Deleted 3 atoms, new total = 54290
+Deleted 5 atoms, new total = 54285
+Deleted 6 atoms, new total = 54279
+Deleted 3 atoms, new total = 54276
+Deleted 13 atoms, new total = 54263
+Deleted 10 atoms, new total = 54253
+Deleted 8 atoms, new total = 54245
+Deleted 11 atoms, new total = 54234
+Deleted 12 atoms, new total = 54222
+Deleted 9 atoms, new total = 54213
+Deleted 4 atoms, new total = 54209
+Deleted 10 atoms, new total = 54199
+Deleted 11 atoms, new total = 54188
+Deleted 9 atoms, new total = 54179
+Deleted 8 atoms, new total = 54171
+Deleted 8 atoms, new total = 54163
+Deleted 9 atoms, new total = 54154
+Deleted 8 atoms, new total = 54146
+Deleted 10 atoms, new total = 54136
+Deleted 10 atoms, new total = 54126
+Deleted 9 atoms, new total = 54117
+Deleted 10 atoms, new total = 54107
+Deleted 0 atoms, new total = 54107
+Deleted 11 atoms, new total = 54096
+Deleted 8 atoms, new total = 54088
+Deleted 8 atoms, new total = 54080
+Deleted 9 atoms, new total = 54071
+Deleted 9 atoms, new total = 54062
+Deleted 11 atoms, new total = 54051
+Deleted 9 atoms, new total = 54042
+Deleted 0 atoms, new total = 54042
+Deleted 8 atoms, new total = 54034
+Deleted 9 atoms, new total = 54025
+Deleted 9 atoms, new total = 54016
+Deleted 10 atoms, new total = 54006
+Deleted 8 atoms, new total = 53998
+Deleted 12 atoms, new total = 53986
+Deleted 10 atoms, new total = 53976
+Deleted 5 atoms, new total = 53971
+Deleted 5 atoms, new total = 53966
+Deleted 10 atoms, new total = 53956
+Deleted 10 atoms, new total = 53946
+Deleted 9 atoms, new total = 53937
+Deleted 11 atoms, new total = 53926
+Deleted 9 atoms, new total = 53917
+Deleted 5 atoms, new total = 53912
+Deleted 4 atoms, new total = 53908
+Deleted 13 atoms, new total = 53895
+Deleted 10 atoms, new total = 53885
+Deleted 9 atoms, new total = 53876
+Deleted 10 atoms, new total = 53866
+Deleted 8 atoms, new total = 53858
+Deleted 10 atoms, new total = 53848
+Deleted 10 atoms, new total = 53838
+Deleted 6 atoms, new total = 53832
+Deleted 2 atoms, new total = 53830
+Deleted 7 atoms, new total = 53823
+Deleted 2 atoms, new total = 53821
+Deleted 9 atoms, new total = 53812
+Deleted 7 atoms, new total = 53805
+Deleted 0 atoms, new total = 53805
+Deleted 10 atoms, new total = 53795
+Deleted 11 atoms, new total = 53784
+Deleted 8 atoms, new total = 53776
+Deleted 11 atoms, new total = 53765
+Deleted 10 atoms, new total = 53755
+Deleted 9 atoms, new total = 53746
+Deleted 9 atoms, new total = 53737
+Deleted 7 atoms, new total = 53730
+Deleted 1 atoms, new total = 53729
+Deleted 5 atoms, new total = 53724
+Deleted 3 atoms, new total = 53721
+Deleted 8 atoms, new total = 53713
+Deleted 9 atoms, new total = 53704
+Deleted 10 atoms, new total = 53694
+Deleted 8 atoms, new total = 53686
+Deleted 8 atoms, new total = 53678
+Deleted 9 atoms, new total = 53669
+Deleted 9 atoms, new total = 53660
+Deleted 10 atoms, new total = 53650
+Deleted 10 atoms, new total = 53640
+Deleted 9 atoms, new total = 53631
+Deleted 8 atoms, new total = 53623
+Deleted 8 atoms, new total = 53615
+Deleted 10 atoms, new total = 53605
+Deleted 5 atoms, new total = 53600
+Deleted 4 atoms, new total = 53596
+Deleted 0 atoms, new total = 53596
+Deleted 0 atoms, new total = 53596
+Deleted 10 atoms, new total = 53586
+Deleted 11 atoms, new total = 53575
+Deleted 10 atoms, new total = 53565
+Deleted 9 atoms, new total = 53556
+Deleted 10 atoms, new total = 53546
+Deleted 9 atoms, new total = 53537
+Deleted 9 atoms, new total = 53528
+Deleted 0 atoms, new total = 53528
+Deleted 0 atoms, new total = 53528
+Deleted 0 atoms, new total = 53528
+Deleted 8 atoms, new total = 53520
+Deleted 2 atoms, new total = 53518
+Deleted 9 atoms, new total = 53509
+Deleted 9 atoms, new total = 53500
+Deleted 13 atoms, new total = 53487
+Deleted 7 atoms, new total = 53480
+Deleted 8 atoms, new total = 53472
+Deleted 9 atoms, new total = 53463
+Deleted 7 atoms, new total = 53456
+Deleted 2 atoms, new total = 53454
+Deleted 9 atoms, new total = 53445
+Deleted 9 atoms, new total = 53436
+Deleted 8 atoms, new total = 53428
+Deleted 8 atoms, new total = 53420
+Deleted 0 atoms, new total = 53420
+Deleted 9 atoms, new total = 53411
+Deleted 9 atoms, new total = 53402
+Deleted 7 atoms, new total = 53395
+Deleted 3 atoms, new total = 53392
+Deleted 11 atoms, new total = 53381
+Deleted 5 atoms, new total = 53376
+Deleted 4 atoms, new total = 53372
+Deleted 10 atoms, new total = 53362
+Deleted 7 atoms, new total = 53355
+Deleted 0 atoms, new total = 53355
+Deleted 4 atoms, new total = 53351
+Deleted 0 atoms, new total = 53351
+Deleted 9 atoms, new total = 53342
+Deleted 5 atoms, new total = 53337
+Deleted 4 atoms, new total = 53333
+Deleted 9 atoms, new total = 53324
+Deleted 9 atoms, new total = 53315
+Deleted 10 atoms, new total = 53305
+Deleted 10 atoms, new total = 53295
+Deleted 8 atoms, new total = 53287
+Deleted 1 atoms, new total = 53286
+Deleted 8 atoms, new total = 53278
+Deleted 11 atoms, new total = 53267
+Deleted 8 atoms, new total = 53259
+Deleted 9 atoms, new total = 53250
+Deleted 9 atoms, new total = 53241
+Deleted 4 atoms, new total = 53237
+Deleted 7 atoms, new total = 53230
+Deleted 9 atoms, new total = 53221
+Deleted 8 atoms, new total = 53213
+Deleted 9 atoms, new total = 53204
+Deleted 13 atoms, new total = 53191
+Deleted 9 atoms, new total = 53182
+Deleted 9 atoms, new total = 53173
+Deleted 9 atoms, new total = 53164
+Deleted 5 atoms, new total = 53159
+Deleted 4 atoms, new total = 53155
+Deleted 7 atoms, new total = 53148
+Deleted 2 atoms, new total = 53146
+Deleted 12 atoms, new total = 53134
+Deleted 12 atoms, new total = 53122
+Deleted 12 atoms, new total = 53110
+Deleted 10 atoms, new total = 53100
+Deleted 9 atoms, new total = 53091
+Deleted 1 atoms, new total = 53090
+Deleted 8 atoms, new total = 53082
+Deleted 8 atoms, new total = 53074
+Deleted 8 atoms, new total = 53066
+Deleted 10 atoms, new total = 53056
+Deleted 9 atoms, new total = 53047
+Deleted 9 atoms, new total = 53038
+Deleted 10 atoms, new total = 53028
+Deleted 9 atoms, new total = 53019
+Deleted 10 atoms, new total = 53009
+Deleted 9 atoms, new total = 53000
+Deleted 9 atoms, new total = 52991
+Deleted 10 atoms, new total = 52981
+Deleted 9 atoms, new total = 52972
+Deleted 4 atoms, new total = 52968
+Deleted 6 atoms, new total = 52962
+Deleted 10 atoms, new total = 52952
+Deleted 9 atoms, new total = 52943
+Deleted 13 atoms, new total = 52930
+Deleted 8 atoms, new total = 52922
+Deleted 0 atoms, new total = 52922
+Deleted 9 atoms, new total = 52913
+Deleted 10 atoms, new total = 52903
+Deleted 8 atoms, new total = 52895
+Deleted 9 atoms, new total = 52886
+Deleted 11 atoms, new total = 52875
+Deleted 9 atoms, new total = 52866
+Deleted 8 atoms, new total = 52858
+Deleted 0 atoms, new total = 52858
+Deleted 10 atoms, new total = 52848
+Deleted 10 atoms, new total = 52838
+Deleted 10 atoms, new total = 52828
+Deleted 10 atoms, new total = 52818
+Deleted 8 atoms, new total = 52810
+Deleted 0 atoms, new total = 52810
+Deleted 13 atoms, new total = 52797
+Deleted 9 atoms, new total = 52788
+Deleted 0 atoms, new total = 52788
+Deleted 9 atoms, new total = 52779
+Deleted 10 atoms, new total = 52769
+Deleted 8 atoms, new total = 52761
+Deleted 11 atoms, new total = 52750
+Deleted 9 atoms, new total = 52741
+Deleted 4 atoms, new total = 52737
+Deleted 9 atoms, new total = 52728
+Deleted 0 atoms, new total = 52728
+Deleted 9 atoms, new total = 52719
+Deleted 10 atoms, new total = 52709
+Deleted 10 atoms, new total = 52699
+Deleted 8 atoms, new total = 52691
+Deleted 11 atoms, new total = 52680
+Deleted 8 atoms, new total = 52672
+Deleted 9 atoms, new total = 52663
+Deleted 10 atoms, new total = 52653
+Deleted 8 atoms, new total = 52645
+Deleted 9 atoms, new total = 52636
+Deleted 5 atoms, new total = 52631
+Deleted 3 atoms, new total = 52628
+Deleted 8 atoms, new total = 52620
+Deleted 13 atoms, new total = 52607
+Deleted 8 atoms, new total = 52599
+Deleted 10 atoms, new total = 52589
+Deleted 0 atoms, new total = 52589
+Deleted 11 atoms, new total = 52578
+Deleted 8 atoms, new total = 52570
+Deleted 9 atoms, new total = 52561
+Deleted 10 atoms, new total = 52551
+Deleted 10 atoms, new total = 52541
+Deleted 9 atoms, new total = 52532
+Deleted 13 atoms, new total = 52519
+Deleted 7 atoms, new total = 52512
+Deleted 6 atoms, new total = 52506
+Deleted 8 atoms, new total = 52498
+Deleted 9 atoms, new total = 52489
+Deleted 10 atoms, new total = 52479
+Deleted 10 atoms, new total = 52469
+Deleted 5 atoms, new total = 52464
+Deleted 2 atoms, new total = 52462
+Deleted 2 atoms, new total = 52460
+Deleted 0 atoms, new total = 52460
+Deleted 10 atoms, new total = 52450
+Deleted 0 atoms, new total = 52450
+Deleted 8 atoms, new total = 52442
+Deleted 9 atoms, new total = 52433
+Deleted 13 atoms, new total = 52420
+Deleted 10 atoms, new total = 52410
+Deleted 11 atoms, new total = 52399
+Deleted 9 atoms, new total = 52390
+Deleted 3 atoms, new total = 52387
+Deleted 6 atoms, new total = 52381
+Deleted 10 atoms, new total = 52371
+Deleted 7 atoms, new total = 52364
+Deleted 1 atoms, new total = 52363
+Deleted 11 atoms, new total = 52352
+Deleted 8 atoms, new total = 52344
+Deleted 11 atoms, new total = 52333
+Deleted 10 atoms, new total = 52323
+Deleted 10 atoms, new total = 52313
+Deleted 8 atoms, new total = 52305
+Deleted 10 atoms, new total = 52295
+Deleted 10 atoms, new total = 52285
+Deleted 8 atoms, new total = 52277
+Deleted 8 atoms, new total = 52269
+Deleted 8 atoms, new total = 52261
+Deleted 10 atoms, new total = 52251
+Deleted 9 atoms, new total = 52242
+Deleted 1 atoms, new total = 52241
+Deleted 10 atoms, new total = 52231
+Deleted 4 atoms, new total = 52227
+Deleted 5 atoms, new total = 52222
+Deleted 8 atoms, new total = 52214
+Deleted 9 atoms, new total = 52205
+Deleted 10 atoms, new total = 52195
+Deleted 10 atoms, new total = 52185
+Deleted 11 atoms, new total = 52174
+Deleted 8 atoms, new total = 52166
+Deleted 10 atoms, new total = 52156
+Deleted 10 atoms, new total = 52146
+Deleted 11 atoms, new total = 52135
+Deleted 9 atoms, new total = 52126
+Deleted 2 atoms, new total = 52124
+Deleted 11 atoms, new total = 52113
+Deleted 8 atoms, new total = 52105
+Deleted 9 atoms, new total = 52096
+Deleted 10 atoms, new total = 52086
+Deleted 10 atoms, new total = 52076
+Deleted 9 atoms, new total = 52067
+Deleted 10 atoms, new total = 52057
+Deleted 9 atoms, new total = 52048
+Deleted 5 atoms, new total = 52043
+Deleted 6 atoms, new total = 52037
+Deleted 9 atoms, new total = 52028
+Deleted 9 atoms, new total = 52019
+Deleted 9 atoms, new total = 52010
+Deleted 11 atoms, new total = 51999
+Deleted 8 atoms, new total = 51991
+Deleted 11 atoms, new total = 51980
+Deleted 10 atoms, new total = 51970
+Deleted 9 atoms, new total = 51961
+Deleted 9 atoms, new total = 51952
+Deleted 11 atoms, new total = 51941
+Deleted 9 atoms, new total = 51932
+Deleted 9 atoms, new total = 51923
+Deleted 0 atoms, new total = 51923
+Deleted 13 atoms, new total = 51910
+Deleted 5 atoms, new total = 51905
+Deleted 5 atoms, new total = 51900
+Deleted 0 atoms, new total = 51900
+Deleted 0 atoms, new total = 51900
+Deleted 12 atoms, new total = 51888
+Deleted 9 atoms, new total = 51879
+Deleted 10 atoms, new total = 51869
+Deleted 11 atoms, new total = 51858
+Deleted 9 atoms, new total = 51849
+Deleted 8 atoms, new total = 51841
+Deleted 9 atoms, new total = 51832
+Deleted 10 atoms, new total = 51822
+Deleted 10 atoms, new total = 51812
+Deleted 12 atoms, new total = 51800
+Deleted 8 atoms, new total = 51792
+Deleted 12 atoms, new total = 51780
+Deleted 0 atoms, new total = 51780
+Deleted 10 atoms, new total = 51770
+Deleted 9 atoms, new total = 51761
+Deleted 11 atoms, new total = 51750
+Deleted 11 atoms, new total = 51739
+Deleted 10 atoms, new total = 51729
+Deleted 8 atoms, new total = 51721
+Deleted 9 atoms, new total = 51712
+Deleted 8 atoms, new total = 51704
+Deleted 8 atoms, new total = 51696
+Deleted 1 atoms, new total = 51695
+Deleted 6 atoms, new total = 51689
+Deleted 2 atoms, new total = 51687
+Deleted 9 atoms, new total = 51678
+Deleted 11 atoms, new total = 51667
+Deleted 10 atoms, new total = 51657
+Deleted 10 atoms, new total = 51647
+Deleted 0 atoms, new total = 51647
+Deleted 8 atoms, new total = 51639
+Deleted 9 atoms, new total = 51630
+Deleted 0 atoms, new total = 51630
+Deleted 9 atoms, new total = 51621
+Deleted 11 atoms, new total = 51610
+Deleted 8 atoms, new total = 51602
+Deleted 10 atoms, new total = 51592
+Deleted 11 atoms, new total = 51581
+Deleted 9 atoms, new total = 51572
+Deleted 8 atoms, new total = 51564
+Deleted 4 atoms, new total = 51560
+Deleted 1 atoms, new total = 51559
+Deleted 5 atoms, new total = 51554
+Deleted 0 atoms, new total = 51554
+Deleted 10 atoms, new total = 51544
+Deleted 11 atoms, new total = 51533
+Deleted 9 atoms, new total = 51524
+Deleted 8 atoms, new total = 51516
+Deleted 9 atoms, new total = 51507
+Deleted 9 atoms, new total = 51498
+Deleted 13 atoms, new total = 51485
+Deleted 8 atoms, new total = 51477
+Deleted 1 atoms, new total = 51476
+Deleted 8 atoms, new total = 51468
+Deleted 10 atoms, new total = 51458
+Deleted 10 atoms, new total = 51448
+Deleted 10 atoms, new total = 51438
+Deleted 9 atoms, new total = 51429
+Deleted 8 atoms, new total = 51421
+Deleted 7 atoms, new total = 51414
+Deleted 10 atoms, new total = 51404
+Deleted 8 atoms, new total = 51396
+Deleted 9 atoms, new total = 51387
+Deleted 0 atoms, new total = 51387
+Deleted 9 atoms, new total = 51378
+Deleted 9 atoms, new total = 51369
+Deleted 11 atoms, new total = 51358
+Deleted 13 atoms, new total = 51345
+Deleted 9 atoms, new total = 51336
+Deleted 8 atoms, new total = 51328
+Deleted 8 atoms, new total = 51320
+Deleted 6 atoms, new total = 51314
+Deleted 2 atoms, new total = 51312
+Deleted 8 atoms, new total = 51304
+Deleted 11 atoms, new total = 51293
+Deleted 9 atoms, new total = 51284
+Deleted 11 atoms, new total = 51273
+Deleted 8 atoms, new total = 51265
+Deleted 10 atoms, new total = 51255
+Deleted 11 atoms, new total = 51244
+Deleted 8 atoms, new total = 51236
+Deleted 10 atoms, new total = 51226
+Deleted 9 atoms, new total = 51217
+Deleted 9 atoms, new total = 51208
+Deleted 9 atoms, new total = 51199
+Deleted 11 atoms, new total = 51188
+Deleted 8 atoms, new total = 51180
+Deleted 9 atoms, new total = 51171
+Deleted 8 atoms, new total = 51163
+Deleted 9 atoms, new total = 51154
+Deleted 4 atoms, new total = 51150
+Deleted 13 atoms, new total = 51137
+Deleted 8 atoms, new total = 51129
+Deleted 3 atoms, new total = 51126
+Deleted 5 atoms, new total = 51121
+Deleted 9 atoms, new total = 51112
+Deleted 4 atoms, new total = 51108
+Deleted 10 atoms, new total = 51098
+Deleted 10 atoms, new total = 51088
+Deleted 9 atoms, new total = 51079
+Deleted 0 atoms, new total = 51079
+Deleted 12 atoms, new total = 51067
+Deleted 10 atoms, new total = 51057
+Deleted 9 atoms, new total = 51048
+Deleted 8 atoms, new total = 51040
+Deleted 10 atoms, new total = 51030
+Deleted 10 atoms, new total = 51020
+Deleted 10 atoms, new total = 51010
+Deleted 10 atoms, new total = 51000
+Deleted 9 atoms, new total = 50991
+Deleted 10 atoms, new total = 50981
+Deleted 8 atoms, new total = 50973
+Deleted 8 atoms, new total = 50965
+Deleted 8 atoms, new total = 50957
+Deleted 9 atoms, new total = 50948
+Deleted 10 atoms, new total = 50938
+Deleted 0 atoms, new total = 50938
+Deleted 6 atoms, new total = 50932
+Deleted 2 atoms, new total = 50930
+Deleted 13 atoms, new total = 50917
+Deleted 9 atoms, new total = 50908
+Deleted 10 atoms, new total = 50898
+Deleted 11 atoms, new total = 50887
+Deleted 6 atoms, new total = 50881
+Deleted 3 atoms, new total = 50878
+Deleted 9 atoms, new total = 50869
+Deleted 10 atoms, new total = 50859
+Deleted 8 atoms, new total = 50851
+Deleted 1 atoms, new total = 50850
+Deleted 10 atoms, new total = 50840
+Deleted 9 atoms, new total = 50831
+Deleted 7 atoms, new total = 50824
+Deleted 9 atoms, new total = 50815
+Deleted 8 atoms, new total = 50807
+Deleted 10 atoms, new total = 50797
+Deleted 9 atoms, new total = 50788
+Deleted 1 atoms, new total = 50787
+Deleted 9 atoms, new total = 50778
+Deleted 0 atoms, new total = 50778
+Deleted 9 atoms, new total = 50769
+Deleted 7 atoms, new total = 50762
+Deleted 1 atoms, new total = 50761
+Deleted 10 atoms, new total = 50751
+Deleted 10 atoms, new total = 50741
+Deleted 9 atoms, new total = 50732
+Deleted 10 atoms, new total = 50722
+Deleted 9 atoms, new total = 50713
+Deleted 10 atoms, new total = 50703
+Deleted 9 atoms, new total = 50694
+Deleted 9 atoms, new total = 50685
+Deleted 9 atoms, new total = 50676
+Deleted 11 atoms, new total = 50665
+Deleted 8 atoms, new total = 50657
+Deleted 9 atoms, new total = 50648
+Deleted 10 atoms, new total = 50638
+Deleted 9 atoms, new total = 50629
+Deleted 9 atoms, new total = 50620
+Deleted 8 atoms, new total = 50612
+Deleted 13 atoms, new total = 50599
+Deleted 8 atoms, new total = 50591
+Deleted 11 atoms, new total = 50580
+Deleted 9 atoms, new total = 50571
+Deleted 10 atoms, new total = 50561
+Deleted 0 atoms, new total = 50561
+Deleted 8 atoms, new total = 50553
+Deleted 10 atoms, new total = 50543
+Deleted 0 atoms, new total = 50543
+Deleted 6 atoms, new total = 50537
+Deleted 3 atoms, new total = 50534
+Deleted 10 atoms, new total = 50524
+Deleted 13 atoms, new total = 50511
+Deleted 10 atoms, new total = 50501
+Deleted 9 atoms, new total = 50492
+Deleted 8 atoms, new total = 50484
+Deleted 0 atoms, new total = 50484
+Deleted 9 atoms, new total = 50475
+Deleted 8 atoms, new total = 50467
+Deleted 2 atoms, new total = 50465
+Deleted 8 atoms, new total = 50457
+Deleted 9 atoms, new total = 50448
+Deleted 8 atoms, new total = 50440
+Deleted 9 atoms, new total = 50431
+Deleted 10 atoms, new total = 50421
+Deleted 9 atoms, new total = 50412
+Deleted 8 atoms, new total = 50404
+Deleted 9 atoms, new total = 50395
+Deleted 9 atoms, new total = 50386
+Deleted 8 atoms, new total = 50378
+Deleted 8 atoms, new total = 50370
+Deleted 8 atoms, new total = 50362
+Deleted 8 atoms, new total = 50354
+Deleted 1 atoms, new total = 50353
+Deleted 10 atoms, new total = 50343
+Deleted 9 atoms, new total = 50334
+Deleted 9 atoms, new total = 50325
+Deleted 8 atoms, new total = 50317
+Deleted 10 atoms, new total = 50307
+Deleted 9 atoms, new total = 50298
+Deleted 8 atoms, new total = 50290
+Deleted 9 atoms, new total = 50281
+Deleted 0 atoms, new total = 50281
+Deleted 8 atoms, new total = 50273
+Deleted 10 atoms, new total = 50263
+Deleted 11 atoms, new total = 50252
+Deleted 5 atoms, new total = 50247
+Deleted 5 atoms, new total = 50242
+Deleted 11 atoms, new total = 50231
+Deleted 10 atoms, new total = 50221
+Deleted 5 atoms, new total = 50216
+Deleted 4 atoms, new total = 50212
+Deleted 10 atoms, new total = 50202
+Deleted 8 atoms, new total = 50194
+Deleted 9 atoms, new total = 50185
+Deleted 10 atoms, new total = 50175
+Deleted 6 atoms, new total = 50169
+Deleted 2 atoms, new total = 50167
+Deleted 8 atoms, new total = 50159
+Deleted 2 atoms, new total = 50157
+Deleted 10 atoms, new total = 50147
+Deleted 7 atoms, new total = 50140
+Deleted 9 atoms, new total = 50131
+Deleted 10 atoms, new total = 50121
+Deleted 10 atoms, new total = 50111
+Deleted 9 atoms, new total = 50102
+Deleted 11 atoms, new total = 50091
+Deleted 10 atoms, new total = 50081
+Deleted 0 atoms, new total = 50081
+Deleted 11 atoms, new total = 50070
+Deleted 8 atoms, new total = 50062
+Deleted 10 atoms, new total = 50052
+Deleted 3 atoms, new total = 50049
+Deleted 0 atoms, new total = 50049
+Deleted 6 atoms, new total = 50043
+Deleted 1 atoms, new total = 50042
+Deleted 6 atoms, new total = 50036
+Deleted 2 atoms, new total = 50034
+Deleted 2 atoms, new total = 50032
+Deleted 0 atoms, new total = 50032
+Deleted 11 atoms, new total = 50021
+Deleted 8 atoms, new total = 50013
+Deleted 11 atoms, new total = 50002
+Deleted 10 atoms, new total = 49992
+Deleted 8 atoms, new total = 49984
+Deleted 9 atoms, new total = 49975
+Deleted 12 atoms, new total = 49963
+Deleted 10 atoms, new total = 49953
+Deleted 8 atoms, new total = 49945
+Deleted 10 atoms, new total = 49935
+Deleted 11 atoms, new total = 49924
+Deleted 9 atoms, new total = 49915
+Deleted 9 atoms, new total = 49906
+Deleted 10 atoms, new total = 49896
+Deleted 9 atoms, new total = 49887
+Deleted 11 atoms, new total = 49876
+Deleted 9 atoms, new total = 49867
+Deleted 8 atoms, new total = 49859
+Deleted 10 atoms, new total = 49849
+Deleted 8 atoms, new total = 49841
+Deleted 9 atoms, new total = 49832
+Deleted 9 atoms, new total = 49823
+Deleted 9 atoms, new total = 49814
+Deleted 0 atoms, new total = 49814
+Deleted 9 atoms, new total = 49805
+Deleted 8 atoms, new total = 49797
+Deleted 1 atoms, new total = 49796
+Deleted 9 atoms, new total = 49787
+Deleted 4 atoms, new total = 49783
+Deleted 11 atoms, new total = 49772
+Deleted 11 atoms, new total = 49761
+Deleted 13 atoms, new total = 49748
+Deleted 8 atoms, new total = 49740
+Deleted 9 atoms, new total = 49731
+Deleted 8 atoms, new total = 49723
+Deleted 10 atoms, new total = 49713
+Deleted 10 atoms, new total = 49703
+Deleted 12 atoms, new total = 49691
+Deleted 10 atoms, new total = 49681
+Deleted 9 atoms, new total = 49672
+Deleted 10 atoms, new total = 49662
+Deleted 11 atoms, new total = 49651
+Deleted 11 atoms, new total = 49640
+Deleted 12 atoms, new total = 49628
+Deleted 8 atoms, new total = 49620
+Deleted 8 atoms, new total = 49612
+Deleted 9 atoms, new total = 49603
+Deleted 9 atoms, new total = 49594
+Deleted 10 atoms, new total = 49584
+Deleted 10 atoms, new total = 49574
+Deleted 10 atoms, new total = 49564
+Deleted 0 atoms, new total = 49564
+Deleted 10 atoms, new total = 49554
+Deleted 11 atoms, new total = 49543
+Deleted 9 atoms, new total = 49534
+Deleted 3 atoms, new total = 49531
+Deleted 9 atoms, new total = 49522
+Deleted 0 atoms, new total = 49522
+Deleted 11 atoms, new total = 49511
+Deleted 10 atoms, new total = 49501
+Deleted 7 atoms, new total = 49494
+Deleted 1 atoms, new total = 49493
+Deleted 10 atoms, new total = 49483
+Deleted 9 atoms, new total = 49474
+Deleted 8 atoms, new total = 49466
+Deleted 9 atoms, new total = 49457
+Deleted 9 atoms, new total = 49448
+Deleted 9 atoms, new total = 49439
+Deleted 4 atoms, new total = 49435
+Deleted 6 atoms, new total = 49429
+Deleted 2 atoms, new total = 49427
+Deleted 6 atoms, new total = 49421
+Deleted 8 atoms, new total = 49413
+Deleted 8 atoms, new total = 49405
+Deleted 9 atoms, new total = 49396
+Deleted 9 atoms, new total = 49387
+Deleted 8 atoms, new total = 49379
+Deleted 10 atoms, new total = 49369
+Deleted 0 atoms, new total = 49369
+Deleted 10 atoms, new total = 49359
+Deleted 11 atoms, new total = 49348
+Deleted 9 atoms, new total = 49339
+Deleted 1 atoms, new total = 49338
+Deleted 9 atoms, new total = 49329
+Deleted 10 atoms, new total = 49319
+Deleted 0 atoms, new total = 49319
+Deleted 10 atoms, new total = 49309
+Deleted 8 atoms, new total = 49301
+Deleted 10 atoms, new total = 49291
+Deleted 9 atoms, new total = 49282
+Deleted 0 atoms, new total = 49282
+Deleted 9 atoms, new total = 49273
+Deleted 9 atoms, new total = 49264
+Deleted 9 atoms, new total = 49255
+Deleted 5 atoms, new total = 49250
+Deleted 4 atoms, new total = 49246
+Deleted 9 atoms, new total = 49237
+Deleted 11 atoms, new total = 49226
+Deleted 9 atoms, new total = 49217
+Deleted 8 atoms, new total = 49209
+Deleted 13 atoms, new total = 49196
+Deleted 0 atoms, new total = 49196
+Deleted 9 atoms, new total = 49187
+Deleted 0 atoms, new total = 49187
+Deleted 10 atoms, new total = 49177
+Deleted 10 atoms, new total = 49167
+Deleted 7 atoms, new total = 49160
+Deleted 3 atoms, new total = 49157
+Deleted 9 atoms, new total = 49148
+Deleted 0 atoms, new total = 49148
+Deleted 10 atoms, new total = 49138
+Deleted 9 atoms, new total = 49129
+Deleted 7 atoms, new total = 49122
+Deleted 3 atoms, new total = 49119
+Deleted 9 atoms, new total = 49110
+Deleted 0 atoms, new total = 49110
+Deleted 9 atoms, new total = 49101
+Deleted 0 atoms, new total = 49101
+Deleted 9 atoms, new total = 49092
+Deleted 5 atoms, new total = 49087
+Deleted 5 atoms, new total = 49082
+Deleted 10 atoms, new total = 49072
+Deleted 0 atoms, new total = 49072
+Deleted 11 atoms, new total = 49061
+Deleted 0 atoms, new total = 49061
+Deleted 10 atoms, new total = 49051
+Deleted 9 atoms, new total = 49042
+Deleted 8 atoms, new total = 49034
+Deleted 0 atoms, new total = 49034
+Deleted 7 atoms, new total = 49027
+Deleted 2 atoms, new total = 49025
+Deleted 9 atoms, new total = 49016
+Deleted 9 atoms, new total = 49007
+Deleted 10 atoms, new total = 48997
+Deleted 10 atoms, new total = 48987
+Deleted 13 atoms, new total = 48974
+Deleted 9 atoms, new total = 48965
+Deleted 8 atoms, new total = 48957
+Deleted 3 atoms, new total = 48954
+Deleted 0 atoms, new total = 48954
+Deleted 7 atoms, new total = 48947
+Deleted 0 atoms, new total = 48947
+Deleted 13 atoms, new total = 48934
+Deleted 8 atoms, new total = 48926
+Deleted 10 atoms, new total = 48916
+Deleted 7 atoms, new total = 48909
+Deleted 3 atoms, new total = 48906
+Deleted 8 atoms, new total = 48898
+Deleted 9 atoms, new total = 48889
+Deleted 8 atoms, new total = 48881
+Deleted 11 atoms, new total = 48870
+Deleted 9 atoms, new total = 48861
+Deleted 10 atoms, new total = 48851
+Deleted 10 atoms, new total = 48841
+Deleted 11 atoms, new total = 48830
+Deleted 8 atoms, new total = 48822
+Deleted 8 atoms, new total = 48814
+Deleted 6 atoms, new total = 48808
+Deleted 2 atoms, new total = 48806
+Deleted 7 atoms, new total = 48799
+Deleted 2 atoms, new total = 48797
+Deleted 12 atoms, new total = 48785
+Deleted 2 atoms, new total = 48783
+Deleted 4 atoms, new total = 48779
+Deleted 1 atoms, new total = 48778
+Deleted 1 atoms, new total = 48777
+Deleted 11 atoms, new total = 48766
+Deleted 8 atoms, new total = 48758
+Deleted 8 atoms, new total = 48750
+Deleted 10 atoms, new total = 48740
+Deleted 0 atoms, new total = 48740
+Deleted 10 atoms, new total = 48730
+Deleted 7 atoms, new total = 48723
+Deleted 2 atoms, new total = 48721
+Deleted 10 atoms, new total = 48711
+Deleted 11 atoms, new total = 48700
+Deleted 9 atoms, new total = 48691
+Deleted 9 atoms, new total = 48682
+Deleted 11 atoms, new total = 48671
+Deleted 8 atoms, new total = 48663
+Deleted 10 atoms, new total = 48653
+Deleted 9 atoms, new total = 48644
+Deleted 10 atoms, new total = 48634
+Deleted 0 atoms, new total = 48634
+Deleted 11 atoms, new total = 48623
+Deleted 9 atoms, new total = 48614
+Deleted 9 atoms, new total = 48605
+Deleted 10 atoms, new total = 48595
+Deleted 0 atoms, new total = 48595
+Deleted 10 atoms, new total = 48585
+Deleted 0 atoms, new total = 48585
+Deleted 9 atoms, new total = 48576
+Deleted 4 atoms, new total = 48572
+Deleted 10 atoms, new total = 48562
+Deleted 10 atoms, new total = 48552
+Deleted 6 atoms, new total = 48546
+Deleted 2 atoms, new total = 48544
+Deleted 10 atoms, new total = 48534
+Deleted 10 atoms, new total = 48524
+Deleted 2 atoms, new total = 48522
+Deleted 8 atoms, new total = 48514
+Deleted 10 atoms, new total = 48504
+Deleted 10 atoms, new total = 48494
+Deleted 12 atoms, new total = 48482
+Deleted 11 atoms, new total = 48471
+Deleted 11 atoms, new total = 48460
+Deleted 10 atoms, new total = 48450
+Deleted 9 atoms, new total = 48441
+Deleted 4 atoms, new total = 48437
+Deleted 6 atoms, new total = 48431
+Deleted 9 atoms, new total = 48422
+Deleted 8 atoms, new total = 48414
+Deleted 9 atoms, new total = 48405
+Deleted 3 atoms, new total = 48402
+Deleted 9 atoms, new total = 48393
+Deleted 11 atoms, new total = 48382
+Deleted 2 atoms, new total = 48380
+Deleted 7 atoms, new total = 48373
+Deleted 10 atoms, new total = 48363
+Deleted 8 atoms, new total = 48355
+Deleted 10 atoms, new total = 48345
+Deleted 10 atoms, new total = 48335
+Deleted 8 atoms, new total = 48327
+Deleted 12 atoms, new total = 48315
+Deleted 0 atoms, new total = 48315
+Deleted 10 atoms, new total = 48305
+Deleted 10 atoms, new total = 48295
+Deleted 7 atoms, new total = 48288
+Deleted 2 atoms, new total = 48286
+Deleted 11 atoms, new total = 48275
+Deleted 9 atoms, new total = 48266
+Deleted 9 atoms, new total = 48257
+Deleted 8 atoms, new total = 48249
+Deleted 9 atoms, new total = 48240
+Deleted 9 atoms, new total = 48231
+Deleted 0 atoms, new total = 48231
+Deleted 9 atoms, new total = 48222
+Deleted 10 atoms, new total = 48212
+Deleted 9 atoms, new total = 48203
+Deleted 10 atoms, new total = 48193
+Deleted 6 atoms, new total = 48187
+Deleted 0 atoms, new total = 48187
+Deleted 5 atoms, new total = 48182
+Deleted 0 atoms, new total = 48182
+Deleted 12 atoms, new total = 48170
+Deleted 0 atoms, new total = 48170
+Deleted 10 atoms, new total = 48160
+Deleted 10 atoms, new total = 48150
+Deleted 9 atoms, new total = 48141
+Deleted 8 atoms, new total = 48133
+Deleted 7 atoms, new total = 48126
+Deleted 2 atoms, new total = 48124
+Deleted 8 atoms, new total = 48116
+Deleted 10 atoms, new total = 48106
+Deleted 9 atoms, new total = 48097
+Deleted 4 atoms, new total = 48093
+Deleted 10 atoms, new total = 48083
+Deleted 8 atoms, new total = 48075
+Deleted 0 atoms, new total = 48075
+Deleted 9 atoms, new total = 48066
+Deleted 2 atoms, new total = 48064
+Deleted 10 atoms, new total = 48054
+Deleted 10 atoms, new total = 48044
+Deleted 8 atoms, new total = 48036
+Deleted 2 atoms, new total = 48034
+Deleted 12 atoms, new total = 48022
+Deleted 11 atoms, new total = 48011
+Deleted 8 atoms, new total = 48003
+Deleted 8 atoms, new total = 47995
+Deleted 10 atoms, new total = 47985
+Deleted 9 atoms, new total = 47976
+Deleted 5 atoms, new total = 47971
+Deleted 3 atoms, new total = 47968
+Deleted 10 atoms, new total = 47958
+Deleted 10 atoms, new total = 47948
+Deleted 11 atoms, new total = 47937
+Deleted 10 atoms, new total = 47927
+Deleted 9 atoms, new total = 47918
+Deleted 10 atoms, new total = 47908
+Deleted 10 atoms, new total = 47898
+Deleted 13 atoms, new total = 47885
+Deleted 8 atoms, new total = 47877
+Deleted 11 atoms, new total = 47866
+Deleted 10 atoms, new total = 47856
+Deleted 9 atoms, new total = 47847
+Deleted 10 atoms, new total = 47837
+Deleted 9 atoms, new total = 47828
+Deleted 9 atoms, new total = 47819
+Deleted 9 atoms, new total = 47810
+Deleted 9 atoms, new total = 47801
+Deleted 3 atoms, new total = 47798
+Deleted 8 atoms, new total = 47790
+Deleted 12 atoms, new total = 47778
+Deleted 10 atoms, new total = 47768
+Deleted 4 atoms, new total = 47764
+Deleted 3 atoms, new total = 47761
+Deleted 1 atoms, new total = 47760
+Deleted 1 atoms, new total = 47759
+Deleted 10 atoms, new total = 47749
+Deleted 0 atoms, new total = 47749
+Deleted 9 atoms, new total = 47740
+Deleted 9 atoms, new total = 47731
+Deleted 0 atoms, new total = 47731
+Deleted 10 atoms, new total = 47721
+Deleted 10 atoms, new total = 47711
+Deleted 10 atoms, new total = 47701
+Deleted 8 atoms, new total = 47693
+Deleted 9 atoms, new total = 47684
+Deleted 9 atoms, new total = 47675
+Deleted 8 atoms, new total = 47667
+Deleted 10 atoms, new total = 47657
+Deleted 10 atoms, new total = 47647
+Deleted 9 atoms, new total = 47638
+Deleted 9 atoms, new total = 47629
+Deleted 4 atoms, new total = 47625
+Deleted 7 atoms, new total = 47618
+Deleted 9 atoms, new total = 47609
+Deleted 9 atoms, new total = 47600
+Deleted 1 atoms, new total = 47599
+Deleted 11 atoms, new total = 47588
+Deleted 10 atoms, new total = 47578
+Deleted 9 atoms, new total = 47569
+Deleted 9 atoms, new total = 47560
+Deleted 8 atoms, new total = 47552
+Deleted 10 atoms, new total = 47542
+Deleted 10 atoms, new total = 47532
+Deleted 9 atoms, new total = 47523
+Deleted 8 atoms, new total = 47515
+Deleted 10 atoms, new total = 47505
+Deleted 10 atoms, new total = 47495
+Deleted 10 atoms, new total = 47485
+Deleted 1 atoms, new total = 47484
+Deleted 8 atoms, new total = 47476
+Deleted 9 atoms, new total = 47467
+Deleted 10 atoms, new total = 47457
+Deleted 9 atoms, new total = 47448
+Deleted 11 atoms, new total = 47437
+Deleted 11 atoms, new total = 47426
+Deleted 10 atoms, new total = 47416
+Deleted 9 atoms, new total = 47407
+Deleted 10 atoms, new total = 47397
+Deleted 12 atoms, new total = 47385
+Deleted 11 atoms, new total = 47374
+Deleted 9 atoms, new total = 47365
+Deleted 9 atoms, new total = 47356
+Deleted 9 atoms, new total = 47347
+Deleted 10 atoms, new total = 47337
+Deleted 11 atoms, new total = 47326
+Deleted 9 atoms, new total = 47317
+Deleted 8 atoms, new total = 47309
+Deleted 10 atoms, new total = 47299
+Deleted 11 atoms, new total = 47288
+Deleted 4 atoms, new total = 47284
+Deleted 6 atoms, new total = 47278
+Deleted 10 atoms, new total = 47268
+Deleted 9 atoms, new total = 47259
+Deleted 8 atoms, new total = 47251
+Deleted 0 atoms, new total = 47251
+Deleted 10 atoms, new total = 47241
+Deleted 9 atoms, new total = 47232
+Deleted 10 atoms, new total = 47222
+Deleted 12 atoms, new total = 47210
+Deleted 9 atoms, new total = 47201
+Deleted 9 atoms, new total = 47192
+Deleted 10 atoms, new total = 47182
+Deleted 0 atoms, new total = 47182
+Deleted 10 atoms, new total = 47172
+Deleted 9 atoms, new total = 47163
+Deleted 9 atoms, new total = 47154
+Deleted 9 atoms, new total = 47145
+Deleted 11 atoms, new total = 47134
+Deleted 10 atoms, new total = 47124
+Deleted 10 atoms, new total = 47114
+Deleted 9 atoms, new total = 47105
+Deleted 9 atoms, new total = 47096
+Deleted 9 atoms, new total = 47087
+Deleted 8 atoms, new total = 47079
+Deleted 5 atoms, new total = 47074
+Deleted 5 atoms, new total = 47069
+Deleted 8 atoms, new total = 47061
+Deleted 8 atoms, new total = 47053
+Deleted 9 atoms, new total = 47044
+Deleted 8 atoms, new total = 47036
+Deleted 0 atoms, new total = 47036
+Deleted 9 atoms, new total = 47027
+Reading eam potential file C:/Users/Ncut/Desktop/LAMMPS3/potentials/Cu_u3.eam with DATE: 2007-06-11
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6.95
+  ghost atom cutoff = 6.95
+  binsize = 3.475, bins = 25 25 25
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair eam, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 0
+Per MPI rank memory allocation (min/avg/max) = 31.7 | 31.7 | 31.7 Mbytes
+   Step        Atoms         Temp          PotEng         Press           Pxx             Lx             Ly             Lz      
+         0       47027   0             -159162.61     -21461.815     -21479.386      86.76          86.76          86.76        
+        20       47027   0             -159253.98     -29253.031     -29246.122      86.76          86.76          86.76        
+        40       47027   0             -159261.91     -29847.029     -29833.499      86.76          86.76          86.76        
+        60       47027   0             -159267.84     -30435.316     -30405.643      86.76          86.76          86.76        
+        80       47027   0             -159272.31     -30722.538     -30688.956      86.76          86.76          86.76        
+       100       47027   0             -159277.74     -31044.113     -30976.412      86.76          86.76          86.76        
+       120       47027   0             -159282.51     -31277.316     -31196.528      86.76          86.76          86.76        
+       140       47027   0             -159287.61     -31425.808     -31342.837      86.76          86.76          86.76        
+       160       47027   0             -159294.24     -31685.392     -31573.087      86.76          86.76          86.76        
+       180       47027   0             -159300.48     -31888.197     -31754.904      86.76          86.76          86.76        
+       200       47027   0             -159305.59     -32061.8       -31907.941      86.76          86.76          86.76        
+       220       47027   0             -159310.15     -32223.364     -32068.667      86.76          86.76          86.76        
+       240       47027   0             -159313.8      -32472.197     -32347.692      86.76          86.76          86.76        
+       260       47027   0             -159319.84     -32601.724     -32507.474      86.76          86.76          86.76        
+       280       47027   0             -159326.3      -32716.362     -32641.241      86.76          86.76          86.76        
+       300       47027   0             -159331.81     -32782.632     -32673.517      86.76          86.76          86.76        
+       320       47027   0             -159335.08     -32887.327     -32762.155      86.76          86.76          86.76        
+       340       47027   0             -159338.53     -33001.817     -32881.866      86.76          86.76          86.76        
+       360       47027   0             -159342.5      -33126.551     -33016.528      86.76          86.76          86.76        
+       380       47027   0             -159346.43     -33211.928     -33107.139      86.76          86.76          86.76        
+       400       47027   0             -159350.67     -33280.52      -33159.373      86.76          86.76          86.76        
+       420       47027   0             -159355.61     -33306.131     -33173.022      86.76          86.76          86.76        
+       440       47027   0             -159359.45     -33329.8       -33206.434      86.76          86.76          86.76        
+       460       47027   0             -159362.54     -33415.628     -33289.539      86.76          86.76          86.76        
+       480       47027   0             -159364.53     -33424.944     -33304.181      86.76          86.76          86.76        
+       500       47027   0             -159366.15     -33430.097     -33320.068      86.76          86.76          86.76        
+       520       47027   0             -159368.03     -33466.256     -33349.012      86.76          86.76          86.76        
+       540       47027   0             -159371.17     -33513.382     -33371.995      86.76          86.76          86.76        
+       560       47027   0             -159373.22     -33600.759     -33454.127      86.76          86.76          86.76        
+       580       47027   0             -159375.39     -33709.711     -33554.806      86.76          86.76          86.76        
+       600       47027   0             -159377.44     -33757.758     -33590.952      86.76          86.76          86.76        
+       620       47027   0             -159378.36     -33772.116     -33618.513      86.76          86.76          86.76        
+       640       47027   0             -159380.29     -33794.398     -33632.039      86.76          86.76          86.76        
+       660       47027   0             -159381.57     -33827.233     -33661.43       86.76          86.76          86.76        
+       680       47027   0             -159382.42     -33838.02      -33667.22       86.76          86.76          86.76        
+       700       47027   0             -159383.41     -33805.91      -33638.916      86.76          86.76          86.76        
+       720       47027   0             -159383.98     -33813.233     -33646.558      86.76          86.76          86.76        
+       740       47027   0             -159384.27     -33860.933     -33697.273      86.76          86.76          86.76        
+       760       47027   0             -159384.73     -33874.966     -33703.457      86.76          86.76          86.76        
+       780       47027   0             -159385.43     -33884.13      -33719.517      86.76          86.76          86.76        
+       800       47027   0             -159386.15     -33870.079     -33703.072      86.76          86.76          86.76        
+       820       47027   0             -159386.3      -33879.813     -33710.734      86.76          86.76          86.76        
+       821       47027   0             -159386.3      -33880.048     -33710.932      86.76          86.76          86.76        
+Loop time of 44.4118 on 1 procs for 821 steps with 47027 atoms
+
+99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+     -159162.613994479  -159386.295870665  -159386.297433941
+  Force two-norm initial, final = 20.449503 0.11074121
+  Force max component initial, final = 0.61767195 0.020178492
+  Final line search alpha, max atom move = 1 0.020178492
+  Iterations, force evaluations = 821 1251
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 40.108     | 40.108     | 40.108     |   0.0 | 90.31
+Neigh   | 3.061      | 3.061      | 3.061      |   0.0 |  6.89
+Comm    | 0.2022     | 0.2022     | 0.2022     |   0.0 |  0.46
+Output  | 0.009974   | 0.009974   | 0.009974   |   0.0 |  0.02
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 1.03       |            |       |  2.32
+
+Nlocal:          47027 ave       47027 max       47027 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:          23846 ave       23846 max       23846 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    2.67336e+06 ave 2.67336e+06 max 2.67336e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2673360
+Ave neighs/atom = 56.847343
+Neighbor list builds = 59
+Dangerous builds = 0
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 821
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 26.09 | 26.09 | 26.09 Mbytes
+   Step        Atoms         Temp          PotEng         Press           Pxx             Lx             Ly             Lz      
+       821       47027   300           -159386.3      -30897.521     -30742.3        86.76          86.76          86.76        
+       840       47027   216.6012      -158931.78     -22212.288     -22016.858      86.611992      86.611992      86.611992    
+       860       47027   87.847107     -158190.05     -8687.4554     -8448.464       86.364109      86.364109      86.364109    
+       880       47027   105.96334     -158302.67     -5755.0023     -5506.1075      86.213023      86.213023      86.213023    
+       900       47027   164.21992     -158646.57     -5799.9808     -5556.2965      86.088174      86.088174      86.088174    
+       920       47027   157.5167      -158588.8      -3536.6087     -3297.0411      85.977035      85.977035      85.977035    
+       940       47027   162.59478     -158598.49     -2831.7717     -2612.0391      85.891778      85.891778      85.891778    
+       960       47027   192.1806      -158753.51     -3791.4295     -3608.7168      85.822905      85.822905      85.822905    
+       980       47027   182.62921     -158669.29     -2704.9093     -2574.3271      85.755622      85.755622      85.755622    
+      1000       47027   165.16186     -158536.58     -1199.3945     -1111.1783      85.69638       85.69638       85.69638     
+      1020       47027   186.23213     -158636.12     -1822.9016     -1774.527       85.650557      85.650557      85.650557    
+      1040       47027   198.16801     -158677.99     -2171.1923     -2152.1654      85.607495      85.607495      85.607495    
+      1060       47027   184.10173     -158562.05     -1294.2565     -1268.8049      85.563332      85.563332      85.563332    
+      1080       47027   188.93728     -158560.53     -1360.8399     -1316.6151      85.523717      85.523717      85.523717    
+      1100       47027   203.82985     -158618.5      -1867.5989     -1816.6437      85.48595       85.48595       85.48595     
+      1120       47027   199.68515     -158560.41     -1304.6876     -1253.823       85.445928      85.445928      85.445928    
+      1140       47027   198.89754     -158522.5      -829.11309     -779.54465      85.408363      85.408363      85.408363    
+      1160       47027   211.55063     -158564.97     -1042.07       -1045.7907      85.375666      85.375666      85.375666    
+      1180       47027   214.50366     -158547.85     -847.94096     -909.5599       85.344893      85.344893      85.344893    
+      1200       47027   213.44171     -158506.28     -513.55582     -540.57257      85.316717      85.316717      85.316717    
+      1220       47027   222.05767     -158522.82     -695.30235     -606.00096      85.292371      85.292371      85.292371    
+      1240       47027   228.06059     -158523.01     -785.68446     -584.44303      85.269235      85.269235      85.269235    
+      1260       47027   229.78008     -158497.23     -661.15182     -395.11218      85.246053      85.246053      85.246053    
+      1280       47027   236.8327      -158503.59     -810.49292     -567.68585      85.223304      85.223304      85.223304    
+      1300       47027   243.38066     -158506.79     -939.84846     -769.11947      85.199558      85.199558      85.199558    
+      1320       47027   245.77457     -158485.1      -826.07851     -684.6369       85.174039      85.174039      85.174039    
+      1340       47027   250.63078     -158478.48     -804.91517     -650.92035      85.147921      85.147921      85.147921    
+      1360       47027   256.50367     -158478.19     -864.41888     -660.06571      85.121505      85.121505      85.121505    
+      1380       47027   260.93164     -158469.66     -883.63601     -610.04711      85.094411      85.094411      85.094411    
+      1400       47027   266.97735     -158471.55     -1000.5641     -718.13461      85.066492      85.066492      85.066492    
+      1420       47027   272.7899      -158472.93     -1105.8132     -901.92717      85.03699       85.03699       85.03699     
+      1440       47027   277.03628     -158466.03     -1078.387      -965.10718      85.005563      85.005563      85.005563    
+      1460       47027   282.53567     -158467.95     -1029.765      -932.52123      84.973014      84.973014      84.973014    
+      1480       47027   288.17502     -158472.26     -951.34123     -800.38309      84.94025       84.94025       84.94025     
+      1500       47027   292.48753     -158470.53     -818.2246      -633.88681      84.908229      84.908229      84.908229    
+      1520       47027   296.76243     -158470.83     -762.43838     -590.73017      84.877903      84.877903      84.877903    
+      1540       47027   300.8476      -158472.62     -773.88199     -611.62389      84.849307      84.849307      84.849307    
+      1560       47027   304.22193     -158473.26     -779.26166     -596.74613      84.821892      84.821892      84.821892    
+      1580       47027   308.33611     -158482.13     -847.88369     -718.97598      84.795132      84.795132      84.795132    
+      1600       47027   312.65049     -158497.08     -935.8152      -898.12867      84.768178      84.768178      84.768178    
+      1620       47027   314.64891     -158504.38     -934.00062     -927.63086      84.740365      84.740365      84.740365    
+      1640       47027   316.95904     -158521.09     -972.47247     -907.59309      84.711838      84.711838      84.711838    
+      1660       47027   319.77056     -158549.59     -1059.5617     -968.27018      84.682421      84.682421      84.682421    
+      1680       47027   319.52343     -158568.55     -1022.0566     -954.95415      84.651797      84.651797      84.651797    
+      1700       47027   318.82062     -158591.27     -991.44046     -951.57531      84.620597      84.620597      84.620597    
+      1720       47027   320.00294     -158629.2      -1071.1663     -1018.509       84.589246      84.589246      84.589246    
+      1740       47027   321.00207     -158668.4      -1154.7158     -1074.6707      84.557229      84.557229      84.557229    
+      1760       47027   321.49388     -158705.93     -1180.2447     -1122.9372      84.524146      84.524146      84.524146    
+      1780       47027   321.88717     -158743.66     -1153.1788     -1209.6067      84.4902        84.4902        84.4902      
+      1800       47027   321.12744     -158774.68     -1059.5857     -1245.8903      84.456068      84.456068      84.456068    
+      1820       47027   322.1878      -158816.73     -1052.8468     -1277.6024      84.422613      84.422613      84.422613    
+      1840       47027   322.77566     -158856.38     -1013.7003     -1241.4148      84.389879      84.389879      84.389879    
+      1860       47027   321.14321     -158882.59     -877.44462     -1113.2958      84.358137      84.358137      84.358137    
+      1880       47027   321.30836     -158919.25     -824.69782     -1074.3185      84.328136      84.328136      84.328136    
+      1900       47027   322.65999     -158963.19     -864.33619     -1140.236       84.299736      84.299736      84.299736    
+      1920       47027   322.97835     -159001.33     -885.22077     -1173.7061      84.272116      84.272116      84.272116    
+      1940       47027   322.53238     -159035.07     -848.46696     -1141.5335      84.244813      84.244813      84.244813    
+      1960       47027   321.85665     -159067.26     -758.77707     -1001.4524      84.218005      84.218005      84.218005    
+      1980       47027   321.75184     -159102.64     -678.12684     -792.54477      84.192213      84.192213      84.192213    
+      2000       47027   322.07161     -159140.48     -635.25087     -652.16921      84.167764      84.167764      84.167764    
+      2020       47027   322.55977     -159179.48     -632.93652     -659.75345      84.144554      84.144554      84.144554    
+      2040       47027   322.07687     -159212.75     -642.46477     -753.59154      84.12218       84.12218       84.12218     
+      2060       47027   320.93442     -159241.79     -655.23786     -841.68057      84.100265      84.100265      84.100265    
+      2080       47027   320.66216     -159275.69     -720.28093     -976.2984       84.078417      84.078417      84.078417    
+      2100       47027   321.24281     -159314.63     -790.07631     -1087.8056      84.056007      84.056007      84.056007    
+      2120       47027   322.01288     -159354.95     -823.33416     -1082.6736      84.032529      84.032529      84.032529    
+      2140       47027   321.78307     -159389.53     -750.65        -1044.3109      84.008033      84.008033      84.008033    
+      2160       47027   321.40373     -159423.13     -631.61229     -1077.2257      83.983391      83.983391      83.983391    
+      2180       47027   322.08002     -159463.12     -545.78663     -1130.3917      83.959618      83.959618      83.959618    
+      2200       47027   321.38246     -159494.86     -438.63385     -1051.215       83.937265      83.937265      83.937265    
+      2220       47027   320.68147     -159526.3      -350.96858     -880.05569      83.916822      83.916822      83.916822    
+      2240       47027   320.12992     -159558.28     -330.3623      -776.10848      83.898467      83.898467      83.898467    
+      2260       47027   320.05529     -159592.84     -387.10433     -783.05373      83.88176       83.88176       83.88176     
+      2280       47027   320.76263     -159632.13     -480.12558     -843.01132      83.865729      83.865729      83.865729    
+      2300       47027   320.74243     -159667.23     -524.96267     -873.81373      83.849398      83.849398      83.849398    
+      2320       47027   320.41694     -159700.52     -527.63891     -894.93652      83.832369      83.832369      83.832369    
+      2340       47027   319.52162     -159730.19     -477.51167     -841.44908      83.814758      83.814758      83.814758    
+      2360       47027   318.42092     -159758.15     -414.03378     -707.48446      83.797076      83.797076      83.797076    
+      2380       47027   317.54846     -159786.88     -369.03671     -573.99588      83.77985       83.77985       83.77985     
+      2400       47027   316.75151     -159815.46     -321.9679      -514.86346      83.763343      83.763343      83.763343    
+      2420       47027   316.53298     -159847.03     -287.6084      -514.99943      83.747747      83.747747      83.747747    
+      2440       47027   315.82356     -159875.27     -235.41084     -450.19819      83.733168      83.733168      83.733168    
+      2460       47027   314.68799     -159900.39     -201.78633     -356.87833      83.719758      83.719758      83.719758    
+      2480       47027   314.2099      -159928.9      -206.23926     -304.89903      83.707499      83.707499      83.707499    
+      2500       47027   313.8896      -159957.87     -231.15208     -334.98355      83.696066      83.696066      83.696066    
+      2520       47027   314.83296     -159994.33     -321.48394     -520.18955      83.684944      83.684944      83.684944    
+      2540       47027   313.66425     -160018.06     -321.21949     -644.62964      83.67338       83.67338       83.67338     
+      2560       47027   311.92092     -160037.73     -250.73704     -646.00383      83.661441      83.661441      83.661441    
+      2580       47027   312.79393     -160072.61     -258.26626     -662.9754       83.649651      83.649651      83.649651    
+      2600       47027   312.89037     -160102.72     -229.94732     -636.79268      83.637984      83.637984      83.637984    
+      2620       47027   312.37323     -160129        -201.21018     -685.32714      83.626604      83.626604      83.626604    
+      2640       47027   312.81942     -160161.02     -221.10905     -801.17233      83.615634      83.615634      83.615634    
+      2660       47027   311.77505     -160183.96     -193.01138     -804.94308      83.604872      83.604872      83.604872    
+      2680       47027   309.40316     -160198.23     -157.21561     -750.28702      83.594473      83.594473      83.594473    
+      2700       47027   308.59202     -160220.82     -192.69917     -729.37889      83.584607      83.584607      83.584607    
+      2720       47027   308.74072     -160248.39     -238.65292     -721.53002      83.57486       83.57486       83.57486     
+      2740       47027   309.2883      -160277.96     -259.94724     -697.77325      83.564805      83.564805      83.564805    
+      2760       47027   310.59512     -160312.26     -257.36069     -623.32417      83.554311      83.554311      83.554311    
+      2780       47027   310.13521     -160336.24     -165.54853     -493.97156      83.543535      83.543535      83.543535    
+      2800       47027   309.33651     -160358.17     -96.913885     -426.27937      83.533252      83.533252      83.533252    
+      2820       47027   308.96964     -160382.43     -97.956635     -436.38437      83.523938      83.523938      83.523938    
+      2840       47027   307.80965     -160401.49     -79.207813     -437.06953      83.515445      83.515445      83.515445    
+      2860       47027   306.43569     -160418.49     -57.203048     -423.53028      83.507761      83.507761      83.507761    
+      2880       47027   307.14395     -160447.29     -139.67868     -461.79413      83.500837      83.500837      83.500837    
+      2900       47027   308.78878     -160481.7      -256.62744     -502.44985      83.493803      83.493803      83.493803    
+      2920       47027   308.28642     -160503.47     -255.76198     -431.76077      83.485749      83.485749      83.485749    
+      2940       47027   307.92144     -160526.15     -212.56027     -372.35214      83.476797      83.476797      83.476797    
+      2960       47027   307.47211     -160548.2      -144.78295     -268.56195      83.467443      83.467443      83.467443    
+      2980       47027   305.88112     -160562.93     -7.2612693     -63.608121      83.458426      83.458426      83.458426    
+      3000       47027   304.55922     -160578.37      49.508451      64.802963      83.450803      83.450803      83.450803    
+      3020       47027   305.25357     -160605.12     -64.504514      48.536048      83.444747      83.444747      83.444747    
+      3040       47027   305.56672     -160629.21     -170.62744      43.287411      83.439098      83.439098      83.439098    
+      3060       47027   304.40753     -160644.11     -175.39215      47.852485      83.432892      83.432892      83.432892    
+      3080       47027   303.05842     -160657.18     -124.17661      29.817196      83.426138      83.426138      83.426138    
+      3100       47027   302.80854     -160675.97     -101.88242      28.851518      83.4193        83.4193        83.4193      
+      3120       47027   303.52936     -160699.94     -105.85187      42.849867      83.412593      83.412593      83.412593    
+      3140       47027   303.96562     -160721.94     -99.125541     -1.6999327      83.405991      83.405991      83.405991    
+      3160       47027   304.31074     -160743.39     -117.34077     -113.72002      83.399497      83.399497      83.399497    
+      3180       47027   304.58505     -160764.6      -157.34996     -241.60818      83.392898      83.392898      83.392898    
+      3200       47027   302.46746     -160771.31     -77.148216     -244.57378      83.385965      83.385965      83.385965    
+      3220       47027   300.54913     -160778.34      26.425045     -198.64185      83.379392      83.379392      83.379392    
+      3240       47027   300.93684     -160798.08      20.172172     -207.40629      83.373943      83.373943      83.373943    
+      3260       47027   302.40089     -160823.56     -76.974517     -234.7517       83.369391      83.369391      83.369391    
+      3280       47027   303.6085      -160847.51     -176.16828     -279.0641       83.364772      83.364772      83.364772    
+      3300       47027   303.38        -160863.17     -165.5107      -266.82933      83.359299      83.359299      83.359299    
+      3320       47027   301.7848      -160870.68     -38.674555     -151.34444      83.353215      83.353215      83.353215    
+      3340       47027   300.22523     -160877.81      75.96879       1.7301458      83.347655      83.347655      83.347655    
+      3360       47027   300.95232     -160897.86      36.905856     -0.96427656     83.343445      83.343445      83.343445    
+      3380       47027   302.44061     -160922.1      -72.456565     -103.78892      83.340101      83.340101      83.340101    
+      3400       47027   302.6788      -160938.93     -139.26486     -180.64949      83.336591      83.336591      83.336591    
+      3420       47027   302.48427     -160953.42     -149.25141     -189.3837       83.33233       83.33233       83.33233     
+      3440       47027   300.84318     -160959.15     -74.447737     -160.13079      83.327329      83.327329      83.327329    
+      3460       47027   299.15687     -160963.87      10.993014     -111.16741      83.322326      83.322326      83.322326    
+      3480       47027   299.91048     -160982.26     -27.129564     -132.172        83.318         83.318         83.318       
+      3500       47027   301.65958     -161006.09     -120.05475     -234.45143      83.313945      83.313945      83.313945    
+      3520       47027   302.23888     -161022.97     -136.62882     -274.7369       83.309366      83.309366      83.309366    
+      3540       47027   302.19292     -161036.44     -78.599091     -219.88691      83.304192      83.304192      83.304192    
+      3560       47027   302.63738     -161053.26     -34.63806      -198.62045      83.298955      83.298955      83.298955    
+      3580       47027   302.27735     -161065.62      33.151978     -197.27118      83.294112      83.294112      83.294112    
+      3600       47027   302.06085     -161079.08      48.400049     -207.51289      83.290154      83.290154      83.290154    
+      3620       47027   302.52717     -161096.83     -33.257357     -258.37722      83.287062      83.287062      83.287062    
+      3640       47027   301.95358     -161108.51     -84.796622     -274.78063      83.284078      83.284078      83.284078    
+      3660       47027   301.05705     -161118.14     -88.269441     -252.29085      83.280719      83.280719      83.280719    
+      3680       47027   301.12832     -161133.28     -91.544262     -284.01383      83.276951      83.276951      83.276951    
+      3700       47027   300.33107     -161142.76     -50.513176     -325.6185       83.272834      83.272834      83.272834    
+      3720       47027   299.49719     -161151.34      4.5301599     -320.9429       83.268785      83.268785      83.268785    
+      3740       47027   300.43711     -161169.89     -10.458898     -312.05492      83.265219      83.265219      83.265219    
+      3760       47027   300.22677     -161181.06      3.3497418     -242.91871      83.262021      83.262021      83.262021    
+      3780       47027   299.81239     -161190.54      5.2974337     -191.85497      83.259244      83.259244      83.259244    
+      3800       47027   300.66064     -161207.22     -57.275842     -208.83371      83.256792      83.256792      83.256792    
+      3820       47027   301.11621     -161221.42     -102.56216     -142.52211      83.25412       83.25412       83.25412     
+      3840       47027   301.88813     -161237.7      -128.38436     -31.075484      83.250822      83.250822      83.250822    
+      3860       47027   301.9169      -161249.93     -95.548274      62.179214      83.24677       83.24677       83.24677     
+      3880       47027   300.55547     -161254.02     -5.590425       116.13232      83.242364      83.242364      83.242364    
+      3900       47027   299.70562     -161260.94      53.756782      134.75495      83.238407      83.238407      83.238407    
+      3920       47027   299.81602     -161273.12      44.19223       124.25874      83.235328      83.235328      83.235328    
+      3940       47027   299.5255      -161282.33      40.010614      91.805785      83.233027      83.233027      83.233027    
+      3960       47027   300.74386     -161300.22     -32.734663     -76.406057      83.231294      83.231294      83.231294    
+      3980       47027   302.46797     -161321.32     -119.19316     -212.23955      83.229421      83.229421      83.229421    
+      4000       47027   301.38966     -161326.09     -83.778066     -144.89182      83.226755      83.226755      83.226755    
+      4020       47027   300.17178     -161330.22     -19.050749     -70.741557      83.223627      83.223627      83.223627    
+      4040       47027   298.9261      -161333.79      43.176196     -46.618917      83.220669      83.220669      83.220669    
+      4060       47027   299.1531      -161345.47      30.078179     -93.844824      83.218357      83.218357      83.218357    
+      4080       47027   300.21801     -161361.62     -10.856228     -115.33919      83.21654       83.21654       83.21654     
+      4100       47027   299.89561     -161369.14     -8.532428      -59.212187      83.214852      83.214852      83.214852    
+      4120       47027   300.64189     -161382.92     -67.924489     -56.544092      83.213212      83.213212      83.213212    
+      4140       47027   301.56956     -161397.95     -144.9767      -98.953948      83.211075      83.211075      83.211075    
+      4160       47027   300.61765     -161401.97     -83.930704     -27.818239      83.207929      83.207929      83.207929    
+      4180       47027   300.35532     -161410.22     -0.41819765     80.020499      83.204347      83.204347      83.204347    
+      4200       47027   301.10766     -161424.6       22.175679      143.00282      83.201064      83.201064      83.201064    
+      4220       47027   301.46654     -161436.85      28.323918      154.96861      83.198298      83.198298      83.198298    
+      4240       47027   301.53255     -161447.72      14.503282      106.38145      83.196051      83.196051      83.196051    
+      4260       47027   301.02768     -161455.51     -1.7151927     -5.2115524      83.194145      83.194145      83.194145    
+      4280       47027   299.34472     -161456.15      28.111067     -123.93598      83.19247       83.19247       83.19247     
+      4300       47027   298.78018     -161462.94     -8.1058745     -260.9142       83.191175      83.191175      83.191175    
+      4320       47027   299.5542      -161477.07     -97.715412     -441.10732      83.189865      83.189865      83.189865    
+      4340       47027   299.31685     -161484.58     -79.508734     -498.64617      83.187867      83.187867      83.187867    
+      4360       47027   298.2764      -161486.62      2.4457329     -477.58664      83.185378      83.185378      83.185378    
+      4380       47027   298.70153     -161496.65      12.763375     -527.35964      83.183079      83.183079      83.183079    
+      4400       47027   299.9594      -161511.08     -25.685132     -626.96734      83.181077      83.181077      83.181077    
+      4420       47027   299.98679     -161517.87     -16.145215     -614.8183       83.179068      83.179068      83.179068    
+      4440       47027   299.93199     -161524.08     -0.32145896    -580.5787       83.17709       83.17709       83.17709     
+      4460       47027   299.63472     -161528.7       28.064018     -555.14088      83.175306      83.175306      83.175306    
+      4480       47027   299.58152     -161534.55      33.792589     -568.74583      83.173937      83.173937      83.173937    
+      4500       47027   299.60472     -161540.62      20.233316     -603.46651      83.172983      83.172983      83.172983    
+      4520       47027   299.56491     -161546.04      1.7429741     -590.90496      83.172294      83.172294      83.172294    
+      4540       47027   300.85761     -161559.39     -76.968113     -607.11203      83.171617      83.171617      83.171617    
+      4560       47027   301.44332     -161568.8      -119.07682     -617.40202      83.170302      83.170302      83.170302    
+      4580       47027   300.56724     -161569.89     -63.172256     -606.46685      83.168065      83.168065      83.168065    
+      4600       47027   300.09769     -161573.66     -12.656221     -663.161        83.16541       83.16541       83.16541     
+      4620       47027   301.30486     -161587.66     -40.010863     -736.16221      83.162795      83.162795      83.162795    
+      4640       47027   302.74147     -161603.66     -49.353557     -714.95136      83.160058      83.160058      83.160058    
+      4660       47027   302.45312     -161610.31      28.190386     -657.67955      83.157184      83.157184      83.157184    
+      4680       47027   301.63559     -161614.71      85.064074     -637.5659       83.154807      83.154807      83.154807    
+      4700       47027   301.173       -161621.79      54.475796     -638.7129       83.153347      83.153347      83.153347    
+      4720       47027   300.99769     -161630.9      -8.1342626     -572.48767      83.152483      83.152483      83.152483    
+      4740       47027   300.64274     -161639.07     -44.154498     -470.67103      83.151627      83.151627      83.151627    
+      4760       47027   300.38979     -161647.85     -57.509148     -420.33538      83.150441      83.150441      83.150441    
+      4780       47027   300.50671     -161658.75     -71.327005     -445.27662      83.148798      83.148798      83.148798    
+      4800       47027   301.16952     -161672.96     -80.288526     -475.50966      83.146598      83.146598      83.146598    
+      4820       47027   300.79429     -161681.06     -28.880455     -433.37596      83.143866      83.143866      83.143866    
+      4840       47027   300.21535     -161687.95      27.134403     -429.52594      83.141103      83.141103      83.141103    
+      4860       47027   300.33057     -161698.86      16.030491     -477.7228       83.138749      83.138749      83.138749    
+      4880       47027   300.37035     -161709.16      6.5244534     -459.96105      83.136739      83.136739      83.136739    
+      4900       47027   300.91095     -161722.42     -14.387913     -430.26604      83.134927      83.134927      83.134927    
+      4920       47027   300.93153     -161732.66     -9.0083395     -389.57327      83.133149      83.133149      83.133149    
+      4940       47027   300.1805      -161738.29      24.516992     -386.37039      83.131451      83.131451      83.131451    
+      4960       47027   299.95263     -161746.89      12.265232     -492.55654      83.130083      83.130083      83.130083    
+      4980       47027   300.872       -161762.22     -63.787879     -666.73607      83.128888      83.128888      83.128888    
+      5000       47027   301.26191     -161774.48     -100.47607     -735.09122      83.12723       83.12723       83.12723     
+      5020       47027   300.60806     -161780.66     -73.249114     -728.92062      83.124802      83.124802      83.124802    
+      5040       47027   299.90619     -161786.5      -13.911644     -688.10171      83.121903      83.121903      83.121903    
+      5060       47027   299.48145     -161793.68      50.767789     -592.16769      83.119099      83.119099      83.119099    
+      5080       47027   299.32951     -161802.01      83.627811     -547.16713      83.116962      83.116962      83.116962    
+      5100       47027   298.95167     -161808.4       76.130222     -590.26574      83.115743      83.115743      83.115743    
+      5120       47027   298.52857     -161813.81      15.302404     -677.11134      83.115291      83.115291      83.115291    
+      5140       47027   298.88929     -161823.18     -81.218227     -766.17897      83.114976      83.114976      83.114976    
+      5160       47027   299.66011     -161834.45     -128.6466      -756.5504       83.113952      83.113952      83.113952    
+      5180       47027   300.10844     -161843.51     -98.650165     -629.14189      83.111861      83.111861      83.111861    
+      5200       47027   301.01324     -161855.36     -48.189728     -506.06681      83.109013      83.109013      83.109013    
+      5220       47027   301.52095     -161865.22      33.26629      -401.00513      83.105938      83.105938      83.105938    
+      5240       47027   300.27062     -161864.93      150.62535     -254.14568      83.103435      83.103435      83.103435    
+      5260       47027   299.45879     -161867.32      180.94011     -145.64708      83.102461      83.102461      83.102461    
+      5280       47027   299.80663     -161876.43      72.718775     -135.35378      83.103146      83.103146      83.103146    
+      5300       47027   300.92574     -161890.1      -82.174587     -197.52038      83.104421      83.104421      83.104421    
+      5320       47027   300.49914     -161894.66     -144.75525     -244.11567      83.104911      83.104911      83.104911    
+      5340       47027   299.35733     -161894.95     -138.95171     -274.61525      83.10406       83.10406       83.10406     
+      5360       47027   300.44724     -161908.49     -169.44914     -334.6967       83.101916      83.101916      83.101916    
+      5380       47027   301.53933     -161922.21     -129.68008     -297.11159      83.098375      83.098375      83.098375    
+      5400       47027   300.63683     -161924.33      29.156422     -137.73401      83.093968      83.093968      83.093968    
+      5420       47027   300.26716     -161929.86      126.72493     -20.955032      83.090092      83.090092      83.090092    
+      5440       47027   301.1623      -161943.15      108.20289     -13.407481      83.087579      83.087579      83.087579    
+      5460       47027   301.21136     -161951.67      97.835196     -43.447634      83.086268      83.086268      83.086268    
+      5480       47027   300.72381     -161957.32      96.31415      -112.49182      83.085994      83.085994      83.085994    
+      5500       47027   300.25217     -161963.2       29.018395     -264.15441      83.086606      83.086606      83.086606    
+      5520       47027   300.75904     -161974.99     -119.22298     -454.70919      83.087381      83.087381      83.087381    
+      5540       47027   301.16993     -161986.39     -220.14461     -586.4999       83.086998      83.086998      83.086998    
+      5560       47027   300.76384     -161993.12     -175.57072     -540.81356      83.084671      83.084671      83.084671    
+      5580       47027   300.44119     -162000.49     -58.831244     -396.20341      83.080881      83.080881      83.080881    
+      5600       47027   299.41136     -162003.45      95.51293      -233.909        83.076822      83.076822      83.076822    
+      5620       47027   299.30401     -162011.54      148.68768     -187.26958      83.073838      83.073838      83.073838    
+      5640       47027   299.38125     -162020.24      128.25149     -196.93178      83.072397      83.072397      83.072397    
+      5660       47027   298.42532     -162022.13      77.71357      -240.41089      83.072248      83.072248      83.072248    
+      5680       47027   298.63866     -162030.3      -48.70479      -367.79562      83.072782      83.072782      83.072782    
+      5700       47027   299.27342     -162040.31     -142.94511     -456.65861      83.072862      83.072862      83.072862    
+      5720       47027   299.35163     -162046.51     -127.29137     -483.47872      83.071674      83.071674      83.071674    
+      5740       47027   300.1638      -162056.84     -78.229061     -456.61171      83.069381      83.069381      83.069381    
+      5760       47027   301.43426     -162070.05     -27.283521     -333.80337      83.066478      83.066478      83.066478    
+      5780       47027   301.13229     -162074.27      63.544721     -148.99537      83.063537      83.063537      83.063537    
+      5800       47027   300.73627     -162078.39      113.02869     -55.234201      83.061359      83.061359      83.061359    
+      5820       47027   300.38036     -162083.02      105.85294     -58.099897      83.060357      83.060357      83.060357    
+      5840       47027   299.90473     -162087         50.207289     -119.87189      83.060387      83.060387      83.060387    
+      5860       47027   300.10223     -162094.94     -63.759216     -253.16127      83.060817      83.060817      83.060817    
+      5880       47027   301.19553     -162108.36     -177.97207     -447.03412      83.060591      83.060591      83.060591    
+      5900       47027   301.56523     -162117.84     -178.68784     -588.44157      83.058785      83.058785      83.058785    
+      5920       47027   300.59348     -162119.73     -46.199685     -579.31036      83.055532      83.055532      83.055532    
+      5940       47027   300.91526     -162129.67      48.604945     -531.85232      83.051994      83.051994      83.051994    
+      5960       47027   301.40598     -162140.94      103.17663     -508.77315      83.049097      83.049097      83.049097    
+      5980       47027   301.33047     -162149.23      114.51529     -531.75256      83.047319      83.047319      83.047319    
+      6000       47027   301.53821     -162159.7       62.101032     -589.75989      83.046671      83.046671      83.046671    
+      6020       47027   301.07918     -162166.57      2.0392157     -621.74588      83.046635      83.046635      83.046635    
+      6040       47027   299.76976     -162168.42     -37.822075     -603.12772      83.046636      83.046636      83.046636    
+      6060       47027   300.25034     -162180.82     -129.06809     -628.33374      83.046213      83.046213      83.046213    
+      6080       47027   301.60883     -162198.51     -187.37769     -641.54043      83.04461       83.04461       83.04461     
+      6100       47027   300.62304     -162202.33     -89.093113     -525.19422      83.041459      83.041459      83.041459    
+      6120       47027   300.05838     -162208.7       8.1519986     -368.67879      83.037629      83.037629      83.037629    
+      6140       47027   300.99087     -162223.99      28.741227     -326.86517      83.034007      83.034007      83.034007    
+      6160       47027   300.74243     -162232.25      94.416191     -309.91572      83.030905      83.030905      83.030905    
+      6180       47027   298.83489     -162230.38      189.63749     -279.4737       83.028909      83.028909      83.028909    
+      6200       47027   296.88916     -162227.38      211.66065     -304.24225      83.028767      83.028767      83.028767    
+      6220       47027   296.4726      -162232.04      80.524174     -485.24969      83.030519      83.030519      83.030519    
+      6240       47027   298.26187     -162248.43     -155.14481     -752.69544      83.032857      83.032857      83.032857    
+      6260       47027   299.21006     -162258.83     -268.70302     -878.26227      83.033699      83.033699      83.033699    
+      6280       47027   297.9907      -162255.53     -172.04602     -744.15838      83.03213       83.03213       83.03213     
+      6300       47027   298.62161     -162262.59     -82.308597     -617.67539      83.02899       83.02899       83.02899     
+      6320       47027   300.0702      -162273.99      11.438629     -539.3836       83.025237      83.025237      83.025237    
+      6340       47027   299.69947     -162274.28      159.67048     -449.84345      83.021827      83.021827      83.021827    
+      6360       47027   298.4762      -162269.19      272.61386     -409.83334      83.020082      83.020082      83.020082    
+      6380       47027   298.25116     -162269.48      242.44606     -485.91861      83.020897      83.020897      83.020897    
+      6400       47027   299.29982     -162276.73      94.838607     -595.23801      83.023894      83.023894      83.023894    
+      6420       47027   299.6272      -162279.22     -78.23735      -718.43925      83.027616      83.027616      83.027616    
+      6440       47027   299.63919     -162279.59     -225.93049     -845.69305      83.030415      83.030415      83.030415    
+      6460       47027   300.13955     -162282.78     -297.89208     -899.66556      83.030981      83.030981      83.030981    
+      6480       47027   300.637       -162286.02     -235.20483     -795.79971      83.028807      83.028807      83.028807    
+      6500       47027   301.53369     -162292.03     -75.90463      -597.29044      83.024605      83.024605      83.024605    
+      6520       47027   302.27134     -162297.81      114.1352      -429.01773      83.019919      83.019919      83.019919    
+      6540       47027   302.57421     -162302.03      245.27821     -382.94849      83.016505      83.016505      83.016505    
+      6560       47027   302.66271     -162306.21      249.86622     -425.31045      83.015491      83.015491      83.015491    
+      6580       47027   302.33069     -162309.1       133.12343     -502.54587      83.016793      83.016793      83.016793    
+      6600       47027   302.31271     -162315        -51.694166     -578.84736      83.019222      83.019222      83.019222    
+      6620       47027   301.91103     -162319.59     -172.44267     -636.54993      83.021106      83.021106      83.021106    
+      6640       47027   301.4051      -162324.34     -207.3003      -664.51486      83.021343      83.021343      83.021343    
+      6660       47027   301.68367     -162334.41     -224.56531     -679.22545      83.019616      83.019616      83.019616    
+      6680       47027   302.20338     -162346.6      -171.97419     -627.40932      83.015891      83.015891      83.015891    
+      6700       47027   300.99222     -162348.97      5.5498957     -436.55053      83.010809      83.010809      83.010809    
+      6720       47027   300.35322     -162354.96      149.07426     -218.11991      83.006003      83.006003      83.006003    
+      6740       47027   301.16597     -162369.71      177.82496     -106.38847      83.002757      83.002757      83.002757    
+      6760       47027   300.5072      -162375.71      198.47174     -78.830343      83.001366      83.001366      83.001366    
+      6780       47027   299.31379     -162378.31      160.3453      -67.206437      83.001886      83.001886      83.001886    
+      6800       47027   299.77445     -162390.39     -27.586383     -144.76966      83.003788      83.003788      83.003788    
+      6820       47027   300.75155     -162405.32     -225.3225      -355.13377      83.005318      83.005318      83.005318    
+      6840       47027   298.63608     -162401.41     -189.47154     -423.75374      83.004843      83.004843      83.004843    
+      6860       47027   296.9949      -162399.46     -81.033224     -418.36583      83.002644      83.002644      83.002644    
+      6880       47027   298.62037     -162415.94     -84.535516     -508.43457      82.999641      82.999641      82.999641    
+      6900       47027   299.75267     -162428.69     -14.801502     -510.57345      82.996026      82.996026      82.996026    
+      6920       47027   299.1507      -162430.64      139.10975     -377.07981      82.9925        82.9925        82.9925      
+      6940       47027   297.95774     -162428.48      253.10536     -235.45345      82.990416      82.990416      82.990416    
+      6960       47027   297.5084      -162429.86      228.95245     -220.47045      82.99072       82.99072       82.99072     
+      6980       47027   297.95492     -162435.51      73.857514     -400.38139      82.993105      82.993105      82.993105    
+      7000       47027   298.42174     -162440.3      -112.0303      -644.1464       82.996064      82.996064      82.996064    
+      7020       47027   298.12815     -162439.66     -186.45723     -793.11075      82.997917      82.997917      82.997917    
+      7040       47027   297.49808     -162436.05     -126.81566     -796.17453      82.998028      82.998028      82.998028    
+      7060       47027   298.41375     -162440.7      -87.208591     -764.40198      82.996911      82.996911      82.996911    
+      7080       47027   301.74397     -162459.38     -119.84655     -811.21839      82.994933      82.994933      82.994933    
+      7100       47027   302.11279     -162460.74     -13.359008     -748.07024      82.991986      82.991986      82.991986    
+      7120       47027   299.86899     -162447.14      200.86588     -545.12127      82.989124      82.989124      82.989124    
+      7140       47027   300.10665     -162448.67      220.04069     -475.84425      82.988121      82.988121      82.988121    
+      7160       47027   302.04946     -162460.71      94.925434     -521.40175      82.989143      82.989143      82.989143    
+      7180       47027   302.30495     -162463.41     -11.474718     -575.09551      82.991045      82.991045      82.991045    
+      7200       47027   302.1799      -162464.91     -93.592366     -677.28783      82.992785      82.992785      82.992785    
+      7220       47027   302.09396     -162467.72     -152.36818     -765.81859      82.993579      82.993579      82.993579    
+      7240       47027   301.4097      -162467.87     -148.2812      -740.7278       82.99294       82.99294       82.99294     
+      7260       47027   301.71763     -162474.75     -126.94007     -676.25164      82.990913      82.990913      82.990913    
+      7280       47027   302.29981     -162484.12     -52.56028      -632.92232      82.987786      82.987786      82.987786    
+      7300       47027   301.18569     -162484.13      116.9957      -551.15473      82.984369      82.984369      82.984369    
+      7320       47027   300.58462     -162487.71      209.3755      -503.18391      82.982142      82.982142      82.982142    
+      7340       47027   302.02667     -162503.98      111.46647     -592.35733      82.981839      82.981839      82.981839    
+      7360       47027   302.79349     -162516.98     -18.590798     -720.34861      82.98259       82.98259       82.98259     
+      7380       47027   301.15801     -162516.38     -59.034555     -799.74577      82.983223      82.983223      82.983223    
+      7400       47027   300.37224     -162521.21     -116.62584     -895.58556      82.983241      82.983241      82.983241    
+      7420       47027   300.12782     -162529.23     -141.98921     -906.25283      82.982183      82.982183      82.982183    
+      7440       47027   299.97239     -162537.55     -98.908965     -808.68128      82.979877      82.979877      82.979877    
+      7460       47027   300.31215     -162548.63     -43.721332     -661.4158       82.97669       82.97669       82.97669     
+      7480       47027   299.85693     -162554.75      65.417884     -478.41634      82.973225      82.973225      82.973225    
+      7500       47027   298.43434     -162554.6       191.47096     -348.57518      82.97053       82.97053       82.97053     
+      7520       47027   297.92479     -162559.07      178.71922     -397.83559      82.969655      82.969655      82.969655    
+      7540       47027   298.82558     -162571.07      34.507077     -545.74454      82.9704        82.9704        82.9704      
+      7560       47027   298.56968     -162575.34     -66.157575     -653.30573      82.971473      82.971473      82.971473    
+      7580       47027   297.42458     -162573.4      -87.256245     -661.72644      82.971943      82.971943      82.971943    
+      7600       47027   297.57442     -162578.11     -135.43866     -667.3094       82.971527      82.971527      82.971527    
+      7620       47027   299.52269     -162592.68     -182.94007     -689.52725      82.969806      82.969806      82.969806    
+      7640       47027   299.47827     -162594.82     -58.629694     -546.1609       82.966538      82.966538      82.966538    
+      7660       47027   298.00625     -162587.94      156.33806     -294.75015      82.962892      82.962892      82.962892    
+      7680       47027   297.74624     -162587.52      260.63808     -161.71929      82.960766      82.960766      82.960766    
+      7700       47027   299.01277     -162595.35      198.7024      -214.85117      82.961084      82.961084      82.961084    
+      7720       47027   301.42246     -162609.72      9.0180702     -344.72935      82.963182      82.963182      82.963182    
+      7740       47027   301.78636     -162612.24     -86.635977     -354.24914      82.965378      82.965378      82.965378    
+      7760       47027   300.80417     -162607.39     -81.913123     -295.59976      82.966753      82.966753      82.966753    
+      7780       47027   300.8637      -162609.33     -105.68768     -316.82972      82.967244      82.967244      82.967244    
+      7800       47027   300.88252     -162611.43     -106.25575     -362.2943       82.966722      82.966722      82.966722    
+      7820       47027   301.25641     -162616.13     -69.488538     -348.5319       82.965229      82.965229      82.965229    
+      7840       47027   301.9672      -162623.52     -26.867882     -280.28158      82.963118      82.963118      82.963118    
+      7860       47027   302.61598     -162631.49      18.339547     -215.44006      82.960801      82.960801      82.960801    
+      7880       47027   301.83908     -162631.97      98.086573     -147.21122      82.958746      82.958746      82.958746    
+      7900       47027   300.76444     -162631.45      148.8479      -94.280706      82.957676      82.957676      82.957676    
+      7920       47027   300.51611     -162636.27      81.248388     -167.55879      82.957951      82.957951      82.957951    
+      7940       47027   301.03241     -162645.94     -54.952265     -356.96428      82.958915      82.958915      82.958915    
+      7960       47027   301.26255     -162654.27     -155.98631     -501.6542       82.959335      82.959335      82.959335    
+      7980       47027   300.44799     -162656.68     -154.07383     -485.4208       82.958332      82.958332      82.958332    
+      8000       47027   299.85706     -162660.52     -85.064626     -350.7727       82.955917      82.955917      82.955917    
+      8020       47027   299.24252     -162663.99      33.172886     -120.00622      82.952803      82.952803      82.952803    
+      8040       47027   299.57093     -162672.73      103.07499      33.410071      82.950048      82.950048      82.950048    
+      8060       47027   300.09882     -162682.41      125.81088      41.199257      82.948312      82.948312      82.948312    
+      8080       47027   299.05584     -162682.41      164.46701     -22.415649      82.947865      82.947865      82.947865    
+      8100       47027   298.38094     -162684.12      103.17964     -225.19924      82.948924      82.948924      82.948924    
+      8120       47027   298.6674      -162690.87     -62.149653     -508.24013      82.95086       82.95086       82.95086     
+      8140       47027   299.00543     -162697.25     -187.96939     -673.17835      82.952179      82.952179      82.952179    
+      8160       47027   299.19274     -162702.22     -199.84596     -636.97075      82.951743      82.951743      82.951743    
+      8180       47027   298.58812     -162701.94     -97.93329      -424.30289      82.94949       82.94949       82.94949     
+      8200       47027   298.57289     -162704.56      38.123608     -190.49169      82.946393      82.946393      82.946393    
+      8220       47027   299.12425     -162709.97      126.53947     -116.07493      82.943686      82.943686      82.943686    
+      8240       47027   299.19129     -162711.98      185.64294     -136.78505      82.942245      82.942245      82.942245    
+      8260       47027   299.96341     -162717.92      118.3964      -181.85823      82.9425        82.9425        82.9425      
+      8280       47027   300.7518      -162723.96      9.0191687     -189.32248      82.943851      82.943851      82.943851    
+      8300       47027   300.35378     -162723.09     -39.177647     -224.46111      82.94532       82.94532       82.94532     
+      8320       47027   299.91196     -162722.12     -72.170908     -344.43732      82.946396      82.946396      82.946396    
+      8340       47027   299.65499     -162722.25     -97.229217     -436.457        82.946766      82.946766      82.946766    
+      8360       47027   298.90362     -162719.17     -66.002782     -415.34146      82.946235      82.946235      82.946235    
+      8380       47027   299.41477     -162723.3      -41.716179     -374.61138      82.945062      82.945062      82.945062    
+      8400       47027   300.5211      -162730.8      -22.246267     -351.54182      82.943502      82.943502      82.943502    
+      8420       47027   300.63107     -162732.43      41.397145     -295.45475      82.941803      82.941803      82.941803    
+      8440       47027   301.22708     -162737.36      71.307166     -249.13311      82.940496      82.940496      82.940496    
+      8460       47027   301.4087      -162740.36      87.423761     -190.41279      82.939881      82.939881      82.939881    
+      8480       47027   300.87267     -162739.65      92.792145     -189.19891      82.940105      82.940105      82.940105    
+      8500       47027   300.27172     -162738.95      49.831138     -333.67152      82.941183      82.941183      82.941183    
+      8520       47027   300.62715     -162744.23     -65.165151     -536.68609      82.942672      82.942672      82.942672    
+      8540       47027   301.94528     -162755.72     -191.59917     -719.64863      82.943491      82.943491      82.943491    
+      8560       47027   302.37849     -162762.74     -200.50863     -812.40191      82.942557      82.942557      82.942557    
+      8580       47027   301.7738      -162764.53     -100.29356     -814.69749      82.9398        82.9398        82.9398      
+      8600       47027   301.15413     -162767         27.84276      -707.68987      82.936151      82.936151      82.936151    
+      8620       47027   301.45065     -162775.55      117.3846      -582.84357      82.9328        82.9328        82.9328      
+      8640       47027   301.19385     -162781.29      173.35127     -521.59033      82.930597      82.930597      82.930597    
+      8660       47027   300.85093     -162786.92      149.64129     -536.26952      82.930038      82.930038      82.930038    
+      8680       47027   301.30645     -162797.69      23.135916     -595.93533      82.930832      82.930832      82.930832    
+      8700       47027   299.7681      -162796.67     -38.400516     -536.49052      82.931888      82.931888      82.931888    
+      8720       47027   298.04347     -162794.12     -60.226012     -482.3452       82.932597      82.932597      82.932597    
+      8740       47027   298.55641     -162804.17     -160.33658     -559.55776      82.932652      82.932652      82.932652    
+      8760       47027   299.53864     -162816.3      -186.48778     -568.59547      82.931247      82.931247      82.931247    
+      8780       47027   299.20727     -162820.1      -52.681737     -411.67597      82.928208      82.928208      82.928208    
+      8800       47027   298.64883     -162822.04      86.499516     -246.25187      82.924695      82.924695      82.924695    
+      8820       47027   299.37887     -162831.19      132.39448     -232.71875      82.921968      82.921968      82.921968    
+      8840       47027   298.69345     -162831.32      184.11086     -293.34118      82.920582      82.920582      82.920582    
+      8860       47027   297.95135     -162830.45      171.04251     -423.06483      82.920946      82.920946      82.920946    
+      8880       47027   298.9971      -162839.53      15.260428     -583.89656      82.922846      82.922846      82.922846    
+      8900       47027   299.5902      -162845.35     -135.84326     -649.89488      82.924883      82.924883      82.924883    
+      8920       47027   299.64364     -162847.67     -194.94291     -621.99838      82.925674      82.925674      82.925674    
+      8940       47027   299.39128     -162847.96     -143.12052     -549.87411      82.924674      82.924674      82.924674    
+      8960       47027   298.10327     -162841.59      0.18617957    -346.80476      82.92238       82.92238       82.92238     
+      8980       47027   298.85149     -162846.78      71.272568     -176.43789      82.920044      82.920044      82.920044    
+      9000       47027   300.29803     -162855.69      103.48692     -123.84495      82.918387      82.918387      82.918387    
+      9020       47027   299.65396     -162851.94      182.55846     -55.949616      82.9178        82.9178        82.9178      
+      9040       47027   299.13047     -162848.76      166.73389     -51.07279       82.918903      82.918903      82.918903    
+      9060       47027   299.54847     -162850.93      25.640559     -180.14937      82.921517      82.921517      82.921517    
+      9080       47027   300.48809     -162856.06     -152.87009     -380.62209      82.92434       82.92434       82.92434     
+      9100       47027   302.01654     -162865.04     -280.25706     -531.27909      82.925697      82.925697      82.925697    
+      9120       47027   301.45146     -162862.19     -200.30896     -450.62742      82.924509      82.924509      82.924509    
+      9140       47027   299.54296     -162851.81      10.704526     -239.13859      82.921518      82.921518      82.921518    
+      9160       47027   299.75714     -162854.21      113.06246     -134.49213      82.918563      82.918563      82.918563    
+      9180       47027   301.37013     -162865.05      99.148776     -116.34672      82.916624      82.916624      82.916624    
+      9200       47027   302.03641     -162870.78      106.63961     -60.94951       82.915688      82.915688      82.915688    
+      9220       47027   300.93771     -162866.69      122.89346      14.421852      82.915808      82.915808      82.915808    
+      9240       47027   301.03724     -162870.39      24.135691     -32.273336      82.916992      82.916992      82.916992    
+      9260       47027   301.63784     -162877.66     -85.216998     -166.55022      82.918383      82.918383      82.918383    
+      9280       47027   301.12896     -162878.91     -77.72118      -251.2841       82.919063      82.919063      82.919063    
+      9300       47027   300.56778     -162880.35     -52.196329     -285.34407      82.919023      82.919023      82.919023    
+      9320       47027   301.11596     -162888.82     -80.73155      -344.88348      82.918431      82.918431      82.918431    
+      9340       47027   301.36777     -162895.97     -82.294066     -373.09142      82.917079      82.917079      82.917079    
+      9360       47027   301.29345     -162901.72     -30.700478     -342.95993      82.91498       82.91498       82.91498     
+      9380       47027   301.26956     -162908.3       20.796013     -291.22087      82.912586      82.912586      82.912586    
+      9400       47027   300.58944     -162911.36      79.070057     -193.32353      82.910399      82.910399      82.910399    
+      9420       47027   298.90127     -162908.34      162.21456     -67.581359      82.909014      82.909014      82.909014    
+      9440       47027   297.80131     -162908.22      162.20128     -77.074322      82.909135      82.909135      82.909135    
+      9460       47027   298.76584     -162919.6       7.8233587     -197.63216      82.910704      82.910704      82.910704    
+      9480       47027   299.16949     -162926.9      -125.06849     -250.82201      82.912372      82.912372      82.912372    
+      9500       47027   297.91454     -162923.6      -133.38829     -202.21974      82.91293       82.91293       82.91293     
+      9520       47027   297.97701     -162927.33     -131.34047     -187.01684      82.912194      82.912194      82.912194    
+      9540       47027   299.02013     -162936.1      -105.62055     -169.30839      82.910198      82.910198      82.910198    
+      9560       47027   298.84556     -162936.92      11.610692     -13.731388      82.907255      82.907255      82.907255    
+      9580       47027   298.6294      -162936.93      137.01233      225.64006      82.904437      82.904437      82.904437    
+      9600       47027   299.2649      -162941.5       175.21431      388.17709      82.90287       82.90287       82.90287     
+      9620       47027   300.33809     -162948.39      112.43561      413.48093      82.902927      82.902927      82.902927    
+      9640       47027   300.78159     -162951.59      20.867677      354.60302      82.904067      82.904067      82.904067    
+      9660       47027   300.34865     -162949.81     -46.987281      276.96233      82.90543       82.90543       82.90543     
+      9680       47027   299.5038      -162945.68     -62.093021      223.62683      82.90639       82.90639       82.90639     
+      9700       47027   297.84292     -162936.31     -22.390188      295.85611      82.906799      82.906799      82.906799    
+      9720       47027   297.47735     -162933.82     -21.42021       343.85471      82.906965      82.906965      82.906965    
+      9740       47027   299.31294     -162943.59     -88.247251      207.83977      82.906866      82.906866      82.906866    
+      9760       47027   300.33988     -162948.07     -76.269969      126.36909      82.905979      82.905979      82.905979    
+      9780       47027   299.53544     -162941.49      36.543288      207.17734      82.904433      82.904433      82.904433    
+      9800       47027   299.35633     -162938.52      105.09113      233.40608      82.903186      82.903186      82.903186    
+      9820       47027   300.46046     -162943.1       85.953688      146.83023      82.902876      82.902876      82.902876    
+      9840       47027   301.42882     -162947.06      45.743336      53.542064      82.903377      82.903377      82.903377    
+      9860       47027   301.73494     -162947.66      6.304644      -70.617044      82.904307      82.904307      82.904307    
+      9880       47027   301.75486     -162947.35     -31.489548     -194.82188      82.9053        82.9053        82.9053      
+      9900       47027   302.13775     -162950.13     -82.315801     -275.72929      82.905988      82.905988      82.905988    
+      9920       47027   301.83357     -162949.74     -99.127894     -233.70498      82.905914      82.905914      82.905914    
+      9940       47027   301.88275     -162952.42     -96.454234     -136.82793      82.904886      82.904886      82.904886    
+      9960       47027   302.67859     -162960.59     -72.584504     -75.977775      82.902929      82.902929      82.902929    
+      9980       47027   302.68601     -162965.24      31.962821      5.0559292      82.900319      82.900319      82.900319    
+     10000       47027   300.98107     -162960.64      176.20001      113.98534      82.898046      82.898046      82.898046    
+     10020       47027   299.83975     -162959.85      197.98188      101.92428      82.897357      82.897357      82.897357    
+     10040       47027   299.72057     -162965.16      94.025962     -21.105104      82.898467      82.898467      82.898467    
+     10060       47027   299.1865      -162967.68     -34.128197     -130.81523      82.900489      82.900489      82.900489    
+     10080       47027   300.07912     -162978.49     -197.17046     -276.31666      82.902162      82.902162      82.902162    
+     10100       47027   301.36885     -162991.73     -290.79528     -363.0224       82.901979      82.901979      82.901979    
+     10120       47027   300.70761     -162993.63     -185.22162     -249.97275      82.899125      82.899125      82.899125    
+     10140       47027   299.50575     -162992.46      29.226067      14.105133      82.894534      82.894534      82.894534    
+     10160       47027   298.96249     -162994.96      202.91172      227.97142      82.890149      82.890149      82.890149    
+     10180       47027   299.39507     -163002.86      257.83115      294.49568      82.887599      82.887599      82.887599    
+     10200       47027   299.95187     -163011.2       208.05695      249.08303      82.887451      82.887451      82.887451    
+     10220       47027   298.60393     -163007.81      140.91115      175.43507      82.889329      82.889329      82.889329    
+     10240       47027   297.08493     -163002.62      16.535024      5.2114112      82.892551      82.892551      82.892551    
+     10260       47027   298.00016     -163010.92     -202.18988     -281.42466      82.895881      82.895881      82.895881    
+     10280       47027   298.95598     -163018.5      -322.1644      -482.04114      82.897366      82.897366      82.897366    
+     10300       47027   298.34791     -163016        -246.28929     -500.03671      82.89591       82.89591       82.89591     
+     10320       47027   299.23546     -163021.88     -118.01662     -411.20247      82.892066      82.892066      82.892066    
+     10340       47027   299.97591     -163026.48      83.021776     -190.14656      82.887087      82.887087      82.887087    
+     10360       47027   299.30428     -163022.4       308.1357       76.202616      82.882887      82.882887      82.882887    
+     10380       47027   299.08306     -163020.75      383.82883      195.30498      82.881521      82.881521      82.881521    
+     10400       47027   299.48999     -163022.52      269.66912      134.17074      82.883717      82.883717      82.883717    
+     10420       47027   299.78142     -163023.32      43.634306     -21.289593      82.88848       82.88848       82.88848     
+     10440       47027   300.0209      -163023.69     -200.50413     -165.92532      82.893711      82.893711      82.893711    
+     10460       47027   300.42556     -163025.07     -360.35889     -238.26713      82.897114      82.897114      82.897114    
+     10480       47027   300.57421     -163025.1      -363.43236     -253.08832      82.897181      82.897181      82.897181    
+     10500       47027   300.83843     -163026.13     -217.97894     -198.67372      82.89383       82.89383       82.89383     
+     10520       47027   301.08549     -163027.46      35.196604     -23.92025       82.88839       82.88839       82.88839     
+     10540       47027   300.04446     -163021.4       338.68194      207.02897      82.883274      82.883274      82.883274    
+     10560       47027   300.1413      -163022.34      451.43296      260.43678      82.881234      82.881234      82.881234    
+     10580       47027   301.30583     -163029.91      289.0904       136.72385      82.883332      82.883332      82.883332    
+     10600       47027   301.75622     -163033.74      31.561804     -6.939562       82.888221      82.888221      82.888221    
+     10620       47027   301.73798     -163035.55     -222.76165     -207.39695      82.893495      82.893495      82.893495    
+     10640       47027   301.45675     -163036.59     -384.66258     -404.19695      82.896753      82.896753      82.896753    
+     10660       47027   301.01141     -163037.35     -386.67981     -449.19595      82.896433      82.896433      82.896433    
+     10680       47027   300.31189     -163037.03     -208.59913     -240.86376      82.892483      82.892483      82.892483    
+     10700       47027   299.30405     -163034.92      78.409524      139.26257      82.88653       82.88653       82.88653     
+     10720       47027   299.62268     -163040.56      288.43153      397.22924      82.881188      82.881188      82.881188    
+     10740       47027   300.4986      -163049.41      356.67116      449.61344      82.878475      82.878475      82.878475    
+     10760       47027   301.03902     -163056.47      282.18944      385.31839      82.879089      82.879089      82.879089    
+     10780       47027   300.61564     -163058.11      111.07551      247.00067      82.882384      82.882384      82.882384    
+     10800       47027   298.86813     -163051.89     -67.558617      60.380559      82.886827      82.886827      82.886827    
+     10820       47027   297.36056     -163046.54     -219.62351     -113.53738      82.890683      82.890683      82.890683    
+     10821       47027   297.31403     -163046.42     -224.36381     -119.37798      82.890832      82.890832      82.890832    
+Loop time of 362.271 on 1 procs for 10000 steps with 47027 atoms
+
+Performance: 2.385 ns/day, 10.063 hours/ns, 27.604 timesteps/s, 1.298 Matom-step/s
+99.1% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 345.32     | 345.32     | 345.32     |   0.0 | 95.32
+Neigh   | 5.1769     | 5.1769     | 5.1769     |   0.0 |  1.43
+Comm    | 1.2692     | 1.2692     | 1.2692     |   0.0 |  0.35
+Output  | 0.11212    | 0.11212    | 0.11212    |   0.0 |  0.03
+Modify  | 8.8943     | 8.8943     | 8.8943     |   0.0 |  2.46
+Other   |            | 1.5        |            |       |  0.41
+
+Nlocal:          47027 ave       47027 max       47027 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:          27914 ave       27914 max       27914 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:     2.8657e+06 ave  2.8657e+06 max  2.8657e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2865703
+Ave neighs/atom = 60.937398
+Neighbor list builds = 97
+Dangerous builds = 0
+WARNING: No fixes with time integration, atoms won't move
+For more information see https://docs.lammps.org/err0028 (src/verlet.cpp:60)
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 26.92 | 26.92 | 26.92 Mbytes
+   Step        Atoms         Temp          PotEng         Press           Pxx             Lx             Ly             Lz      
+         0       47027   297.31403     -163046.42     -224.36381     -119.37798      82.890832      82.890832      82.890832    
+Loop time of 1e-06 on 1 procs for 0 steps with 47027 atoms
+
+0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 1e-06      |            |       |100.00
+
+Nlocal:          47027 ave       47027 max       47027 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:          27894 ave       27894 max       27894 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:     2.8642e+06 ave  2.8642e+06 max  2.8642e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2864205
+Ave neighs/atom = 60.905544
+Neighbor list builds = 0
+Dangerous builds = 0
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 26.92 | 26.92 | 26.92 Mbytes
+   Step        Atoms         Temp          PotEng         Press           Pxx             Lx             Ly             Lz      
+         0       47027   297.31403     -163046.42     -224.36381     -119.37798      82.890832      82.890832      82.890832    
+        20       47027   297.6678      -163047.29     -767.39675     -833.21696      82.932277      82.885042      82.892584    
+        40       47027   299.7898      -163057.76     -1187.1575     -1470.0701      82.973722      82.865268      82.894398    
+        60       47027   301.57713     -163066.01     -1302.8359     -1854.5338      83.015168      82.8298        82.892239    
+        80       47027   300.98936     -163060.38     -1039.1429     -1825.1756      83.056613      82.780927      82.884715    
+       100       47027   299.84103     -163051.61     -580.94654     -1551.3799      83.098059      82.725199      82.873519    
+       120       47027   300.98275     -163056.53     -229.17838     -1410.0072      83.139504      82.670772      82.862225    
+       140       47027   303.06696     -163067.43     -88.225726     -1513.4409      83.180949      82.623994      82.854044    
+       160       47027   302.43286     -163063.12     -74.429169     -1689.7776      83.222395      82.588134      82.850665    
+       180       47027   300.79067     -163054.34     -293.33574     -2022.0977      83.26384       82.563768      82.852279    
+       200       47027   300.05458     -163052.49     -783.97679     -2635.546       83.305286      82.54855       82.856789    
+       220       47027   299.32251     -163051.64     -1344.466      -3326.3949      83.346731      82.538024      82.859987    
+       240       47027   299.65829     -163057.22     -1843.6128     -3952.4311      83.388177      82.52742       82.857321    
+       260       47027   300.56014     -163065.52     -2144.4023     -4416.7488      83.429622      82.512699      82.845472    
+       280       47027   300.37315     -163066.44     -2133.2538     -4555.5561      83.471067      82.49179       82.823622    
+       300       47027   300.07523     -163065.87     -1892.3268     -4411.6295      83.512513      82.465432      82.793832    
+       320       47027   300.56715     -163069.41     -1569.7064     -4191.5915      83.553958      82.436264      82.760025    
+       340       47027   301.72521     -163076.76     -1300.2241     -4073.3438      83.595404      82.407733      82.726452    
+       360       47027   301.84894     -163078.16     -1106.086      -4025.6522      83.636849      82.382887      82.696557    
+       380       47027   300.59064     -163071.54     -1022.0287     -4051.7041      83.678294      82.363659      82.672606    
+       400       47027   300.63        -163072.75     -1175.1447     -4292.6053      83.71974       82.350525      82.655257    
+       420       47027   302.12042     -163082.78     -1561.7038     -4770.9848      83.761185      82.341824      82.64282     
+       440       47027   302.34913     -163085.68     -1950.0989     -5272.4033      83.802631      82.334114      82.631874    
+       460       47027   300.71676     -163077.68     -2184.3581     -5634.8756      83.844076      82.324426      82.619118    
+       480       47027   300.099       -163075.46     -2351.7385     -5959.602       83.885522      82.311307      82.602812    
+       500       47027   300.96064     -163081.66     -2445.1417     -6191.7487      83.926967      82.293758      82.582621    
+       520       47027   301.46048     -163085.53     -2388.5467     -6273.6863      83.968412      82.271239      82.559247    
+       540       47027   301.31691     -163085.62     -2221.695      -6296.1192      84.009858      82.244816      82.534522    
+       560       47027   300.96106     -163084.47     -2041.3463     -6317.7689      84.051303      82.217062      82.511063    
+       580       47027   301.0607      -163086        -1983.8333     -6397.124       84.092749      82.190765      82.49113     
+       600       47027   301.85426     -163091.77     -2058.1659     -6595.7053      84.134194      82.167436      82.475323    
+       620       47027   301.53729     -163091.07     -2178.7417     -6840.5383      84.175639      82.147351      82.462807    
+       640       47027   300.50773     -163086.07     -2344.6868     -7086.2941      84.217085      82.130112      82.452354    
+       660       47027   300.84619     -163089.02     -2594.7334     -7379.0178      84.25853       82.114382      82.442426    
+       680       47027   301.3057      -163092.52     -2813.4088     -7636.4134      84.299976      82.098024      82.43093     
+       700       47027   300.90246     -163090.84     -2893.1636     -7774.2541      84.341421      82.079364      82.416142    
+       720       47027   300.8402      -163091.16     -2898.2331     -7875.8548      84.382867      82.058164      82.3976      
+       740       47027   300.95926     -163092.51     -2838.7993     -8002.376       84.424312      82.035328      82.375722    
+       760       47027   300.61184     -163090.97     -2737.975      -8121.7618      84.465757      82.012634      82.351911    
+       780       47027   300.0623      -163088        -2668.2747     -8219.816       84.507203      81.991964      82.328306    
+       800       47027   300.3802      -163089.98     -2715.8393     -8392.2065      84.548648      81.974339      82.306537    
+       820       47027   301.75435     -163098.31     -2878.6312     -8648.1367      84.590094      81.959613      82.286743    
+       840       47027   302.14755     -163101.18     -3032.4708     -8875.0561      84.631539      81.94672       82.267715    
+       860       47027   301.45471     -163097.99     -3138.1612     -9089.6046      84.672984      81.934434      82.248469    
+       880       47027   302.04921     -163102.77     -3306.5905     -9355.4757      84.71443       81.921808      82.228694    
+       900       47027   301.4762      -163100.57     -3378.7546     -9511.1951      84.755875      81.907713      82.207659    
+       920       47027   299.00734     -163086.43     -3316.5788     -9596.8324      84.797321      81.891951      82.185361    
+       940       47027   299.4696      -163088.97     -3350.9218     -9805.8279      84.838766      81.875431      82.163233    
+       960       47027   301.29045     -163099.14     -3458.1515     -10048.469      84.880212      81.858425      82.142096    
+       980       47027   301.82741     -163101.77     -3510.6814     -10167.599      84.921657      81.840656      82.121694    
+      1000       47027   301.62755     -163100.51     -3509.9518     -10234.255      84.963102      81.822217      82.101682    
+      1020       47027   301.23591     -163098.53     -3514.7435     -10340.238      85.004548      81.803741      82.082049    
+      1040       47027   301.7802      -163102.47     -3577.5916     -10518.621      85.045993      81.785837      82.062933    
+      1060       47027   301.83267     -163103.69     -3648.306      -10728.221      85.087439      81.7684        82.044363    
+      1080       47027   300.1301      -163094.28     -3661.749      -10880.315      85.128884      81.751223      82.026588    
+      1100       47027   299.39884     -163090.05     -3742.3751     -11087.69       85.170329      81.734526      82.010109    
+      1120       47027   300.82203     -163098.14     -3937.3012     -11379.379      85.211775      81.718073      81.99455     
+      1140       47027   301.02755     -163098.76     -4059.9379     -11597.659      85.25322       81.700822      81.978501    
+      1160       47027   300.30123     -163093.81     -4095.0876     -11755.749      85.294666      81.682055      81.961452    
+      1180       47027   300.77894     -163096.09     -4140.2992     -11932.278      85.336111      81.661466      81.944211    
+      1200       47027   300.64139     -163094.7      -4140.8381     -12098.644      85.377557      81.638879      81.927668    
+      1220       47027   300.37833     -163092.59     -4139.1525     -12259.237      85.419002      81.615132      81.91252     
+      1240       47027   300.80568     -163094.63     -4180.5805     -12423.135      85.460447      81.591465      81.899028    
+      1260       47027   301.08947     -163095.92     -4267.3029     -12593.982      85.501893      81.56856       81.886728    
+      1280       47027   301.72555     -163099.61     -4379.8725     -12770.003      85.543338      81.546534      81.874552    
+      1300       47027   301.70861     -163099.73     -4455.2363     -12914.904      85.584784      81.525117      81.861328    
+      1320       47027   301.25501     -163097.38     -4514.0627     -13097.292      85.626229      81.504015      81.846645    
+      1340       47027   301.30532     -163097.89     -4574.1065     -13321.148      85.667674      81.482942      81.830935    
+      1360       47027   301.2865      -163097.69     -4626.728      -13549.038      85.70912       81.461773      81.81483     
+      1380       47027   301.75336     -163100.21     -4696.3476     -13769.977      85.750565      81.440695      81.798762    
+      1400       47027   301.84764     -163100.48     -4747.4902     -13984.1        85.792011      81.419881      81.782738    
+      1420       47027   300.21604     -163090.28     -4727.761      -14123.223      85.833456      81.399949      81.766782    
+      1440       47027   299.39117     -163084.45     -4780.011      -14260.723      85.874901      81.382049      81.751141    
+      1460       47027   301.20802     -163094.1      -4972.4898     -14496.758      85.916347      81.365934      81.735529    
+      1480       47027   301.9039      -163097.2      -5099.8441     -14722.912      85.957792      81.349775      81.718927    
+      1500       47027   301.00974     -163091.18     -5112.4913     -14903.009      85.999238      81.332682      81.70101     
+      1520       47027   300.61124     -163088.36     -5137.2012     -15046.912      86.040683      81.315143      81.682467    
+      1540       47027   299.93543     -163083.75     -5165.1436     -15093.496      86.082129      81.297436      81.663726    
+      1560       47027   299.73705     -163081.67     -5205.2741     -15165.821      86.123574      81.27925       81.644837    
+      1580       47027   300.5954      -163085.65     -5249.7317     -15319.331      86.165019      81.260265      81.625819    
+      1600       47027   300.52511     -163083.97     -5250.9375     -15507.357      86.206465      81.240598      81.606976    
+      1620       47027   300.24519     -163080.99     -5269.4851     -15692.903      86.24791       81.2208        81.589338    
+      1640       47027   301.04776     -163084.54     -5373.4018     -15952.85       86.289356      81.201556      81.573221    
+      1660       47027   300.53565     -163080.3      -5455.7862     -16206.575      86.330801      81.183331      81.557721    
+      1680       47027   299.95802     -163075.64     -5537.4118     -16453.656      86.372246      81.166462      81.542351    
+      1700       47027   299.61948     -163072.14     -5640.69       -16696.771      86.413692      81.150795      81.527067    
+      1720       47027   298.64243     -163064.28     -5731.1787     -16856.558      86.455137      81.135827      81.511619    
+      1740       47027   299.19213     -163064.97     -5861.7815     -16992.219      86.496583      81.121029      81.495323    
+      1760       47027   300.62796     -163070.64     -5967.6577     -17127.521      86.538028      81.105593      81.476868    
+      1780       47027   301.08232     -163070.56     -5965.2881     -17262.163      86.579474      81.088762      81.455819    
+      1800       47027   300.25071     -163063.06     -5884.6719     -17354.802      86.620919      81.070638      81.433651    
+      1820       47027   299.31776     -163055.01     -5817.7291     -17425.138      86.662364      81.052228      81.41249     
+      1840       47027   299.01226     -163050.45     -5845.7026     -17591.934      86.70381       81.034627      81.393605    
+      1860       47027   301.09914     -163060.05     -6036.6295     -17936.475      86.745255      81.018187      81.377031    
+      1880       47027   302.66432     -163067.06     -6222.2129     -18231.849      86.786701      81.001948      81.361525    
+      1900       47027   300.8581      -163055.04     -6226.7117     -18307.762      86.828146      80.98498       81.345853    
+      1920       47027   298.87791     -163043.07     -6225.2818     -18410.334      86.869591      80.967532      81.330102    
+      1940       47027   298.32868     -163039.98     -6297.9217     -18642.367      86.911037      80.950005      81.314789    
+      1960       47027   298.13413     -163038.63     -6375.922      -18849.765      86.952482      80.932303      81.300191    
+      1980       47027   298.58083     -163040.41     -6478.8943     -19010.764      86.993928      80.914039      81.286302    
+      2000       47027   299.80558     -163046.25     -6594.2517     -19164.95       87.035373      80.894659      81.272362    
+      2020       47027   300.14437     -163046.5      -6638.6397     -19255.149      87.076819      80.873984      81.257068    
+      2040       47027   300.50798     -163046.86     -6648.3937     -19379.203      87.118264      80.852858      81.239366    
+      2060       47027   300.27981     -163043.63     -6607.4656     -19514.868      87.159709      80.83266       81.219088    
+      2080       47027   299.71013     -163038.1      -6557.0036     -19611.935      87.201155      80.814615      81.197468    
+      2100       47027   299.44239     -163033.85     -6559.9688     -19734.651      87.2426        80.799104      81.176238    
+      2120       47027   298.36252     -163023.93     -6586.5338     -19878.483      87.284046      80.785565      81.156821    
+      2140       47027   298.53441     -163020.78     -6696.7363     -20115.633      87.325491      80.773455      81.139904    
+      2160       47027   299.52415     -163022.16     -6892.1514     -20448.008      87.366936      80.76226       81.124737    
+      2180       47027   299.57308     -163017.79     -7059.4591     -20753.629      87.408382      80.751129      81.109789    
+      2200       47027   300.33313     -163017.72     -7225.8663     -21016.361      87.449827      80.739261      81.093931    
+      2220       47027   301.82585     -163022.37     -7372.1577     -21204.989      87.491273      80.725528      81.076238    
+      2240       47027   302.08566     -163020.36     -7383.8532     -21292.502      87.532718      80.709016      81.055925    
+      2260       47027   301.63918     -163015.01     -7312.2172     -21371.295      87.574164      80.690342      81.033306    
+      2280       47027   301.03139     -163009.42     -7209.3723     -21420.993      87.615609      80.67132       81.009598    
+      2300       47027   300.04735     -163001.96     -7103.8284     -21415.747      87.657054      80.653805      80.986329    
+      2320       47027   300.08328     -163000.62     -7103.049      -21508.109      87.6985        80.638671      80.965219    
+      2340       47027   301.28983     -163006.3      -7248.2695     -21784.76       87.739945      80.625541      80.947017    
+      2360       47027   301.8424      -163008.33     -7437.4651     -22114.875      87.781391      80.613522      80.930858    
+      2380       47027   301.75275     -163006.91     -7600.414      -22390.35       87.822836      80.601853      80.915098    
+      2400       47027   300.38218     -162997.8      -7690.9142     -22601.093      87.864281      80.590013      80.898359    
+      2420       47027   299.85945     -162993.21     -7799.3962     -22863.529      87.905727      80.577741      80.880294    
+      2440       47027   300.76396     -162996.59     -7928.9651     -23133.003      87.947172      80.564727      80.860703    
+      2460       47027   300.16211     -162990.57     -7924.3667     -23237.401      87.988618      80.550576      80.839401    
+      2480       47027   300.25141     -162988.45     -7909.8647     -23325.38       88.030063      80.535418      80.817393    
+      2500       47027   301.36774     -162992.45     -7944.0659     -23444.462      88.071509      80.519257      80.795933    
+      2520       47027   301.42717     -162990.39     -7950.0198     -23547.466      88.112954      80.502164      80.77534     
+      2540       47027   301.14657     -162986.67     -7937.511      -23639.45       88.154399      80.485259      80.755279    
+      2560       47027   299.8934      -162977.19     -7899.7148     -23685.442      88.195845      80.470212      80.735231    
+      2580       47027   298.86817     -162968.67     -7920.0819     -23747.045      88.23729       80.458147      80.715193    
+      2600       47027   300.52316     -162975.73     -8096.1459     -23966.088      88.278736      80.448308      80.695496    
+      2620       47027   301.74455     -162980.18     -8262.0949     -24217.13       88.320181      80.438364      80.67573     
+      2640       47027   301.27393     -162974.88     -8324.9068     -24377.97       88.361626      80.426736      80.655358    
+      2660       47027   301.64774     -162975.1      -8392.663      -24487.643      88.403072      80.412963      80.634533    
+      2680       47027   301.75129     -162974.04     -8390.1367     -24534.357      88.444517      80.39649       80.613447    
+      2700       47027   300.96131     -162967.71     -8295.9702     -24528.17       88.485963      80.377615      80.592669    
+      2720       47027   300.60993     -162963.71     -8242.2502     -24580.191      88.527408      80.357951      80.57309     
+      2740       47027   301.40539     -162966.21     -8289.8112     -24730.182      88.568854      80.338676      80.555356    
+      2760       47027   302.58863     -162971.06     -8364.0655     -24860.8        88.610299      80.319495      80.539723    
+      2780       47027   301.52325     -162962.62     -8366.4899     -24917.149      88.651744      80.299646      80.526121    
+      2800       47027   300.99677     -162957.41     -8434.5556     -25074.667      88.69319       80.279496      80.514268    
+      2820       47027   301.77131     -162959.95     -8571.843      -25313.479      88.734635      80.2595        80.503053    
+      2840       47027   300.59594     -162950.72     -8587.7246     -25467.263      88.776081      80.239672      80.491174    
+      2860       47027   300.01092     -162944.8      -8603.2678     -25644.226      88.817526      80.220921      80.478531    
+      2880       47027   301.07499     -162948.53     -8735.2977     -25898.384      88.858971      80.204018      80.465174    
+      2900       47027   301.25433     -162947        -8856.5442     -26154.616      88.900417      80.188368      80.4506      
+      2920       47027   301.5307      -162946.32     -8983.6633     -26425.935      88.941862      80.172812      80.43492     
+      2940       47027   302.26464     -162948.81     -9099.6782     -26650.503      88.983308      80.156156      80.418378    
+      2960       47027   300.82617     -162938.54     -9088.6605     -26752.754      89.024753      80.137483      80.401219    
+      2980       47027   299.67481     -162929.7      -9030.3577     -26826.442      89.066199      80.116878      80.384752    
+      3000       47027   300.59151     -162932.7      -9036.9422     -26950.593      89.107644      80.095191      80.370324    
+      3020       47027   301.41896     -162934.94     -9072.8389     -27028.416      89.149089      80.07311       80.358119    
+      3040       47027   300.81764     -162928.68     -9092.8185     -27024.171      89.190535      80.050708      80.347691    
+      3060       47027   300.02263     -162921.22     -9111.3402     -27044.611      89.23198       80.027608      80.338754    
+      3080       47027   300.11365     -162918.83     -9175.1775     -27206.983      89.273426      80.003691      80.331001    
+      3100       47027   300.81251     -162919.89     -9274.7908     -27425.227      89.314871      79.979401      80.323669    
+      3120       47027   301.5795      -162921.52     -9366.9232     -27536.7        89.356316      79.955232      80.315529    
+      3140       47027   301.04825     -162915.71     -9370.3071     -27496.905      89.397762      79.931247      80.305313    
+      3160       47027   300.27916     -162908.64     -9345.2441     -27460.504      89.439207      79.907501      80.292657    
+      3180       47027   300.25639     -162905.89     -9321.0827     -27521.285      89.480653      79.884342      80.277794    
+      3200       47027   299.77546     -162900.03     -9273.2381     -27600.034      89.522098      79.862792      80.261133    
+      3220       47027   300.35456     -162900.21     -9273.074      -27675.886      89.563544      79.844134      80.24324     
+      3240       47027   301.22108     -162902.05     -9307.7654     -27712.673      89.604989      79.828341      80.224646    
+      3260       47027   300.73851     -162895.95     -9315.0728     -27750.122      89.646434      79.814137      80.205998    
+      3280       47027   301.02342     -162894.61     -9384.8324     -27921.094      89.68788       79.800909      80.187777    
+      3300       47027   301.19832     -162892.74     -9476.7507     -28158.189      89.729325      79.788439      80.169756    
+      3320       47027   301.01902     -162888.83     -9574.3444     -28402.621      89.770771      79.776194      80.152022    
+      3340       47027   300.93285     -162885.48     -9670.6097     -28545.088      89.812216      79.763535      80.134609    
+      3360       47027   301.06109     -162883.35     -9735.307      -28578.515      89.853661      79.749801      80.116883    
+      3380       47027   301.20887     -162881.27     -9759.2508     -28642.94       89.895107      79.734687      80.09799     
+      3400       47027   301.08362     -162877.49     -9729.9784     -28735.4        89.936552      79.718897      80.07742     
+      3420       47027   300.2553      -162869.3      -9656.2048     -28800.891      89.977998      79.704006      80.055409    
+      3440       47027   299.86105     -162863.34     -9640.6463     -28882.311      90.019443      79.691196      80.033218    
+      3460       47027   301.0319      -162866.52     -9745.4975     -29030.809      90.060888      79.680314      80.011849    
+      3480       47027   302.08145     -162869.18     -9876.2646     -29197.027      90.102334      79.670517      79.990576    
+      3500       47027   301.50534     -162862.58     -9911.3173     -29271.863      90.143779      79.661356      79.967945    
+      3520       47027   300.63624     -162854.53     -9914.7447     -29311.775      90.185225      79.652813      79.943605    
+      3540       47027   300.29946     -162849.57     -9927.5235     -29393.165      90.22667       79.644443      79.918367    
+      3560       47027   301.45885     -162853.49     -9992.6001     -29546.054      90.268116      79.635594      79.893322    
+      3580       47027   301.93095     -162853.45     -10038.608     -29694.482      90.309561      79.625851      79.868673    
+      3600       47027   301.25841     -162846.77     -10036.646     -29788.779      90.351006      79.615621      79.844232    
+      3620       47027   301.46251     -162845.41     -10074.069     -29857.668      90.392452      79.605857      79.819759    
+      3640       47027   300.93008     -162839.53     -10083.069     -29907.143      90.433897      79.596872      79.794725    
+      3660       47027   300.51586     -162834.08     -10098.802     -29981.341      90.475343      79.588755      79.769167    
+      3680       47027   301.71675     -162838.17     -10182.914     -30123.589      90.516788      79.581383      79.743325    
+      3700       47027   301.5769      -162834.31     -10204.412     -30206.392      90.558233      79.573972      79.717215    
+      3720       47027   301.07848     -162828.44     -10203.076     -30255.659      90.599679      79.566203      79.691277    
+      3740       47027   301.59789     -162828.78     -10258.667     -30354.258      90.641124      79.558211      79.665744    
+      3760       47027   301.25981     -162824.04     -10265.139     -30454.576      90.68257       79.549988      79.64029     
+      3780       47027   301.17543     -162820.86     -10287.087     -30579.539      90.724015      79.541949      79.615098    
+      3800       47027   301.96349     -162822.96     -10370.306     -30701.93       90.765461      79.53421       79.590357    
+      3820       47027   302.54449     -162824.12     -10427.044     -30790.556      90.806906      79.526035      79.565808    
+      3840       47027   301.99637     -162818.77     -10424.475     -30828.213      90.848351      79.516482      79.541774    
+      3860       47027   302.38579     -162819.18     -10464.643     -30873.062      90.889797      79.50496       79.51909     
+      3880       47027   302.77397     -162819.71     -10493.989     -30916.964      90.931242      79.491021      79.497727    
+      3900       47027   301.42554     -162809.76     -10416.248     -30936.508      90.972688      79.474975      79.47738     
+      3920       47027   301.75086     -162809.62     -10425.025     -31109.83       91.014133      79.45861       79.458237    
+      3940       47027   302.92511     -162814.56     -10526.032     -31391.161      91.055578      79.443552      79.439844    
+      3960       47027   302.95544     -162812.99     -10597.394     -31553.453      91.097024      79.430253      79.42148     
+      3980       47027   301.77112     -162804.38     -10610.517     -31538.038      91.138469      79.418395      79.402794    
+      4000       47027   301.29119     -162799.82     -10661.608     -31530.335      91.179915      79.407228      79.383755    
+      4020       47027   302.31419     -162804.13     -10759.058     -31701.104      91.22136       79.395694      79.364064    
+      4040       47027   301.15832     -162795.29     -10739.971     -31824.038      91.262806      79.383173      79.343574    
+      4060       47027   299.35934     -162782.19     -10698.377     -31863.267      91.304251      79.370354      79.323101    
+      4080       47027   300.19988     -162784.33     -10792.233     -31941.726      91.345696      79.35802       79.303051    
+      4100       47027   302.6698      -162796.21     -10916.731     -32056.346      91.387142      79.345594      79.282334    
+      4120       47027   302.37181     -162792.12     -10881.803     -32053.039      91.428587      79.332283      79.259876    
+      4140       47027   301.11852     -162782.82     -10776.212     -31977.207      91.470033      79.318638      79.236166    
+      4160       47027   301.42247     -162782.89     -10761.324     -31951.215      91.511478      79.305655      79.212244    
+      4180       47027   301.6827      -162782.59     -10765.023     -31974.67       91.552923      79.293595      79.188207    
+      4200       47027   301.6899      -162780.73     -10772.49      -32054.863      91.594369      79.282768      79.163831    
+      4220       47027   301.60976     -162778.33     -10793.102     -32144.432      91.635814      79.273777      79.138868    
+      4240       47027   300.27215     -162768.16     -10788.055     -32184.669      91.67726       79.266987      79.113182    
+      4260       47027   300.35466     -162766.09     -10852.398     -32283.813      91.718705      79.26247       79.086921    
+      4280       47027   301.68447     -162771.31     -10979.563     -32467.314      91.760151      79.259334      79.060024    
+      4300       47027   301.87761     -162769.93     -11048.368     -32551.117      91.801596      79.255912      79.032476    
+      4320       47027   302.00025     -162768.55     -11080.116     -32534.44       91.843041      79.250938      79.00449     
+      4340       47027   302.17485     -162767.83     -11074.624     -32522.332      91.884487      79.243918      78.975944    
+      4360       47027   302.83999     -162770.35     -11060.09      -32559.77       91.925932      79.235273      78.946747    
+      4380       47027   302.68312     -162768.14     -11004.989     -32543.641      91.967378      79.225724      78.917194    
+      4400       47027   301.63447     -162760.47     -10912.911     -32438.416      92.008823      79.215922      78.888184    
+      4420       47027   302.1365      -162761.85     -10894.989     -32339.155      92.050268      79.206218      78.860648    
+      4440       47027   302.83864     -162764.43     -10891.312     -32284.914      92.091714      79.196159      78.834705    
+      4460       47027   302.39059     -162760.33     -10862.581     -32254.584      92.133159      79.185594      78.810021    
+      4480       47027   301.292       -162752.31     -10839.757     -32265.377      92.174605      79.175261      78.786218    
+      4500       47027   301.46386     -162751.66     -10897.733     -32357.345      92.21605       79.165903      78.762929    
+      4520       47027   302.58646     -162756.67     -11006.357     -32513.981      92.257496      79.15699       78.739782    
+      4540       47027   302.92236     -162757.3      -11058.047     -32646.451      92.298941      79.147242      78.7167      
+      4560       47027   301.51292     -162747.64     -11004.977     -32648.397      92.340386      79.136481      78.693786    
+      4580       47027   300.61669     -162740.75     -10965.231     -32605.035      92.381832      79.125859      78.671131    
+      4600       47027   301.46501     -162743.91     -11021.035     -32673.351      92.423277      79.116039      78.64861     
+      4620       47027   302.91679     -162750.78     -11121.35      -32842.741      92.464723      79.106421      78.62594     
+      4640       47027   302.93567     -162749.56     -11160.665     -32937.914      92.506168      79.096163      78.602869    
+      4660       47027   301.50491     -162739.89     -11114.354     -32917.462      92.547613      79.085092      78.579519    
+      4680       47027   301.83434     -162740.59     -11132.654     -32935.733      92.589059      79.07336       78.556643    
+      4700       47027   302.43259     -162742.8      -11150.713     -32937.564      92.630504      79.060433      78.534624    
+      4720       47027   302.04184     -162739.14     -11113.707     -32859.641      92.67195       79.046121      78.513323    
+      4740       47027   302.00685     -162737.66     -11096.771     -32780.17       92.713395      79.031147      78.492194    
+      4760       47027   301.44791     -162732.96     -11060.711     -32712.349      92.754841      79.016214      78.470463    
+      4780       47027   300.85705     -162727.82     -11006.6       -32678.773      92.796286      79.001759      78.44819     
+      4800       47027   301.79078     -162731.65     -11029.748     -32713.86       92.837731      78.987893      78.426159    
+      4820       47027   302.05086     -162731.52     -11044.568     -32754.38       92.879177      78.974111      78.404652    
+      4840       47027   301.43412     -162726.29     -11014.082     -32793.766      92.920622      78.96039       78.383667    
+      4860       47027   300.56429     -162719.39     -10988.432     -32856.336      92.962068      78.947292      78.363667    
+      4880       47027   300.74341     -162718.43     -11046.873     -32990.671      93.003513      78.934941      78.345386    
+      4900       47027   301.56429     -162721.18     -11145.981     -33052.311      93.044958      78.922733      78.328755    
+      4920       47027   300.54932     -162712.94     -11163.627     -32985.193      93.086404      78.909624      78.312772    
+      4940       47027   298.98379     -162701.06     -11149.113     -32924.094      93.127849      78.895088      78.296908    
+      4960       47027   300.94779     -162709.93     -11273.811     -33007.888      93.169295      78.878752      78.281112    
+      4980       47027   302.9164      -162719.08     -11347.778     -33061.975      93.21074       78.85944       78.264505    
+      5000       47027   302.41874     -162714.25     -11232.859     -32975.106      93.252186      78.836801      78.246639    
+      5020       47027   301.5558      -162707.74     -11064.279     -32883.603      93.293631      78.812561      78.22838     
+      5040       47027   301.30667     -162704.81     -10964.177     -32904.533      93.335076      78.789246      78.210981    
+      5060       47027   302.23487     -162708.76     -10980.987     -33009.995      93.376522      78.768557      78.195245    
+      5080       47027   301.33721     -162701.67     -10969.328     -33001.521      93.417967      78.750767      78.181161    
+      5100       47027   300.08226     -162692.11     -11003.592     -33009.313      93.459413      78.73524       78.169013    
+      5120       47027   302.27194     -162702.98     -11242.153     -33253.264      93.500858      78.720357      78.158855    
+      5140       47027   304.17879     -162712.65     -11457.477     -33447.991      93.542303      78.703439      78.149156    
+      5160       47027   302.14661     -162699.42     -11420.712     -33334.996      93.583749      78.682917      78.138044    
+      5180       47027   300.87248     -162690.67     -11318.726     -33160.21       93.625194      78.659447      78.125116    
+      5200       47027   301.84763     -162694.96     -11260.602     -33117.564      93.66664       78.634069      78.110897    
+      5220       47027   301.52924     -162691.24     -11125.602     -33060.73       93.708085      78.607965      78.095987    
+      5240       47027   301.6119      -162689.87     -11045.432     -33057.813      93.74953       78.583317      78.081212    
+      5260       47027   303.24614     -162698.06     -11083.065     -33136.172      93.790976      78.561665      78.066852    
+      5280       47027   302.23552     -162690.78     -11072.333     -33163.649      93.832421      78.542956      78.052606    
+      5300       47027   300.52566     -162679.19     -11054.47      -33194.637      93.873867      78.527108      78.038726    
+      5320       47027   301.94382     -162686        -11211.723     -33359.68       93.915312      78.514131      78.025113    
+      5340       47027   303.42784     -162693.33     -11393.234     -33542.678      93.956758      78.502848      78.010162    
+      5360       47027   303.28802     -162691.5      -11468.19      -33653.86       93.998203      78.491732      77.992407    
+      5380       47027   302.49784     -162686.07     -11467.047     -33682.458      94.039648      78.479983      77.971835    
+      5400       47027   301.01895     -162676.2      -11406.12      -33618.486      94.081094      78.467093      77.949542    
+      5420       47027   300.2541      -162669.93     -11338.155     -33560.009      94.122539      78.452839      77.927055    
+      5440       47027   301.39781     -162674.64     -11330.209     -33586.729      94.163985      78.437662      77.905288    
+      5460       47027   302.67067     -162680.25     -11340.585     -33632.892      94.20543       78.422215      77.884158    
+      5480       47027   303.51757     -162683.99     -11342.447     -33645.546      94.246875      78.406756      77.863567    
+      5500       47027   303.32449     -162682.2      -11317.641     -33600.758      94.288321      78.391123      77.843739    
+      5520       47027   302.10809     -162674.42     -11264.011     -33542.729      94.329766      78.375259      77.824982    
+      5540       47027   302.08796     -162673.49     -11278.562     -33637.31       94.371212      78.359553      77.807598    
+      5560       47027   303.0141      -162678.06     -11362.763     -33789.115      94.412657      78.344482      77.791259    
+      5580       47027   302.22769     -162672.42     -11382.687     -33775.892      94.454103      78.330235      77.774874    
+      5600       47027   301.24374     -162665.47     -11377.762     -33702.532      94.495548      78.317235      77.757255    
+      5620       47027   302.50883     -162671.86     -11460.85      -33749.48       94.536993      78.305494      77.737746    
+      5640       47027   304.10401     -162680.61     -11541.965     -33823.319      94.578439      78.294019      77.715781    
+      5660       47027   303.41305     -162676.25     -11489.812     -33786.357      94.619884      78.282231      77.690897    
+      5680       47027   300.99505     -162661.41     -11324.983     -33657.36       94.66133       78.270803      77.663894    
+      5700       47027   301.41044     -162662.93     -11277.534     -33625.444      94.702775      78.26109       77.636454    
+      5720       47027   303.64457     -162675.29     -11347.1       -33684.355      94.74422       78.253521      77.608938    
+      5740       47027   302.6625      -162668.76     -11301.681     -33629.239      94.785666      78.247714      77.580737    
+      5760       47027   301.36694     -162660.44     -11262.22      -33561.941      94.827111      78.243685      77.552219    
+      5780       47027   301.84612     -162662.48     -11321.426     -33539.477      94.868557      78.240988      77.523935    
+      5800       47027   301.6862      -162660.52     -11359.357     -33485.058      94.910002      78.238632      77.49524     
+      5820       47027   300.72525     -162653.58     -11330.731     -33375.843      94.951448      78.236045      77.46541     
+      5840       47027   301.19855     -162655.01     -11330.725     -33320.453      94.992893      78.232766      77.434728    
+      5860       47027   301.44242     -162654.97     -11304.491     -33266.567      95.034338      78.22791       77.403978    
+      5880       47027   301.74257     -162655.36     -11263.681     -33202.019      95.075784      78.220827      77.374256    
+      5900       47027   303.4877      -162664.84     -11267.631     -33190.219      95.117229      78.211368      77.346287    
+      5920       47027   303.97991     -162667.52     -11235.444     -33149.708      95.158675      78.199572      77.320031    
+      5940       47027   302.74305     -162660.23     -11119.114     -32992.362      95.20012       78.186047      77.295528    
+      5960       47027   302.55318     -162659.07     -11061.53      -32864.876      95.241565      78.171925      77.273072    
+      5980       47027   303.13339     -162662.37     -11063.408     -32824.652      95.283011      78.157993      77.252124    
+      6000       47027   303.14775     -162662.33     -11078.619     -32807.187      95.324456      78.144365      77.231937    
+      6020       47027   302.65231     -162659.32     -11079.768     -32794.786      95.365902      78.130221      77.212678    
+      6040       47027   302.0851      -162655.75     -11083.883     -32797.119      95.407347      78.114647      77.194997    
+      6060       47027   303.32096     -162662.95     -11135.236     -32873.923      95.448793      78.097655      77.178605    
+      6080       47027   303.92107     -162666.66     -11113.773     -32913.541      95.490238      78.079886      77.162394    
+      6100       47027   302.66046     -162659.43     -11026.221     -32824.43       95.531683      78.062384      77.146197    
+      6120       47027   302.20571     -162656.83     -11021.856     -32754.751      95.573129      78.046164      77.130214    
+      6140       47027   302.83904     -162660.58     -11102.035     -32808.925      95.614574      78.031288      77.113743    
+      6160       47027   302.83061     -162660.53     -11143.393     -32920.575      95.65602       78.017018      77.096029    
+      6180       47027   301.64522     -162653.34     -11126.887     -32992.46       95.697465      78.003265      77.077066    
+      6200       47027   300.67404     -162647.01     -11115.22      -33021.115      95.73891       77.990628      77.05722     
+      6220       47027   301.21322     -162649.3      -11167.559     -33093.545      95.780356      77.979042      77.036982    
+      6240       47027   302.29917     -162654.8      -11232.694     -33212.005      95.821801      77.967349      77.016838    
+      6260       47027   303.15891     -162659.35     -11269.462     -33256.356      95.863247      77.954326      76.997303    
+      6280       47027   302.73982     -162656.73     -11230.591     -33165.153      95.904692      77.939391      76.978541    
+      6300       47027   300.6303      -162643.89     -11126.51      -33035.004      95.946138      77.922771      76.960768    
+      6320       47027   300.76866     -162643.96     -11104.251     -33015.741      95.987583      77.905174      76.944688    
+      6340       47027   303.5565      -162659.83     -11219.398     -33130.382      96.029028      77.886549      76.930518    
+      6360       47027   304.45        -162665.1      -11260.644     -33152.239      96.070474      77.865995      76.917428    
+      6380       47027   302.81582     -162655.84     -11173.741     -33035.06       96.111919      77.843437      76.904778    
+      6400       47027   301.72292     -162649.62     -11117.415     -32992.261      96.153365      77.819818      76.89283     
+      6420       47027   302.79659     -162656.02     -11158.413     -33051.055      96.19481       77.795931      76.881811    
+      6440       47027   302.94634     -162656.91     -11153.912     -33029.614      96.236255      77.772106      76.871007    
+      6460       47027   301.24618     -162646.65     -11061.389     -32907.556      96.277701      77.749121      76.859672    
+      6480       47027   300.80919     -162643.53     -11033.99      -32844.432      96.319146      77.727828      76.848061    
+      6500       47027   302.31108     -162651.81     -11112.636     -32867.194      96.360592      77.707883      76.836414    
+      6520       47027   302.54266     -162652.68     -11140.654     -32845.851      96.402037      77.688312      76.823961    
+      6540       47027   301.61291     -162646.79     -11113.537     -32827.804      96.443483      77.668729      76.810276    
+      6560       47027   302.11378     -162649.47     -11119.841     -32866.17       96.484928      77.649334      76.795652    
+      6580       47027   302.27917     -162650.16     -11093.319     -32807.83       96.526373      77.630474      76.780066    
+      6600       47027   300.45416     -162638.76     -10996.273     -32629.082      96.567819      77.612576      76.763416    
+      6620       47027   300.45105     -162637.83     -10986.774     -32553.586      96.609264      77.596266      76.745815    
+      6640       47027   301.86489     -162645.15     -11040.24      -32598.958      96.65071       77.581833      76.726554    
+      6660       47027   302.04411     -162645.25     -11014.657     -32659.912      96.692155      77.569323      76.704909    
+      6680       47027   302.10743     -162644.97     -11001.752     -32727.491      96.7336        77.558857      76.681792    
+      6700       47027   302.58434     -162647.45     -11049.587     -32808.087      96.775046      77.549887      76.658476    
+      6720       47027   302.08821     -162644.25     -11068.661     -32829.026      96.816491      77.541534      76.635298    
+      6740       47027   301.10518     -162637.98     -11054.182     -32781.959      96.857937      77.533643      76.612022    
+      6760       47027   301.23324     -162638.06     -11080.081     -32746.643      96.899382      77.526286      76.588382    
+      6780       47027   301.23155     -162637.12     -11109.733     -32770.323      96.940828      77.519135      76.563902    
+      6800       47027   301.49448     -162637.69     -11138.701     -32825.033      96.982273      77.512044      76.538218    
+      6820       47027   302.02551     -162639.98     -11131.278     -32770.167      97.023718      77.504759      76.511386    
+      6840       47027   300.95438     -162632.74     -11027.355     -32612.184      97.065164      77.49688       76.48393     
+      6860       47027   300.46498     -162628.76     -10949.305     -32521.339      97.106609      77.488305      76.457304    
+      6880       47027   301.41017     -162633.14     -10945.924     -32514.407      97.148055      77.478562      76.4331      
+      6900       47027   301.99879     -162635.46     -10948.216     -32566.633      97.1895        77.466797      76.412178    
+      6920       47027   302.17774     -162635.65     -10989.507     -32696.619      97.230945      77.452952      76.394728    
+      6940       47027   301.65926     -162631.86     -11030.934     -32770.643      97.272391      77.437638      76.380027    
+      6960       47027   300.48544     -162623.97     -11026.438     -32734.897      97.313836      77.421463      76.366941    
+      6980       47027   299.67299     -162617.71     -11038.225     -32734.92       97.355282      77.404978      76.354533    
+      7000       47027   301.01199     -162623.88     -11143.278     -32866.188      97.396727      77.388428      76.342051    
+      7020       47027   303.26145     -162635.74     -11273.347     -33056.171      97.438173      77.37121       76.328584    
+      7040       47027   302.30061     -162629.06     -11208.748     -33067.313      97.479618      77.352812      76.313463    
+      7060       47027   299.45608     -162611.1      -11059.451     -33008.66       97.521063      77.33448       76.29738     
+      7080       47027   299.65611     -162610.66     -11072.809     -33070.128      97.562509      77.317665      76.281906    
+      7100       47027   301.17673     -162617.62     -11177.102     -33189.494      97.603954      77.301807      76.267633    
+      7120       47027   300.84942     -162613.47     -11201.585     -33239.889      97.6454        77.285831      76.254015    
+      7140       47027   301.10046     -162612.93     -11234.16      -33331.328      97.686845      77.269787      76.24059     
+      7160       47027   302.0373      -162616.77     -11299.87      -33455.112      97.72829       77.25383       76.227032    
+      7180       47027   301.59834     -162612.7      -11323.601     -33557.888      97.769736      77.237782      76.213027    
+      7200       47027   300.10152     -162602.27     -11299.927     -33643.492      97.811181      77.221973      76.198621    
+      7220       47027   299.30104     -162595.44     -11326.799     -33714.546      97.852627      77.206867      76.184414    
+      7240       47027   300.53613     -162600.29     -11425.31      -33722.455      97.894072      77.191468      76.171083    
+      7260       47027   300.77718     -162599.04     -11442.648     -33651.885      97.935517      77.173473      76.158755    
+      7280       47027   300.37623     -162594        -11406.845     -33639.1        97.976963      77.151947      76.14754     
+      7300       47027   301.82483     -162600.26     -11439.204     -33721.533      98.018408      77.127614      76.137532    
+      7320       47027   302.64216     -162603.27     -11424.654     -33736.061      98.059854      77.101283      76.128165    
+      7340       47027   301.56269     -162595.44     -11306.244     -33711.419      98.101299      77.074415      76.118899    
+      7360       47027   302.08769     -162597.39     -11281.52      -33787.048      98.142745      77.049464      76.109825    
+      7380       47027   303.13375     -162602.6      -11335.75      -33850.499      98.18419       77.027843      76.100567    
+      7400       47027   301.31945     -162590.68     -11308.809     -33734.434      98.225635      77.009285      76.090466    
+      7420       47027   300.32639     -162583.23     -11346.465     -33693.082      98.267081      76.99289       76.079657    
+      7440       47027   301.32009     -162587.2      -11456.232     -33804.001      98.308526      76.977432      76.067921    
+      7460       47027   301.66647     -162587.2      -11525.046     -33951.251      98.349972      76.961787      76.054661    
+      7480       47027   301.14465     -162582.09     -11523.737     -34049.606      98.391417      76.945573      76.039951    
+      7500       47027   300.9144      -162578.74     -11512.751     -34078.452      98.432862      76.92919       76.024302    
+      7520       47027   300.30737     -162572.96     -11479.673     -34013.507      98.474308      76.912801      76.00821     
+      7540       47027   300.5832      -162572.25     -11465.321     -33940.315      98.515753      76.896203      75.992148    
+      7560       47027   301.52442     -162575.49     -11470.012     -33944.125      98.557199      76.879331      75.976028    
+      7580       47027   301.75049     -162574.71     -11452.886     -33993.14       98.598644      76.862393      75.959701    
+      7600       47027   300.42305     -162564.76     -11383.605     -33965.592      98.64009       76.845598      75.943846    
+      7620       47027   299.98694     -162559.89     -11385.378     -33947.83       98.681535      76.82947       75.929181    
+      7640       47027   301.44637     -162566.16     -11485.121     -34038.681      98.72298       76.814265      75.91502     
+      7660       47027   301.74048     -162565.57     -11526.16      -34094.115      98.764426      76.799664      75.899983    
+      7680       47027   301.35378     -162561.17     -11500.85      -34064.3        98.805871      76.785659      75.883517    
+      7700       47027   302.0452      -162563.48     -11512.827     -34072.113      98.847317      76.772178      75.86598     
+      7720       47027   302.14231     -162562.43     -11497.381     -34107.529      98.888762      76.758572      75.848017    
+      7740       47027   301.30763     -162555.82     -11459.877     -34113.918      98.930207      76.744668      75.830516    
+      7760       47027   301.54292     -162555.44     -11474.034     -34153.116      98.971653      76.730802      75.81402     
+      7780       47027   301.967       -162556.08     -11504.083     -34189.707      99.013098      76.717087      75.798321    
+      7800       47027   302.00861     -162554.5      -11525.51      -34202.272      99.054544      76.703381      75.782987    
+      7820       47027   302.35776     -162554.93     -11560.489     -34291.373      99.095989      76.689806      75.767476    
+      7840       47027   302.3487      -162553.4      -11589.428     -34426.874      99.137435      76.676821      75.751224    
+      7860       47027   301.58436     -162547.32     -11596.26      -34534.426      99.17888       76.664772      75.73431     
+      7880       47027   302.02586     -162548.36     -11678.721     -34684.742      99.220325      76.653476      75.717393    
+      7900       47027   302.66924     -162550.66     -11784.218     -34802.354      99.261771      76.642132      75.700384    
+      7920       47027   302.25881     -162546.82     -11809.485     -34839.179      99.303216      76.630307      75.682276    
+      7940       47027   302.43074     -162546.58     -11805.273     -34863.864      99.344662      76.618217      75.662624    
+      7960       47027   302.77698     -162547.49     -11776.081     -34887.698      99.386107      76.605861      75.641953    
+      7980       47027   302.38244     -162544.02     -11703.723     -34910.771      99.427552      76.593349      75.621358    
+      8000       47027   302.0604      -162540.93     -11668.339     -34960.999      99.468998      76.581387      75.602001    
+      8020       47027   302.36857     -162541.52     -11723.416     -35136.819      99.510443      76.570684      75.584276    
+      8040       47027   302.93525     -162543.75     -11839.068     -35329.519      99.551889      76.561501      75.567691    
+      8060       47027   302.94886     -162542.9      -11936.433     -35342.083      99.593334      76.553113      75.551376    
+      8080       47027   302.7272      -162540.83     -12000.921     -35272.71       99.63478       76.544344      75.534076    
+      8100       47027   302.54484     -162539.02     -12021.068     -35265.079      99.676225      76.534346      75.514671    
+      8120       47027   302.24971     -162536.44     -11983.099     -35257.372      99.71767       76.522819      75.493206    
+      8140       47027   301.74581     -162532.44     -11882.229     -35138.597      99.759116      76.51009       75.47064     
+      8160       47027   301.62236     -162530.52     -11796.706     -35016.148      99.800561      76.497227      75.447671    
+      8180       47027   301.99207     -162531.49     -11748.509     -35006.571      99.842007      76.48527       75.424552    
+      8200       47027   301.0947      -162524.77     -11685.649     -35077.328      99.883452      76.47479       75.401949    
+      8220       47027   300.58034     -162520.07     -11685.809     -35161.585      99.924897      76.466282      75.381145    
+      8240       47027   301.22669     -162522.09     -11792.598     -35207.809      99.966343      76.459209      75.362812    
+      8260       47027   301.85        -162524.02     -11923.867     -35215.152      100.00779      76.451577      75.346288    
+      8280       47027   301.12611     -162518.05     -11966.995     -35149.14       100.04923      76.441522      75.33022     
+      8300       47027   300.32776     -162511.54     -11969.57      -35094.295      100.09068      76.428333      75.313798    
+      8320       47027   301.15416     -162514.58     -11984.485     -35113.193      100.13212      76.411907      75.296926    
+      8340       47027   301.75734     -162516.32     -11930.447     -35086.295      100.17357      76.392597      75.279559    
+      8360       47027   301.00067     -162510.05     -11770.524     -34912.484      100.21502      76.371655      75.261984    
+      8380       47027   300.36714     -162504.4      -11617.817     -34722.471      100.25646      76.350976      75.245079    
+      8400       47027   301.54918     -162509.52     -11594.501     -34638.441      100.29791      76.331977      75.229424    
+      8420       47027   302.04386     -162510.69     -11590.64      -34603.109      100.33935      76.314992      75.214474    
+      8440       47027   300.78819     -162501.53     -11543.112     -34529.649      100.3808       76.300144      75.199663    
+      8460       47027   299.79638     -162493.7      -11537.89      -34492.728      100.42224      76.287663      75.184946    
+      8480       47027   300.50346     -162495.59     -11638.515     -34548.54       100.46369      76.2773        75.169977    
+      8500       47027   301.76042     -162500.71     -11745.018     -34580.589      100.50513      76.267865      75.153737    
+      8520       47027   301.25322     -162495.52     -11747.985     -34545.281      100.54658      76.257958      75.135438    
+      8540       47027   301.41492     -162494.6      -11756.567     -34560.83       100.58802      76.247033      75.115323    
+      8560       47027   301.71453     -162494.68     -11751.416     -34597.345      100.62947      76.234734      75.094025    
+      8580       47027   301.25669     -162490.29     -11664.137     -34524.211      100.67091      76.221033      75.072411    
+      8600       47027   300.34822     -162483.02     -11547.118     -34374.98       100.71236      76.206488      75.051624    
+      8620       47027   300.31764     -162480.61     -11497.403     -34298.186      100.75381      76.191819      75.032536    
+      8640       47027   300.89932     -162481.59     -11480.939     -34296.229      100.79525      76.177438      75.015291    
+      8660       47027   300.21119     -162474.8      -11430.211     -34265.442      100.8367       76.163541      74.999948    
+      8680       47027   301.45905     -162479.63     -11510.15      -34304.897      100.87814      76.15026       74.986749    
+      8700       47027   303.14258     -162487.56     -11665.49      -34356.134      100.91959      76.136788      74.974539    
+      8720       47027   301.73498     -162477.63     -11665.471     -34305.554      100.96103      76.122035      74.961291    
+      8740       47027   299.72602     -162464.04     -11572.547     -34248.528      101.00248      76.106225      74.946548    
+      8760       47027   299.91435     -162462.92     -11549.311     -34284.684      101.04392      76.090099      74.931394    
+      8780       47027   300.61093     -162464.27     -11556.139     -34324.64       101.08537      76.074159      74.916354    
+      8800       47027   300.52947     -162460.75     -11530.973     -34271.508      101.12681      76.058861      74.901217    
+      8820       47027   301.8332      -162465.7      -11557.809     -34222.005      101.16826      76.044153      74.885916    
+      8840       47027   302.10455     -162464.96     -11547.924     -34177.485      101.20971      76.029045      74.870532    
+      8860       47027   301.65597     -162460.41     -11522.866     -34224.389      101.25115      76.012829      74.855709    
+      8880       47027   301.83453     -162459.86     -11520.311     -34303.655      101.2926       75.995878      74.842018    
+      8900       47027   301.39159     -162455.54     -11509.722     -34275.267      101.33404      75.97889       74.829442    
+      8920       47027   301.29366     -162453.1      -11534.424     -34206.89       101.37549      75.961869      74.817847    
+      8940       47027   301.63997     -162453.15     -11589.096     -34140.094      101.41693      75.944115      74.806636    
+      8960       47027   301.70295     -162451.49     -11589.624     -34084.768      101.45838      75.92526       74.79448     
+      8980       47027   301.24796     -162446.74     -11516.541     -34036.764      101.49982      75.905889      74.780642    
+      9000       47027   301.15112     -162444.05     -11432.187     -33958.68       101.54127      75.887084      74.765575    
+      9020       47027   301.61972     -162444.74     -11375.041     -33875.643      101.58271      75.869713      74.749862    
+      9040       47027   301.68485     -162443.12     -11329.59      -33805.289      101.62416      75.854126      74.7339      
+      9060       47027   301.63932     -162440.99     -11323.412     -33792.195      101.6656       75.840271      74.71811     
+      9080       47027   302.1382      -162442.27     -11375.752     -33828.329      101.70705      75.827633      74.702778    
+      9100       47027   302.45445     -162442.68     -11431.805     -33845.157      101.7485       75.814864      74.688069    
+      9120       47027   301.97315     -162438.46     -11454.016     -33820.758      101.78994      75.800587      74.674072    
+      9140       47027   302.00272     -162437.29     -11465.515     -33785          101.83139      75.784111      74.660743    
+      9160       47027   302.1082      -162436.52     -11431.95      -33741.771      101.87283      75.765157      74.648029    
+      9180       47027   302.25892     -162436.05     -11372.056     -33641.669      101.91428      75.744344      74.635913    
+      9200       47027   302.54056     -162436.49     -11323.249     -33523.444      101.95572      75.722831      74.624056    
+      9220       47027   302.51995     -162435.32     -11258.202     -33391.341      101.99717      75.701625      74.611836    
+      9240       47027   302.29949     -162433.04     -11200.391     -33328.553      102.03861      75.681355      74.599207    
+      9260       47027   302.87389     -162435.62     -11187.343     -33304.043      102.08006      75.66229       74.586669    
+      9280       47027   303.17475     -162436.77     -11204.438     -33277.748      102.1215       75.644077      74.574529    
+      9300       47027   302.27012     -162430.79     -11171.948     -33234.451      102.16295      75.625999      74.562908    
+      9320       47027   301.7199      -162426.76     -11168.353     -33239.853      102.2044       75.60759       74.552522    
+      9340       47027   302.57544     -162431.02     -11254.87      -33292.443      102.24584      75.588168      74.543901    
+      9360       47027   303.1812      -162433.97     -11311.806     -33286.407      102.28729      75.567027      74.536161    
+      9380       47027   303.10314     -162433.2      -11297.43      -33219.837      102.32873      75.544211      74.527948    
+      9400       47027   303.08883     -162433.04     -11258.244     -33153.885      102.37018      75.520278      74.518677    
+      9420       47027   302.85087     -162431.58     -11189.641     -33066.927      102.41162      75.495856      74.508525    
+      9440       47027   303.19247     -162433.61     -11142.567     -32971.728      102.45307      75.471761      74.497753    
+      9460       47027   303.61106     -162436.24     -11078.497     -32849.841      102.49451      75.448622      74.486266    
+      9480       47027   303.51037     -162435.97     -10991.333     -32729.956      102.53596      75.426937      74.474178    
+      9500       47027   302.85223     -162432.4      -10908.137     -32575.028      102.5774       75.407178      74.462063    
+      9520       47027   303.31262     -162435.5      -10938.703     -32488.559      102.61885      75.389423      74.450204    
+      9540       47027   304.3008      -162442.01     -11025.379     -32520.022      102.66029      75.372908      74.437788    
+      9560       47027   303.22073     -162436.34     -11009.813     -32532.391      102.70174      75.356954      74.423783    
+      9580       47027   301.87336     -162428.83     -10966.035     -32509.935      102.74319      75.341922      74.408248    
+      9600       47027   302.71405     -162434.11     -11017.421     -32517.264      102.78463      75.328132      74.391542    
+      9620       47027   304.44288     -162444.95     -11063.499     -32533.964      102.82608      75.314847      74.373369    
+      9640       47027   304.30351     -162445.18     -11002.071     -32494.836      102.86752      75.301153      74.35392     
+      9660       47027   303.76018     -162443.25     -10927.516     -32441.29       102.90897      75.286592      74.334872    
+      9680       47027   304.15417     -162446.96     -10926.526     -32421.31       102.95041      75.270569      74.318138    
+      9700       47027   304.60508     -162451.14     -10946.622     -32377.031      102.99186      75.25231       74.304286    
+      9720       47027   304.64079     -162453.07     -10924.483     -32293.273      103.0333       75.231602      74.292723    
+      9740       47027   304.22426     -162452.4      -10872.536     -32228.967      103.07475      75.209087      74.282751    
+      9760       47027   303.5766      -162450.22     -10834.037     -32217.16       103.11619      75.185927      74.273964    
+      9780       47027   303.28714     -162450        -10820.315     -32208.113      103.15764      75.163258      74.265991    
+      9800       47027   302.31998     -162445.46     -10800.554     -32196.302      103.19909      75.141719      74.258378    
+      9820       47027   301.66069     -162442.36     -10827.456     -32251.777      103.24053      75.121768      74.250808    
+      9840       47027   302.86457     -162450.24     -10946.818     -32329.428      103.28198      75.103195      74.242936    
+      9860       47027   304.10857     -162458.72     -11041.742     -32289.417      103.32342      75.084432      74.233972    
+      9880       47027   302.6184      -162451.17     -10960.695     -32090.09       103.36487      75.064298      74.22288     
+      9900       47027   300.97395     -162442.4      -10839.295     -31967.637      103.40631      75.043812      74.20929     
+      9920       47027   300.74956     -162441.47     -10751.756     -31949.42       103.44776      75.024743      74.193669    
+      9940       47027   301.14391     -162443.76     -10708.212     -31911.023      103.4892       75.008104      74.176987    
+      9960       47027   303.40435     -162457.39     -10766.659     -31934.278      103.53065      74.993892      74.159788    
+      9980       47027   303.06872     -162456.07     -10750.496     -31963.368      103.57209      74.981225      74.141875    
+     10000       47027   300.15082     -162439.26     -10655.944     -31960.915      103.61354      74.969815      74.124085    
+     10020       47027   300.37047     -162440.61     -10741.757     -32066.44       103.65498      74.959815      74.107868    
+     10040       47027   301.72301     -162448.36     -10887.677     -32164.89       103.69643      74.950052      74.092913    
+     10060       47027   301.21605     -162444.98     -10930.069     -32152.687      103.73788      74.93916       74.077849    
+     10080       47027   300.93877     -162443.02     -10951.993     -32132.261      103.77932      74.92682       74.061805    
+     10100       47027   301.07807     -162443.45     -10944.318     -32156.691      103.82077      74.912924      74.044567    
+     10120       47027   301.86696     -162447.82     -10909.493     -32164.098      103.86221      74.897315      74.026929    
+     10140       47027   302.30017     -162450.33     -10836.787     -32128.743      103.90366      74.880215      74.009893    
+     10160       47027   302.007       -162448.76     -10753.185     -32081.829      103.9451       74.862788      73.993901    
+     10180       47027   301.72417     -162447.35     -10715.052     -32063.947      103.98655      74.846475      73.979042    
+     10200       47027   301.69117     -162447.35     -10738.923     -32083.829      104.02799      74.831941      73.965184    
+     10220       47027   302.01303     -162449.44     -10806.154     -32087.401      104.06944      74.818902      73.951795    
+     10240       47027   301.55962     -162446.88     -10840.609     -32027.822      104.11088      74.806509      73.937987    
+     10260       47027   301.32977     -162445.56     -10848.563     -31921.794      104.15233      74.79386       73.92322     
+     10280       47027   301.25904     -162445.06     -10819.823     -31783.031      104.19378      74.780077      73.90743     
+     10300       47027   301.33794     -162445.34     -10777.766     -31694.099      104.23522      74.764839      73.890799    
+     10320       47027   302.82088     -162454.2      -10784.582     -31719.749      104.27667      74.748537      73.873412    
+     10340       47027   303.66169     -162459.75     -10753.769     -31693.057      104.31811      74.731737      73.855045    
+     10360       47027   301.98489     -162450.58     -10605.588     -31511.426      104.35956      74.714906      73.836138    
+     10380       47027   300.71155     -162443.49     -10495.586     -31342.054      104.401        74.69881       73.817949    
+     10400       47027   300.86318     -162444.36     -10470.776     -31291.638      104.44245      74.683844      73.801253    
+     10420       47027   301.53906     -162448.06     -10499.864     -31317.995      104.48389      74.6698        73.786151    
+     10440       47027   303.03469     -162456.91     -10570.297     -31365.965      104.52534      74.656087      73.772391    
+     10460       47027   303.15064     -162458.07     -10599.836     -31366.56       104.56678      74.642077      73.759203    
+     10480       47027   302.11312     -162452.64     -10584.048     -31297.249      104.60823      74.627737      73.745902    
+     10500       47027   301.83116     -162451.61     -10590.46      -31240.304      104.64967      74.613065      73.732218    
+     10520       47027   302.09159     -162453.63     -10588.668     -31200.389      104.69112      74.597826      73.717901    
+     10540       47027   302.06275     -162453.86     -10556.481     -31098.859      104.73257      74.58222       73.702559    
+     10560       47027   301.13432     -162448.57     -10468.462     -30946.011      104.77401      74.5669        73.685759    
+     10580       47027   301.37542     -162450.08     -10417.612     -30874.412      104.81546      74.552658      73.667685    
+     10600       47027   302.46525     -162456.66     -10429.535     -30888.069      104.8569       74.539444      73.649017    
+     10620       47027   303.17901     -162461.36     -10434.165     -30906.827      104.89835      74.52631       73.630575    
+     10640       47027   303.70975     -162465.5      -10421.217     -30892.441      104.93979      74.512542      73.613078    
+     10660       47027   303.03918     -162462.75     -10385.335     -30831.519      104.98124      74.497921      73.596909    
+     10680       47027   302.39239     -162460.05     -10365.253     -30798.191      105.02268      74.482532      73.58227     
+     10700       47027   301.86377     -162457.72     -10360.25      -30742.73       105.06413      74.466665      73.568995    
+     10720       47027   301.75192     -162457.6      -10363.24      -30635.695      105.10557      74.45066       73.556283    
+     10740       47027   302.24842     -162461.02     -10372.777     -30581.986      105.14702      74.434504      73.543242    
+     10760       47027   302.73796     -162464.55     -10369.543     -30574.003      105.18847      74.418033      73.529391    
+     10780       47027   302.367       -162463.11     -10326.861     -30537.024      105.22991      74.401751      73.514374    
+     10800       47027   301.23288     -162457.01     -10238.583     -30433.641      105.27136      74.386657      73.498095    
+     10820       47027   300.03033     -162449.96     -10175.583     -30349.362      105.3128       74.373457      73.481104    
+     10840       47027   301.35365     -162457.6      -10247.378     -30441.92       105.35425      74.362053      73.464057    
+     10860       47027   302.91272     -162466.78     -10338.792     -30600.869      105.39569      74.35164       73.446737    
+     10880       47027   301.9501      -162461.27     -10307.206     -30611.31       105.43714      74.341578      73.428885    
+     10900       47027   300.81699     -162454.79     -10258.343     -30517.831      105.47858      74.331857      73.411188    
+     10920       47027   301.27711     -162457.58     -10301.589     -30473.386      105.52003      74.322363      73.393986    
+     10940       47027   302.36625     -162464.14     -10395.525     -30529.761      105.56147      74.312722      73.376262    
+     10960       47027   301.99021     -162462.13     -10390.898     -30538.56       105.60292      74.302668      73.356761    
+     10980       47027   300.55061     -162453.7      -10290.229     -30412.023      105.64436      74.292633      73.33545     
+     11000       47027   300.41154     -162452.66     -10231.594     -30247.936      105.68581      74.283169      73.313192    
+     11020       47027   301.70735     -162460.01     -10232.272     -30114.757      105.72726      74.27402       73.29039     
+     11040       47027   302.07094     -162461.97     -10172.995     -29984.79       105.7687       74.264594      73.266873    
+     11060       47027   300.86619     -162454.7      -10046.815     -29863.985      105.81015      74.255133      73.243011    
+     11080       47027   300.39013     -162451.59     -9978.5286     -29809.379      105.85159      74.246481      73.219921    
+     11100       47027   301.73075     -162459.18     -10025.612     -29931.615      105.89304      74.238874      73.198333    
+     11120       47027   301.8968      -162459.85     -10048.801     -30051.867      105.93448      74.231888      73.178421    
+     11140       47027   300.96852     -162454.09     -10081.805     -30056.29       105.97593      74.225136      73.160549    
+     11160       47027   301.0764      -162454.47     -10181.225     -29988.881      106.01737      74.217757      73.144377    
+     11180       47027   302.01367     -162459.83     -10281.025     -29987.395      106.05882      74.208008      73.128701    
+     11200       47027   301.82489     -162458.63     -10254.612     -29962.813      106.10026      74.194662      73.112682    
+     11220       47027   300.84355     -162452.69     -10145.615     -29880.034      106.14171      74.178243      73.096626    
+     11240       47027   301.02939     -162453.53     -10080.241     -29820.985      106.18316      74.160294      73.08115     
+     11260       47027   301.14667     -162453.77     -10019.952     -29761.352      106.2246       74.142125      73.066274    
+     11280       47027   300.12125     -162446.95     -9922.7815     -29669.547      106.26605      74.124804      73.051993    
+     11300       47027   299.59893     -162442.73     -9889.9053     -29650.624      106.30749      74.10938       73.038577    
+     11320       47027   300.4339      -162446.26     -9959.5572     -29774.162      106.34894      74.096309      73.025868    
+     11340       47027   301.24138     -162449.55     -10055.563     -29941.391      106.39038      74.085494      73.012972    
+     11360       47027   302.16439     -162453.93     -10177.958     -30085.27       106.43183      74.076597      72.998896    
+     11380       47027   302.5857      -162455.98     -10268.193     -30125.236      106.47327      74.068554      72.982847    
+     11400       47027   301.32518     -162448.38     -10259.58      -30120.423      106.51472      74.060192      72.964415    
+     11420       47027   300.10847     -162440.82     -10207.254     -30109.239      106.55616      74.051329      72.944155    
+     11440       47027   299.73389     -162437.65     -10148.137     -30010.707      106.59761      74.042026      72.923308    
+     11460       47027   299.96568     -162437.52     -10083.365     -29816.332      106.63905      74.032124      72.902841    
+     11480       47027   301.07013     -162442.44     -10053.337     -29627.154      106.6805       74.021612      72.882724    
+     11500       47027   300.86037     -162439.61     -9954.0991     -29464.747      106.72195      74.010571      72.86241     
+     11520       47027   300.56271     -162436.42     -9874.4347     -29409.563      106.76339      73.999581      72.842322    
+     11540       47027   300.88337     -162437.01     -9860.8407     -29410.933      106.80484      73.989153      72.823296    
+     11560       47027   301.30115     -162438.32     -9883.5267     -29440.198      106.84628      73.979192      72.80567     
+     11580       47027   301.86184     -162440.76     -9951.5313     -29571.033      106.88773      73.969092      72.789565    
+     11600       47027   302.56542     -162444.48     -10032.591     -29718.862      106.92917      73.958394      72.774701    
+     11620       47027   302.25852     -162442.52     -10084.197     -29772.599      106.97062      73.947303      72.759996    
+     11640       47027   301.25656     -162436.39     -10082.229     -29693.892      107.01206      73.936364      72.744117    
+     11660       47027   300.77045     -162432.94     -10075.297     -29631.059      107.05351      73.925717      72.726421    
+     11680       47027   301.34264     -162435.47     -10057.521     -29652.375      107.09495      73.915015      72.707134    
+     11700       47027   300.77841     -162430.98     -9971.2794     -29612.334      107.1364       73.904198      72.687158    
+     11720       47027   300.3223      -162426.93     -9916.3415     -29539.313      107.17785      73.893901      72.667541    
+     11740       47027   301.89663     -162435.05     -9965.796      -29538.579      107.21929      73.884362      72.648626    
+     11760       47027   301.87232     -162433.88     -9989.9216     -29537.886      107.26074      73.875057      72.629779    
+     11780       47027   300.75815     -162426.42     -9962.0376     -29492.571      107.30218      73.865927      72.610464    
+     11800       47027   300.92295     -162426.55     -9975.1699     -29491.518      107.34363      73.857174      72.590704    
+     11820       47027   300.65992     -162423.87     -9951.7784     -29467.695      107.38507      73.848605      72.570572    
+     11840       47027   301.27704     -162426.35     -9972.5946     -29510.424      107.42652      73.840046      72.550472    
+     11860       47027   302.73041     -162434.07     -10009.603     -29594.295      107.46796      73.830664      72.531097    
+     11880       47027   301.20721     -162424.27     -9914.4826     -29505.829      107.50941      73.8195        72.513401    
+     11900       47027   300.32825     -162418.21     -9883.2365     -29441.584      107.55085      73.806721      72.498544    
+     11920       47027   302.03062     -162427.42     -9999.149      -29478.07       107.5923       73.792523      72.486177    
+     11940       47027   301.7984      -162425.11     -9995.0073     -29392.414      107.63374      73.776672      72.474342    
+     11960       47027   301.51092     -162422.64     -9943.6033     -29277.869      107.67519      73.759683      72.461937    
+     11980       47027   302.23177     -162426.35     -9929.1636     -29272.569      107.71664      73.742033      72.448916    
+     12000       47027   301.55418     -162421.73     -9826.9294     -29193.587      107.75808      73.723769      72.435891    
+Loop time of 391.402 on 1 procs for 12000 steps with 47027 atoms
+
+Performance: 2.649 ns/day, 9.060 hours/ns, 30.659 timesteps/s, 1.442 Matom-step/s
+99.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 367.99     | 367.99     | 367.99     |   0.0 | 94.02
+Neigh   | 5.5698     | 5.5698     | 5.5698     |   0.0 |  1.42
+Comm    | 1.2798     | 1.2798     | 1.2798     |   0.0 |  0.33
+Output  | 1.5071     | 1.5071     | 1.5071     |   0.0 |  0.39
+Modify  | 13.361     | 13.361     | 13.361     |   0.0 |  3.41
+Other   |            | 1.691      |            |       |  0.43
+
+Nlocal:          47027 ave       47027 max       47027 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:          28091 ave       28091 max       28091 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    2.77269e+06 ave 2.77269e+06 max 2.77269e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2772687
+Ave neighs/atom = 58.95947
+Neighbor list builds = 119
+Dangerous builds = 0
+Total wall time: 0:13:18

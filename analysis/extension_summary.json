@@ -1,0 +1,151 @@
+{
+  "n": 512,
+  "peak_after_010": 510,
+  "peak_near_end": 1,
+  "late_share_mean": 0.791919205859632,
+  "late_share_range": [
+    0.6816531154867893,
+    0.857294944422684
+  ],
+  "peak_gain_mean": 1.2531871050787116,
+  "retention_range": [
+    0.3539434524779889,
+    0.9904797202942698
+  ],
+  "pore_radius_angstrom": [
+    {
+      "pore_radius_angstrom": 3.0,
+      "ultimate_tensile_strength_gpa": 5.413619181095167,
+      "toughness_gpa": 1.2486646415671663,
+      "late_share": 0.7919011959899371,
+      "peak_gain": 1.2280960351362316,
+      "retention": 0.8214022180449667
+    },
+    {
+      "pore_radius_angstrom": 5.0,
+      "ultimate_tensile_strength_gpa": 5.832664217653617,
+      "toughness_gpa": 1.260552275521599,
+      "late_share": 0.7948725218248391,
+      "peak_gain": 1.2551336595886133,
+      "retention": 0.7380478326365278
+    },
+    {
+      "pore_radius_angstrom": 7.0,
+      "ultimate_tensile_strength_gpa": 6.17247265282303,
+      "toughness_gpa": 1.2591680060257509,
+      "late_share": 0.7934971076544722,
+      "peak_gain": 1.2684344596583486,
+      "retention": 0.6562791996452269
+    },
+    {
+      "pore_radius_angstrom": 9.0,
+      "ultimate_tensile_strength_gpa": 6.486285696495161,
+      "toughness_gpa": 1.2799222002852073,
+      "late_share": 0.7874059979692798,
+      "peak_gain": 1.2610842659316526,
+      "retention": 0.5909558494168401
+    }
+  ],
+  "strain_rate_s": [
+    {
+      "strain_rate_s": 25000000000.0,
+      "ultimate_tensile_strength_gpa": 4.099893227683287,
+      "toughness_gpa": 0.8147520481991802,
+      "late_share": 0.7537253806134435,
+      "peak_gain": 1.1041433559265632,
+      "retention": 0.6558230199803413
+    },
+    {
+      "strain_rate_s": 49999999999.99999,
+      "ultimate_tensile_strength_gpa": 4.97444924870439,
+      "toughness_gpa": 1.034265488257409,
+      "late_share": 0.7831265783618123,
+      "peak_gain": 1.170300383753532,
+      "retention": 0.6547986077932191
+    },
+    {
+      "strain_rate_s": 99999999999.99998,
+      "ultimate_tensile_strength_gpa": 6.337782943759067,
+      "toughness_gpa": 1.3628408727569883,
+      "late_share": 0.806985973136896,
+      "peak_gain": 1.2850340755940193,
+      "retention": 0.7092041187838725
+    },
+    {
+      "strain_rate_s": 200000000000.0,
+      "ultimate_tensile_strength_gpa": 8.49291632792023,
+      "toughness_gpa": 1.836448714186146,
+      "late_share": 0.8238388913263764,
+      "peak_gain": 1.4532706050407316,
+      "retention": 0.7868593531861285
+    }
+  ],
+  "temperature_k": [
+    {
+      "temperature_k": 100.0,
+      "ultimate_tensile_strength_gpa": 6.967628220667295,
+      "toughness_gpa": 1.394015495667706,
+      "late_share": 0.7932905131335367,
+      "peak_gain": 1.285905942404908,
+      "retention": 0.6572240537811183
+    },
+    {
+      "temperature_k": 300.0,
+      "ultimate_tensile_strength_gpa": 6.3297722113805985,
+      "toughness_gpa": 1.3161680628603925,
+      "late_share": 0.7935921824481658,
+      "peak_gain": 1.2610606068746044,
+      "retention": 0.674762510420806
+    },
+    {
+      "temperature_k": 500.0,
+      "ultimate_tensile_strength_gpa": 5.656556189605967,
+      "toughness_gpa": 1.224843506600109,
+      "late_share": 0.7921031122187284,
+      "peak_gain": 1.2419458391232956,
+      "retention": 0.7177095878303306
+    },
+    {
+      "temperature_k": 700.0,
+      "ultimate_tensile_strength_gpa": 4.951085126413116,
+      "toughness_gpa": 1.1132800582715159,
+      "late_share": 0.7886910156380974,
+      "peak_gain": 1.2238360319120378,
+      "retention": 0.7569889477113066
+    }
+  ],
+  "target_porosity": [
+    {
+      "target_porosity": 0.05,
+      "ultimate_tensile_strength_gpa": 7.561146716713661,
+      "toughness_gpa": 1.4875789303204037,
+      "late_share": 0.7889444544952929,
+      "peak_gain": 1.2810289171733853,
+      "retention": 0.5738408619187322
+    },
+    {
+      "target_porosity": 0.1,
+      "ultimate_tensile_strength_gpa": 6.222055437142197,
+      "toughness_gpa": 1.3019593565763548,
+      "late_share": 0.790258874215066,
+      "peak_gain": 1.2466752657913485,
+      "retention": 0.6635724006783136
+    },
+    {
+      "target_porosity": 0.15,
+      "ultimate_tensile_strength_gpa": 5.354451556442672,
+      "toughness_gpa": 1.1703379251327464,
+      "late_share": 0.7952279668897576,
+      "peak_gain": 1.2463957468702183,
+      "retention": 0.7417468182518173
+    },
+    {
+      "target_porosity": 0.2,
+      "ultimate_tensile_strength_gpa": 4.767388037768445,
+      "toughness_gpa": 1.0884309113702186,
+      "late_share": 0.7932455278384118,
+      "peak_gain": 1.2386484904798938,
+      "retention": 0.8275250188946984
+    }
+  ]
+}
